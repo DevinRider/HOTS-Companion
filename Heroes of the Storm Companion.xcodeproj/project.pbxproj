@@ -19,6 +19,311 @@
 		E04D0E4319A3C20300CCA238 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04D0E2B19A3C20300CCA238 /* UIKit.framework */; };
 		E04D0E4B19A3C20300CCA238 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E4919A3C20300CCA238 /* InfoPlist.strings */; };
 		E04D0E4D19A3C20300CCA238 /* Heroes_of_the_Storm_CompanionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0E4C19A3C20300CCA238 /* Heroes_of_the_Storm_CompanionTests.m */; };
+		E04D0FC419A3C23500CCA238 /* Locust Strain.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E5919A3C23500CCA238 /* Locust Strain.png */; };
+		E04D0FC519A3C23500CCA238 /* Spike Burst.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E5A19A3C23500CCA238 /* Spike Burst.png */; };
+		E04D0FC619A3C23500CCA238 /* Stab.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E5B19A3C23500CCA238 /* Stab.png */; };
+		E04D0FC719A3C23500CCA238 /* Symbiote.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E5C19A3C23500CCA238 /* Symbiote.png */; };
+		E04D0FC819A3C23500CCA238 /* Toxic Nest.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E5D19A3C23500CCA238 /* Toxic Nest.png */; };
+		E04D0FC919A3C23500CCA238 /* Ultimate Evolution.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E5E19A3C23500CCA238 /* Ultimate Evolution.png */; };
+		E04D0FCA19A3C23500CCA238 /* Army of the Dead.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6019A3C23500CCA238 /* Army of the Dead.png */; };
+		E04D0FCB19A3C23500CCA238 /* Death Coil.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6119A3C23500CCA238 /* Death Coil.png */; };
+		E04D0FCC19A3C23500CCA238 /* Frostmourne Hungers.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6219A3C23500CCA238 /* Frostmourne Hungers.png */; };
+		E04D0FCD19A3C23500CCA238 /* Frozen Tempest.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6319A3C23500CCA238 /* Frozen Tempest.png */; };
+		E04D0FCE19A3C23500CCA238 /* Howling Blast.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6419A3C23500CCA238 /* Howling Blast.png */; };
+		E04D0FCF19A3C23500CCA238 /* Summon Sindragosa.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6519A3C23500CCA238 /* Summon Sindragosa.png */; };
+		E04D0FD019A3C23500CCA238 /* Arcane Flare.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6719A3C23500CCA238 /* Arcane Flare.png */; };
+		E04D0FD119A3C23500CCA238 /* Blink Heal.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6819A3C23500CCA238 /* Blink Heal.png */; };
+		E04D0FD219A3C23500CCA238 /* Emerald Wind.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6919A3C23500CCA238 /* Emerald Wind.png */; };
+		E04D0FD319A3C23500CCA238 /* Pixie Dust.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6A19A3C23500CCA238 /* Pixie Dust.png */; };
+		E04D0FD419A3C23500CCA238 /* Polymorph.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6B19A3C23500CCA238 /* Polymorph.png */; };
+		E04D0FD519A3C23500CCA238 /* Soothing Mist.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6C19A3C23500CCA238 /* Soothing Mist.png */; };
+		E04D0FD619A3C23500CCA238 /* Apocalypse.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6E19A3C23500CCA238 /* Apocalypse.png */; };
+		E04D0FD719A3C23500CCA238 /* Black Soulstone.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E6F19A3C23500CCA238 /* Black Soulstone.png */; };
+		E04D0FD819A3C23500CCA238 /* Fire Stomp.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7019A3C23500CCA238 /* Fire Stomp.png */; };
+		E04D0FD919A3C23500CCA238 /* Lightning Breath.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7119A3C23500CCA238 /* Lightning Breath.png */; };
+		E04D0FDA19A3C23500CCA238 /* Overpower.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7219A3C23500CCA238 /* Overpower.png */; };
+		E04D0FDB19A3C23500CCA238 /* Shadow Charge.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7319A3C23500CCA238 /* Shadow Charge.png */; };
+		E04D0FDC19A3C23500CCA238 /* Face Melt.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7519A3C23500CCA238 /* Face Melt.png */; };
+		E04D0FDD19A3C23500CCA238 /* Guitar Solo.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7619A3C23500CCA238 /* Guitar Solo.png */; };
+		E04D0FDE19A3C23500CCA238 /* Mosh Pit.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7719A3C23500CCA238 /* Mosh Pit.png */; };
+		E04D0FDF19A3C23500CCA238 /* Powerslide.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7819A3C23500CCA238 /* Powerslide.png */; };
+		E04D0FE019A3C23500CCA238 /* Rockstar.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7919A3C23500CCA238 /* Rockstar.png */; };
+		E04D0FE119A3C23500CCA238 /* Stage Dive.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7A19A3C23500CCA238 /* Stage Dive.png */; };
+		E04D0FE219A3C23500CCA238 /* Aerial Blitzkrieg.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7C19A3C23500CCA238 /* Aerial Blitzkrieg.png */; };
+		E04D0FE319A3C23500CCA238 /* Barrel Roll.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7D19A3C23500CCA238 /* Barrel Roll.png */; };
+		E04D0FE419A3C23500CCA238 /* Hammerang.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7E19A3C23500CCA238 /* Hammerang.png */; };
+		E04D0FE519A3C23500CCA238 /* Shock and Awe.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E7F19A3C23500CCA238 /* Shock and Awe.png */; };
+		E04D0FE619A3C23500CCA238 /* Tailwind.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8019A3C23500CCA238 /* Tailwind.png */; };
+		E04D0FE719A3C23500CCA238 /* Thunderstorm.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8119A3C23500CCA238 /* Thunderstorm.png */; };
+		E04D0FE819A3C23500CCA238 /* Deth Lazor.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8319A3C23500CCA238 /* Deth Lazor.png */; };
+		E04D0FE919A3C23500CCA238 /* Grav-O-Bomb 3000.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8419A3C23500CCA238 /* Grav-O-Bomb 3000.png */; };
+		E04D0FEA19A3C23500CCA238 /* Robo-Goblin.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8519A3C23500CCA238 /* Robo-Goblin.png */; };
+		E04D0FEB19A3C23500CCA238 /* Rock-It! Turret.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8619A3C23500CCA238 /* Rock-It! Turret.png */; };
+		E04D0FEC19A3C23500CCA238 /* Salvager.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8719A3C23500CCA238 /* Salvager.png */; };
+		E04D0FED19A3C23500CCA238 /* Xplodium Charge.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8819A3C23500CCA238 /* Xplodium Charge.png */; };
+		E04D0FEE19A3C23500CCA238 /* Betrayer's Thirst.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8A19A3C23500CCA238 /* Betrayer's Thirst.png */; };
+		E04D0FEF19A3C23500CCA238 /* Dive.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8B19A3C23500CCA238 /* Dive.png */; };
+		E04D0FF019A3C23500CCA238 /* Evasion.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8C19A3C23500CCA238 /* Evasion.png */; };
+		E04D0FF119A3C23500CCA238 /* Metamorphosis.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8D19A3C23500CCA238 /* Metamorphosis.png */; };
+		E04D0FF219A3C23500CCA238 /* Sweeping Strike.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8E19A3C23500CCA238 /* Sweeping Strike.png */; };
+		E04D0FF319A3C23500CCA238 /* The Hunt.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E8F19A3C23500CCA238 /* The Hunt.png */; };
+		E04D0FF419A3C23500CCA238 /* Assimilation.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9119A3C23500CCA238 /* Assimilation.png */; };
+		E04D0FF519A3C23500CCA238 /* Impaling Blades.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9219A3C23500CCA238 /* Impaling Blades.png */; };
+		E04D0FF619A3C23500CCA238 /* Maelstrom.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9319A3C23500CCA238 /* Maelstrom.png */; };
+		E04D0FF719A3C23500CCA238 /* Primal Grasp.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9419A3C23500CCA238 /* Primal Grasp.png */; };
+		E04D0FF819A3C23500CCA238 /* Ravage.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9519A3C23500CCA238 /* Ravage.png */; };
+		E04D0FF919A3C23500CCA238 /* Summon Ultralisk.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9619A3C23500CCA238 /* Summon Ultralisk.png */; };
+		E04D0FFA19A3C23500CCA238 /* Blinding Wind.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9819A3C23500CCA238 /* Blinding Wind.png */; };
+		E04D0FFB19A3C23500CCA238 /* Cloud Serpent.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9919A3C23500CCA238 /* Cloud Serpent.png */; };
+		E04D0FFC19A3C23500CCA238 /* Fast Feet.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9A19A3C23500CCA238 /* Fast Feet.png */; };
+		E04D0FFD19A3C23500CCA238 /* Healing Brew.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9B19A3C23500CCA238 /* Healing Brew.png */; };
+		E04D0FFE19A3C23500CCA238 /* Jug of 1,000 Cups.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9C19A3C23500CCA238 /* Jug of 1,000 Cups.png */; };
+		E04D0FFF19A3C23500CCA238 /* Water Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9D19A3C23500CCA238 /* Water Dragon.png */; };
+		E04D100019A3C23500CCA238 /* Entangling Roots.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0E9F19A3C23500CCA238 /* Entangling Roots.png */; };
+		E04D100119A3C23500CCA238 /* Innervate.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA019A3C23500CCA238 /* Innervate.png */; };
+		E04D100219A3C23500CCA238 /* Moonfire.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA119A3C23500CCA238 /* Moonfire.png */; };
+		E04D100319A3C23500CCA238 /* Regrowth.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA219A3C23500CCA238 /* Regrowth.png */; };
+		E04D100419A3C23500CCA238 /* Tranquility.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA319A3C23500CCA238 /* Tranquility.png */; };
+		E04D100519A3C23500CCA238 /* Twilight Dream.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA419A3C23500CCA238 /* Twilight Dream.png */; };
+		E04D100619A3C23500CCA238 /* Avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA619A3C23500CCA238 /* Avatar.png */; };
+		E04D100719A3C23500CCA238 /* Dwarf Toss.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA719A3C23500CCA238 /* Dwarf Toss.png */; };
+		E04D100819A3C23500CCA238 /* Haymaker.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA819A3C23500CCA238 /* Haymaker.png */; };
+		E04D100919A3C23500CCA238 /* Second Wind.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EA919A3C23500CCA238 /* Second Wind.png */; };
+		E04D100A19A3C23500CCA238 /* Stormbolt.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EAA19A3C23500CCA238 /* Stormbolt.png */; };
+		E04D100B19A3C23500CCA238 /* Thunderclap.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EAB19A3C23500CCA238 /* Thunderclap.png */; };
+		E04D100C19A3C23500CCA238 /* March of the Murlocs.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EAD19A3C23500CCA238 /* March of the Murlocs.png */; };
+		E04D100D19A3C23500CCA238 /* Octo-Grab.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EAE19A3C23500CCA238 /* Octo-Grab.png */; };
+		E04D100E19A3C23500CCA238 /* Pufferfish.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EAF19A3C23500CCA238 /* Pufferfish.png */; };
+		E04D100F19A3C23500CCA238 /* Safety Bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB019A3C23500CCA238 /* Safety Bubble.png */; };
+		E04D101019A3C23500CCA238 /* Slime.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB119A3C23500CCA238 /* Slime.png */; };
+		E04D101119A3C23500CCA238 /* Spawn Egg.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB219A3C23500CCA238 /* Spawn Egg.png */; };
+		E04D101219A3C23500CCA238 /* Corpse Spiders.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB419A3C23500CCA238 /* Corpse Spiders.png */; };
+		E04D101319A3C23500CCA238 /* Gargantuan.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB519A3C23500CCA238 /* Gargantuan.png */; };
+		E04D101419A3C23500CCA238 /* Plague of Toads.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB619A3C23500CCA238 /* Plague of Toads.png */; };
+		E04D101519A3C23500CCA238 /* Ravenous Spirit.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB719A3C23500CCA238 /* Ravenous Spirit.png */; };
+		E04D101619A3C23500CCA238 /* Voodoo Ritual.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB819A3C23500CCA238 /* Voodoo Ritual.png */; };
+		E04D101719A3C23500CCA238 /* Zombie Wall.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EB919A3C23500CCA238 /* Zombie Wall.png */; };
+		E04D101819A3C23500CCA238 /* Holo Decoy.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EBB19A3C23500CCA238 /* Holo Decoy.png */; };
+		E04D101919A3C23500CCA238 /* Permanent Cloak, Sniper.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EBC19A3C23500CCA238 /* Permanent Cloak, Sniper.png */; };
+		E04D101A19A3C23500CCA238 /* Pinning Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EBD19A3C23500CCA238 /* Pinning Shot.png */; };
+		E04D101B19A3C23500CCA238 /* Precision Strike.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EBE19A3C23500CCA238 /* Precision Strike.png */; };
+		E04D101C19A3C23500CCA238 /* Snipe.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EBF19A3C23500CCA238 /* Snipe.png */; };
+		E04D101D19A3C23500CCA238 /* Triple Tap.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EC019A3C23500CCA238 /* Triple Tap.png */; };
+		E04D101E19A3C23500CCA238 /* Adrenaline Rush.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EC219A3C23500CCA238 /* Adrenaline Rush.png */; };
+		E04D101F19A3C23500CCA238 /* Hyperion.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EC319A3C23500CCA238 /* Hyperion.png */; };
+		E04D102019A3C23500CCA238 /* Inspire.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EC419A3C23500CCA238 /* Inspire.png */; };
+		E04D102119A3C23500CCA238 /* Lead from the Front.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EC519A3C23500CCA238 /* Lead from the Front.png */; };
+		E04D102219A3C23500CCA238 /* Penetrating Round.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EC619A3C23500CCA238 /* Penetrating Round.png */; };
+		E04D102319A3C23500CCA238 /* Raynor's Raiders.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EC719A3C23500CCA238 /* Raynor's Raiders.png */; };
+		E04D102419A3C23500CCA238 /* Ancestral Healing.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EC919A3C23500CCA238 /* Ancestral Healing.png */; };
+		E04D102519A3C23500CCA238 /* Bloodlust.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ECA19A3C23500CCA238 /* Bloodlust.png */; };
+		E04D102619A3C23500CCA238 /* Chain Heal.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ECB19A3C23500CCA238 /* Chain Heal.png */; };
+		E04D102719A3C23500CCA238 /* Earthbind Totem.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ECC19A3C23500CCA238 /* Earthbind Totem.png */; };
+		E04D102819A3C23500CCA238 /* Ghost Wolf.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ECD19A3C23500CCA238 /* Ghost Wolf.png */; };
+		E04D102919A3C23500CCA238 /* Lightning Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ECE19A3C23500CCA238 /* Lightning Shield.png */; };
+		E04D102A19A3C23500CCA238 /* Artillery.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED019A3C23500CCA238 /* Artillery.png */; };
+		E04D102B19A3C23500CCA238 /* Blunt Force Gun.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED119A3C23500CCA238 /* Blunt Force Gun.png */; };
+		E04D102C19A3C23500CCA238 /* Concussive Blast.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED219A3C23500CCA238 /* Concussive Blast.png */; };
+		E04D102D19A3C23500CCA238 /* Napalm Strike.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED319A3C23500CCA238 /* Napalm Strike.png */; };
+		E04D102E19A3C23500CCA238 /* Siege Mode.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED419A3C23500CCA238 /* Siege Mode.png */; };
+		E04D102F19A3C23500CCA238 /* Spider Mines.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED519A3C23500CCA238 /* Spider Mines.png */; };
+		E04D103019A3C23500CCA238 /* Ancient Spear.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED719A3C23500CCA238 /* Ancient Spear.png */; };
+		E04D103119A3C23500CCA238 /* Fury.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED819A3C23500CCA238 /* Fury.png */; };
+		E04D103219A3C23500CCA238 /* Leap.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0ED919A3C23500CCA238 /* Leap.png */; };
+		E04D103319A3C23500CCA238 /* Seismic Slam.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EDA19A3C23500CCA238 /* Seismic Slam.png */; };
+		E04D103419A3C23500CCA238 /* Whirlwind.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EDB19A3C23500CCA238 /* Whirlwind.png */; };
+		E04D103519A3C23500CCA238 /* Wrath of the Berserker.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EDC19A3C23500CCA238 /* Wrath of the Berserker.png */; };
+		E04D103619A3C23500CCA238 /* Devour.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EDE19A3C23500CCA238 /* Devour.png */; };
+		E04D103719A3C23500CCA238 /* Gorge.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EDF19A3C23500CCA238 /* Gorge.png */; };
+		E04D103819A3C23500CCA238 /* Hook.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE019A3C23500CCA238 /* Hook.png */; };
+		E04D103919A3C23500CCA238 /* Putrid Bile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE119A3C23500CCA238 /* Putrid Bile.png */; };
+		E04D103A19A3C23500CCA238 /* Slam.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE219A3C23500CCA238 /* Slam.png */; };
+		E04D103B19A3C23500CCA238 /* Vile Gas.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE319A3C23500CCA238 /* Vile Gas.png */; };
+		E04D103C19A3C23500CCA238 /* Archon.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE519A3C23500CCA238 /* Archon.png */; };
+		E04D103D19A3C23500CCA238 /* Dimensional Shift.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE619A3C23500CCA238 /* Dimensional Shift.png */; };
+		E04D103E19A3C23500CCA238 /* Force Wall.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE719A3C23500CCA238 /* Force Wall.png */; };
+		E04D103F19A3C23500CCA238 /* Oracle.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE819A3C23500CCA238 /* Oracle.png */; };
+		E04D104019A3C23500CCA238 /* Plasma Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EE919A3C23500CCA238 /* Plasma Shield.png */; };
+		E04D104119A3C23500CCA238 /* Psionic Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EEA19A3C23500CCA238 /* Psionic Storm.png */; };
+		E04D104219A3C23500CCA238 /* Commandeer Odin.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EEC19A3C23500CCA238 /* Commandeer Odin.png */; };
+		E04D104319A3C23500CCA238 /* Drakken Laser Drill.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EED19A3C23500CCA238 /* Drakken Laser Drill.png */; };
+		E04D104419A3C23500CCA238 /* Frag Grenade.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EEE19A3C23500CCA238 /* Frag Grenade.png */; };
+		E04D104519A3C23500CCA238 /* Minigun.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EEF19A3C23500CCA238 /* Minigun.png */; };
+		E04D104619A3C23500CCA238 /* Overkill.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EF019A3C23500CCA238 /* Overkill.png */; };
+		E04D104719A3C23500CCA238 /* Run and Gun.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EF119A3C23500CCA238 /* Run and Gun.png */; };
+		E04D104819A3C23500CCA238 /* Archangel's Wrath.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EF319A3C23500CCA238 /* Archangel's Wrath.png */; };
+		E04D104919A3C23500CCA238 /* El'Druin's Might.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EF419A3C23500CCA238 /* El'Druin's Might.png */; };
+		E04D104A19A3C23500CCA238 /* Judgment.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EF519A3C23500CCA238 /* Judgment.png */; };
+		E04D104B19A3C23500CCA238 /* Righteousness.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EF619A3C23500CCA238 /* Righteousness.png */; };
+		E04D104C19A3C23500CCA238 /* Sanctification.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EF719A3C23500CCA238 /* Sanctification.png */; };
+		E04D104D19A3C23500CCA238 /* Smite.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EF819A3C23500CCA238 /* Smite.png */; };
+		E04D104E19A3C23500CCA238 /* Hunter's Mark.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EFA19A3C23500CCA238 /* Hunter's Mark.png */; };
+		E04D104F19A3C23500CCA238 /* Light of Elune.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EFB19A3C23500CCA238 /* Light of Elune.png */; };
+		E04D105019A3C23500CCA238 /* Lunar Flare.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EFC19A3C23500CCA238 /* Lunar Flare.png */; };
+		E04D105119A3C23500CCA238 /* Sentinel.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EFD19A3C23500CCA238 /* Sentinel.png */; };
+		E04D105219A3C23500CCA238 /* Shadowstalk.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EFE19A3C23500CCA238 /* Shadowstalk.png */; };
+		E04D105319A3C23500CCA238 /* Starfall.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0EFF19A3C23500CCA238 /* Starfall.png */; };
+		E04D105419A3C23500CCA238 /* Divine Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0119A3C23500CCA238 /* Divine Shield.png */; };
+		E04D105519A3C23500CCA238 /* Divine Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0219A3C23500CCA238 /* Divine Storm.png */; };
+		E04D105619A3C23500CCA238 /* Eternal Devotion.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0319A3C23500CCA238 /* Eternal Devotion.png */; };
+		E04D105719A3C23500CCA238 /* Hammer of Justice.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0419A3C23500CCA238 /* Hammer of Justice.png */; };
+		E04D105819A3C23500CCA238 /* Holy Light.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0519A3C23500CCA238 /* Holy Light.png */; };
+		E04D105919A3C23500CCA238 /* Holy Radiance.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0619A3C23500CCA238 /* Holy Radiance.png */; };
+		E04D105A19A3C23500CCA238 /* Hatred.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0819A3C23500CCA238 /* Hatred.png */; };
+		E04D105B19A3C23500CCA238 /* Hungering Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0919A3C23500CCA238 /* Hungering Arrow.png */; };
+		E04D105C19A3C23500CCA238 /* Multishot.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0A19A3C23500CCA238 /* Multishot.png */; };
+		E04D105D19A3C23500CCA238 /* Rain of Vengeance.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0B19A3C23500CCA238 /* Rain of Vengeance.png */; };
+		E04D105E19A3C23500CCA238 /* Strafe.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0C19A3C23500CCA238 /* Strafe.png */; };
+		E04D105F19A3C23500CCA238 /* Vault.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0D19A3C23500CCA238 /* Vault.png */; };
+		E04D106019A3C23500CCA238 /* Baneling Barrage.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F0F19A3C23500CCA238 /* Baneling Barrage.png */; };
+		E04D106119A3C23500CCA238 /* Creep Tumor.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1019A3C23500CCA238 /* Creep Tumor.png */; };
+		E04D106219A3C23500CCA238 /* Devouring Maw.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1119A3C23500CCA238 /* Devouring Maw.png */; };
+		E04D106319A3C23500CCA238 /* Hunter Killer.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1219A3C23500CCA238 /* Hunter Killer.png */; };
+		E04D106419A3C23500CCA238 /* Infested Drop.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1319A3C23500CCA238 /* Infested Drop.png */; };
+		E04D106519A3C23500CCA238 /* Nydus Network.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1419A3C23500CCA238 /* Nydus Network.png */; };
+		E04D106619A3C23500CCA238 /* Blink.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1619A3C23500CCA238 /* Blink.png */; };
+		E04D106719A3C23500CCA238 /* Cleave.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1719A3C23500CCA238 /* Cleave.png */; };
+		E04D106819A3C23500CCA238 /* Permanent Cloak.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1819A3C23500CCA238 /* Permanent Cloak.png */; };
+		E04D106919A3C23500CCA238 /* Shadow Assault.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1919A3C23500CCA238 /* Shadow Assault.png */; };
+		E04D106A19A3C23500CCA238 /* Singularity Spike.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1A19A3C23500CCA238 /* Singularity Spike.png */; };
+		E04D106B19A3C23500CCA238 /* Void Prison.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1B19A3C23500CCA238 /* Void Prison.png */; };
+		E04D106C19A3C23500CCA238 /* FrizQuadrata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1D19A3C23500CCA238 /* FrizQuadrata-Regular.ttf */; };
+		E04D106D19A3C23500CCA238 /* arrow-closed.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F1F19A3C23500CCA238 /* arrow-closed.png */; };
+		E04D106E19A3C23500CCA238 /* arrow-open.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2019A3C23500CCA238 /* arrow-open.png */; };
+		E04D106F19A3C23500CCA238 /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2119A3C23500CCA238 /* background-568h@2x.png */; };
+		E04D107019A3C23500CCA238 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2219A3C23500CCA238 /* background@2x.png */; };
+		E04D107119A3C23500CCA238 /* baseBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2319A3C23500CCA238 /* baseBackground.png */; };
+		E04D107219A3C23500CCA238 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2419A3C23500CCA238 /* Icon-60.png */; };
+		E04D107319A3C23500CCA238 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2519A3C23500CCA238 /* Icon-60@2x.png */; };
+		E04D107419A3C23500CCA238 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2619A3C23500CCA238 /* iTunesArtwork.png */; };
+		E04D107519A3C23500CCA238 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2719A3C23500CCA238 /* iTunesArtwork@2x.png */; };
+		E04D107619A3C23500CCA238 /* Abathur_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2919A3C23500CCA238 /* Abathur_profile.png */; };
+		E04D107719A3C23500CCA238 /* Arthas_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2A19A3C23500CCA238 /* Arthas_profile.png */; };
+		E04D107819A3C23500CCA238 /* Brightwing_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2B19A3C23500CCA238 /* Brightwing_profile.png */; };
+		E04D107919A3C23500CCA238 /* Diablo_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2C19A3C23500CCA238 /* Diablo_profile.png */; };
+		E04D107B19A3C23500CCA238 /* Falstad_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2E19A3C23500CCA238 /* Falstad_profile.png */; };
+		E04D107C19A3C23500CCA238 /* Gazlowe_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F2F19A3C23500CCA238 /* Gazlowe_profile.png */; };
+		E04D107D19A3C23500CCA238 /* Illidan_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3019A3C23500CCA238 /* Illidan_profile.png */; };
+		E04D107E19A3C23500CCA238 /* Kerrigan_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3119A3C23500CCA238 /* Kerrigan_profile.png */; };
+		E04D107F19A3C23500CCA238 /* Li Li_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3219A3C23500CCA238 /* Li Li_profile.png */; };
+		E04D108019A3C23500CCA238 /* Malfurion_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3319A3C23500CCA238 /* Malfurion_profile.png */; };
+		E04D108119A3C23500CCA238 /* Muradin_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3419A3C23500CCA238 /* Muradin_profile.png */; };
+		E04D108219A3C23500CCA238 /* Murky_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3519A3C23500CCA238 /* Murky_profile.png */; };
+		E04D108319A3C23500CCA238 /* Nazeebo_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3619A3C23500CCA238 /* Nazeebo_profile.png */; };
+		E04D108419A3C23500CCA238 /* Nova_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3719A3C23500CCA238 /* Nova_profile.png */; };
+		E04D108519A3C23500CCA238 /* Raynor_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3819A3C23500CCA238 /* Raynor_profile.png */; };
+		E04D108619A3C23500CCA238 /* Rehgar_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3919A3C23500CCA238 /* Rehgar_profile.png */; };
+		E04D108719A3C23500CCA238 /* Sergeant Hammer_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3A19A3C23500CCA238 /* Sergeant Hammer_profile.png */; };
+		E04D108819A3C23500CCA238 /* Sonya_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3B19A3C23500CCA238 /* Sonya_profile.png */; };
+		E04D108919A3C23500CCA238 /* Stitches_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3C19A3C23500CCA238 /* Stitches_profile.png */; };
+		E04D108A19A3C23500CCA238 /* Tassadar_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3D19A3C23500CCA238 /* Tassadar_profile.png */; };
+		E04D108B19A3C23500CCA238 /* Tychus_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3E19A3C23500CCA238 /* Tychus_profile.png */; };
+		E04D108C19A3C23500CCA238 /* Tyrael_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F3F19A3C23500CCA238 /* Tyrael_profile.png */; };
+		E04D108D19A3C23500CCA238 /* Tyrande_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4019A3C23500CCA238 /* Tyrande_profile.png */; };
+		E04D108E19A3C23500CCA238 /* Uther_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4119A3C23500CCA238 /* Uther_profile.png */; };
+		E04D108F19A3C23500CCA238 /* Valla_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4219A3C23500CCA238 /* Valla_profile.png */; };
+		E04D109019A3C23500CCA238 /* Zagara_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4319A3C23500CCA238 /* Zagara_profile.png */; };
+		E04D109119A3C23500CCA238 /* Zeratul_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4419A3C23500CCA238 /* Zeratul_profile.png */; };
+		E04D109219A3C23500CCA238 /* assassin.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4619A3C23500CCA238 /* assassin.png */; };
+		E04D109319A3C23500CCA238 /* specialist.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4719A3C23500CCA238 /* specialist.png */; };
+		E04D109419A3C23500CCA238 /* support.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4819A3C23500CCA238 /* support.png */; };
+		E04D109519A3C23500CCA238 /* warrior.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4919A3C23500CCA238 /* warrior.png */; };
+		E04D109619A3C23500CCA238 /* attack speed.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4B19A3C23500CCA238 /* attack speed.png */; };
+		E04D109719A3C23500CCA238 /* attack.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4C19A3C23500CCA238 /* attack.png */; };
+		E04D109819A3C23500CCA238 /* DPS.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4D19A3C23500CCA238 /* DPS.png */; };
+		E04D109919A3C23500CCA238 /* health regen.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4E19A3C23500CCA238 /* health regen.png */; };
+		E04D109A19A3C23500CCA238 /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F4F19A3C23500CCA238 /* health.png */; };
+		E04D109B19A3C23500CCA238 /* mana regen.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5019A3C23500CCA238 /* mana regen.png */; };
+		E04D109C19A3C23500CCA238 /* mana.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5119A3C23500CCA238 /* mana.png */; };
+		E04D109D19A3C23500CCA238 /* range.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5219A3C23500CCA238 /* range.png */; };
+		E04D109E19A3C23500CCA238 /* Advanced Optics.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5419A3C23500CCA238 /* Advanced Optics.png */; };
+		E04D109F19A3C23500CCA238 /* Amplified Healing.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5519A3C23500CCA238 /* Amplified Healing.png */; };
+		E04D10A019A3C23500CCA238 /* Battle Momentum.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5619A3C23500CCA238 /* Battle Momentum.png */; };
+		E04D10A119A3C23500CCA238 /* Berserk.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5719A3C23500CCA238 /* Berserk.png */; };
+		E04D10A219A3C23500CCA238 /* Blessed Champion.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5819A3C23500CCA238 /* Blessed Champion.png */; };
+		E04D10A319A3C23500CCA238 /* Block.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5919A3C23500CCA238 /* Block.png */; };
+		E04D10A419A3C23500CCA238 /* Blood for Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5A19A3C23500CCA238 /* Blood for Blood.png */; };
+		E04D10A519A3C23500CCA238 /* Bolt of the Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5B19A3C23500CCA238 /* Bolt of the Storm.png */; };
+		E04D10A619A3C23500CCA238 /* Bribe.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5C19A3C23500CCA238 /* Bribe.png */; };
+		E04D10A719A3C23500CCA238 /* Burning Rage.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5D19A3C23500CCA238 /* Burning Rage.png */; };
+		E04D10A819A3C23500CCA238 /* Calldown MULE.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5E19A3C23500CCA238 /* Calldown MULE.png */; };
+		E04D10A919A3C23500CCA238 /* Carapace.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F5F19A3C23500CCA238 /* Carapace.png */; };
+		E04D10AA19A3C23500CCA238 /* Clairvoyance.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6019A3C23500CCA238 /* Clairvoyance.png */; };
+		E04D10AB19A3C23500CCA238 /* Cleanse.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6119A3C23500CCA238 /* Cleanse.png */; };
+		E04D10AC19A3C23500CCA238 /* Conjurer's Pursuit.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6219A3C23500CCA238 /* Conjurer's Pursuit.png */; };
+		E04D10AD19A3C23500CCA238 /* Demolitionist.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6319A3C23500CCA238 /* Demolitionist.png */; };
+		E04D10AE19A3C23500CCA238 /* Distortion Beam.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6419A3C23500CCA238 /* Distortion Beam.png */; };
+		E04D10AF19A3C23500CCA238 /* Echo Pedal.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6519A3C23500CCA238 /* Echo Pedal.png */; };
+		E04D10B019A3C23500CCA238 /* Envenom.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6619A3C23500CCA238 /* Envenom.png */; };
+		E04D10B119A3C23500CCA238 /* Envenomed Spines.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6719A3C23500CCA238 /* Envenomed Spines.png */; };
+		E04D10B219A3C23500CCA238 /* Executioner.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6819A3C23500CCA238 /* Executioner.png */; };
+		E04D10B319A3C23500CCA238 /* Farsight.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6919A3C23500CCA238 /* Farsight.png */; };
+		E04D10B419A3C23500CCA238 /* First Aid.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6A19A3C23500CCA238 /* First Aid.png */; };
+		E04D10B519A3C23500CCA238 /* Fly Away.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6B19A3C23500CCA238 /* Fly Away.png */; };
+		E04D10B619A3C23500CCA238 /* FN92 Sniper Rifle.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6C19A3C23500CCA238 /* FN92 Sniper Rifle.png */; };
+		E04D10B719A3C23500CCA238 /* Follow Through.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6D19A3C23500CCA238 /* Follow Through.png */; };
+		E04D10B819A3C23500CCA238 /* Fury of the Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6E19A3C23500CCA238 /* Fury of the Storm.png */; };
+		E04D10B919A3C23500CCA238 /* Fury of the Swarm.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F6F19A3C23500CCA238 /* Fury of the Swarm.png */; };
+		E04D10BA19A3C23500CCA238 /* Gathering Power.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7019A3C23500CCA238 /* Gathering Power.png */; };
+		E04D10BB19A3C23500CCA238 /* Giant Killer.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7119A3C23500CCA238 /* Giant Killer.png */; };
+		E04D10BC19A3C23500CCA238 /* Gidbinn.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7219A3C23500CCA238 /* Gidbinn.png */; };
+		E04D10BD19A3C23500CCA238 /* Hammer of the Lightbringer.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7319A3C23500CCA238 /* Hammer of the Lightbringer.png */; };
+		E04D10BE19A3C23500CCA238 /* Hardened Focus.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7419A3C23500CCA238 /* Hardened Focus.png */; };
+		E04D10BF19A3C23500CCA238 /* Healing Totem.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7519A3C23500CCA238 /* Healing Totem.png */; };
+		E04D10C019A3C23500CCA238 /* Hyper-Cooling Engines.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7619A3C23500CCA238 /* Hyper-Cooling Engines.png */; };
+		E04D10C119A3C23500CCA238 /* Imposing Presence.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7719A3C23500CCA238 /* Imposing Presence.png */; };
+		E04D10C219A3C23500CCA238 /* Magical Essence.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7819A3C23500CCA238 /* Magical Essence.png */; };
+		E04D10C319A3C23500CCA238 /* Manticore.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7919A3C23500CCA238 /* Manticore.png */; };
+		E04D10C419A3C23500CCA238 /* Medusa Blades.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7A19A3C23500CCA238 /* Medusa Blades.png */; };
+		E04D10C519A3C23500CCA238 /* Minion Killer.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7B19A3C23500CCA238 /* Minion Killer.png */; };
+		E04D10C619A3C23500CCA238 /* Overdrive.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7C19A3C23500CCA238 /* Overdrive.png */; };
+		E04D10C719A3C23500CCA238 /* Phase Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7D19A3C23500CCA238 /* Phase Shield.png */; };
+		E04D10C819A3C23500CCA238 /* Promote.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7E19A3C23500CCA238 /* Promote.png */; };
+		E04D10C919A3C23500CCA238 /* Rapid Incubation.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F7F19A3C23500CCA238 /* Rapid Incubation.png */; };
+		E04D10CA19A3C23500CCA238 /* Regeneration Master.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8019A3C23500CCA238 /* Regeneration Master.png */; };
+		E04D10CB19A3C23500CCA238 /* Relentless.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8119A3C23500CCA238 /* Relentless.png */; };
+		E04D10CC19A3C23500CCA238 /* Resurgence of the Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8219A3C23500CCA238 /* Resurgence of the Storm.png */; };
+		E04D10CD19A3C23500CCA238 /* Rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8319A3C23500CCA238 /* Rewind.png */; };
+		E04D10CE19A3C23500CCA238 /* Rune Tap.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8419A3C23500CCA238 /* Rune Tap.png */; };
+		E04D10CF19A3C23500CCA238 /* Scouting Drone.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8519A3C23500CCA238 /* Scouting Drone.png */; };
+		E04D10D019A3C23500CCA238 /* Searing Attacks.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8619A3C23500CCA238 /* Searing Attacks.png */; };
+		E04D10D119A3C23500CCA238 /* Seasoned Marksman.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8719A3C23500CCA238 /* Seasoned Marksman.png */; };
+		E04D10D219A3C23500CCA238 /* Shrink Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8819A3C23500CCA238 /* Shrink Ray.png */; };
+		E04D10D319A3C23500CCA238 /* Skullcracker.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8919A3C23500CCA238 /* Skullcracker.png */; };
+		E04D10D419A3C23500CCA238 /* Spell Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8A19A3C23500CCA238 /* Spell Shield.png */; };
+		E04D10D519A3C23500CCA238 /* Stoneskin.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8B19A3C23500CCA238 /* Stoneskin.png */; };
+		E04D10D619A3C23500CCA238 /* Storm Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8C19A3C23500CCA238 /* Storm Shield.png */; };
+		E04D10D719A3C23500CCA238 /* Superiority.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8D19A3C23500CCA238 /* Superiority.png */; };
+		E04D10D819A3C23500CCA238 /* Swift Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8E19A3C23500CCA238 /* Swift Storm.png */; };
+		E04D10D919A3C23500CCA238 /* Tenderizer.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F8F19A3C23500CCA238 /* Tenderizer.png */; };
+		E04D10DA19A3C23500CCA238 /* Trueshot Aura.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F9019A3C23500CCA238 /* Trueshot Aura.png */; };
+		E04D10DB19A3C23500CCA238 /* War Paint.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F9119A3C23500CCA238 /* War Paint.png */; };
+		E04D10DC19A3C23500CCA238 /* Diablo.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F9319A3C23500CCA238 /* Diablo.png */; };
+		E04D10DD19A3C23500CCA238 /* Starcraft.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F9419A3C23500CCA238 /* Starcraft.png */; };
+		E04D10DE19A3C23500CCA238 /* Warcraft.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F9519A3C23500CCA238 /* Warcraft.png */; };
+		E04D10DF19A3C23500CCA238 /* Ability List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F9719A3C23500CCA238 /* Ability List.plist */; };
+		E04D10E019A3C23500CCA238 /* Hero List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F9819A3C23500CCA238 /* Hero List.plist */; };
+		E04D10E119A3C23500CCA238 /* Talents List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E04D0F9919A3C23500CCA238 /* Talents List.plist */; };
+		E04D10E219A3C23500CCA238 /* DEVAbility.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0F9C19A3C23500CCA238 /* DEVAbility.m */; };
+		E04D10E319A3C23500CCA238 /* DEVHero.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0F9E19A3C23500CCA238 /* DEVHero.m */; };
+		E04D10E419A3C23500CCA238 /* DEVHeroCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FA019A3C23500CCA238 /* DEVHeroCollection.m */; };
+		E04D10E519A3C23500CCA238 /* DEVTalent.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FA219A3C23500CCA238 /* DEVTalent.m */; };
+		E04D10E619A3C23500CCA238 /* DEVTalentCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FA419A3C23500CCA238 /* DEVTalentCollection.m */; };
+		E04D10E719A3C23500CCA238 /* DEVAbilityView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FA819A3C23500CCA238 /* DEVAbilityView.m */; };
+		E04D10E819A3C23500CCA238 /* DEVSingleHeroAbilityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FAA19A3C23500CCA238 /* DEVSingleHeroAbilityCell.m */; };
+		E04D10E919A3C23500CCA238 /* DEVHeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FAD19A3C23500CCA238 /* DEVHeroDetailViewController.m */; };
+		E04D10EA19A3C23500CCA238 /* HeroSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FB019A3C23500CCA238 /* HeroSelectTableViewController.m */; };
+		E04D10EB19A3C23500CCA238 /* HeroSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FB219A3C23500CCA238 /* HeroSelectViewController.m */; };
+		E04D10EC19A3C23500CCA238 /* DEVLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FB519A3C23500CCA238 /* DEVLevelCell.m */; };
+		E04D10ED19A3C23500CCA238 /* DEVLevelSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FB719A3C23500CCA238 /* DEVLevelSetController.m */; };
+		E04D10EE19A3C23500CCA238 /* HeroStatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FBA19A3C23500CCA238 /* HeroStatsView.m */; };
+		E04D10EF19A3C23500CCA238 /* DEVTalentHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FBD19A3C23500CCA238 /* DEVTalentHeaderCell.m */; };
+		E04D10F019A3C23500CCA238 /* DEVTalentHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04D0FBE19A3C23500CCA238 /* DEVTalentHeaderCell.xib */; };
+		E04D10F119A3C23500CCA238 /* DEVTalentInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FC019A3C23500CCA238 /* DEVTalentInfoCell.m */; };
+		E04D10F219A3C23500CCA238 /* DEVTalentInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04D0FC119A3C23500CCA238 /* DEVTalentInfoCell.xib */; };
+		E04D10F319A3C23500CCA238 /* DEVTalentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D0FC319A3C23500CCA238 /* DEVTalentViewController.m */; };
+		E04D10F719A3C34000CCA238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04D10F619A3C34000CCA238 /* Main.storyboard */; };
+		E04D10F919A3C4E600CCA238 /* E.T.C._profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04D10F819A3C4E600CCA238 /* E.T.C._profile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +353,327 @@
 		E04D0E4819A3C20300CCA238 /* Heroes of the Storm CompanionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heroes of the Storm CompanionTests-Info.plist"; sourceTree = "<group>"; };
 		E04D0E4A19A3C20300CCA238 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E04D0E4C19A3C20300CCA238 /* Heroes_of_the_Storm_CompanionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heroes_of_the_Storm_CompanionTests.m; sourceTree = "<group>"; };
+		E04D0E5919A3C23500CCA238 /* Locust Strain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Locust Strain.png"; sourceTree = "<group>"; };
+		E04D0E5A19A3C23500CCA238 /* Spike Burst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spike Burst.png"; sourceTree = "<group>"; };
+		E04D0E5B19A3C23500CCA238 /* Stab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stab.png; sourceTree = "<group>"; };
+		E04D0E5C19A3C23500CCA238 /* Symbiote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Symbiote.png; sourceTree = "<group>"; };
+		E04D0E5D19A3C23500CCA238 /* Toxic Nest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toxic Nest.png"; sourceTree = "<group>"; };
+		E04D0E5E19A3C23500CCA238 /* Ultimate Evolution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ultimate Evolution.png"; sourceTree = "<group>"; };
+		E04D0E6019A3C23500CCA238 /* Army of the Dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Army of the Dead.png"; sourceTree = "<group>"; };
+		E04D0E6119A3C23500CCA238 /* Death Coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Death Coil.png"; sourceTree = "<group>"; };
+		E04D0E6219A3C23500CCA238 /* Frostmourne Hungers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frostmourne Hungers.png"; sourceTree = "<group>"; };
+		E04D0E6319A3C23500CCA238 /* Frozen Tempest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frozen Tempest.png"; sourceTree = "<group>"; };
+		E04D0E6419A3C23500CCA238 /* Howling Blast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Howling Blast.png"; sourceTree = "<group>"; };
+		E04D0E6519A3C23500CCA238 /* Summon Sindragosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Summon Sindragosa.png"; sourceTree = "<group>"; };
+		E04D0E6719A3C23500CCA238 /* Arcane Flare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arcane Flare.png"; sourceTree = "<group>"; };
+		E04D0E6819A3C23500CCA238 /* Blink Heal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blink Heal.png"; sourceTree = "<group>"; };
+		E04D0E6919A3C23500CCA238 /* Emerald Wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Emerald Wind.png"; sourceTree = "<group>"; };
+		E04D0E6A19A3C23500CCA238 /* Pixie Dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pixie Dust.png"; sourceTree = "<group>"; };
+		E04D0E6B19A3C23500CCA238 /* Polymorph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Polymorph.png; sourceTree = "<group>"; };
+		E04D0E6C19A3C23500CCA238 /* Soothing Mist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Soothing Mist.png"; sourceTree = "<group>"; };
+		E04D0E6E19A3C23500CCA238 /* Apocalypse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apocalypse.png; sourceTree = "<group>"; };
+		E04D0E6F19A3C23500CCA238 /* Black Soulstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Soulstone.png"; sourceTree = "<group>"; };
+		E04D0E7019A3C23500CCA238 /* Fire Stomp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fire Stomp.png"; sourceTree = "<group>"; };
+		E04D0E7119A3C23500CCA238 /* Lightning Breath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lightning Breath.png"; sourceTree = "<group>"; };
+		E04D0E7219A3C23500CCA238 /* Overpower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overpower.png; sourceTree = "<group>"; };
+		E04D0E7319A3C23500CCA238 /* Shadow Charge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shadow Charge.png"; sourceTree = "<group>"; };
+		E04D0E7519A3C23500CCA238 /* Face Melt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face Melt.png"; sourceTree = "<group>"; };
+		E04D0E7619A3C23500CCA238 /* Guitar Solo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Guitar Solo.png"; sourceTree = "<group>"; };
+		E04D0E7719A3C23500CCA238 /* Mosh Pit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mosh Pit.png"; sourceTree = "<group>"; };
+		E04D0E7819A3C23500CCA238 /* Powerslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Powerslide.png; sourceTree = "<group>"; };
+		E04D0E7919A3C23500CCA238 /* Rockstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rockstar.png; sourceTree = "<group>"; };
+		E04D0E7A19A3C23500CCA238 /* Stage Dive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stage Dive.png"; sourceTree = "<group>"; };
+		E04D0E7C19A3C23500CCA238 /* Aerial Blitzkrieg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aerial Blitzkrieg.png"; sourceTree = "<group>"; };
+		E04D0E7D19A3C23500CCA238 /* Barrel Roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Barrel Roll.png"; sourceTree = "<group>"; };
+		E04D0E7E19A3C23500CCA238 /* Hammerang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hammerang.png; sourceTree = "<group>"; };
+		E04D0E7F19A3C23500CCA238 /* Shock and Awe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shock and Awe.png"; sourceTree = "<group>"; };
+		E04D0E8019A3C23500CCA238 /* Tailwind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tailwind.png; sourceTree = "<group>"; };
+		E04D0E8119A3C23500CCA238 /* Thunderstorm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thunderstorm.png; sourceTree = "<group>"; };
+		E04D0E8319A3C23500CCA238 /* Deth Lazor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Deth Lazor.png"; sourceTree = "<group>"; };
+		E04D0E8419A3C23500CCA238 /* Grav-O-Bomb 3000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grav-O-Bomb 3000.png"; sourceTree = "<group>"; };
+		E04D0E8519A3C23500CCA238 /* Robo-Goblin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Robo-Goblin.png"; sourceTree = "<group>"; };
+		E04D0E8619A3C23500CCA238 /* Rock-It! Turret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rock-It! Turret.png"; sourceTree = "<group>"; };
+		E04D0E8719A3C23500CCA238 /* Salvager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Salvager.png; sourceTree = "<group>"; };
+		E04D0E8819A3C23500CCA238 /* Xplodium Charge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xplodium Charge.png"; sourceTree = "<group>"; };
+		E04D0E8A19A3C23500CCA238 /* Betrayer's Thirst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Betrayer's Thirst.png"; sourceTree = "<group>"; };
+		E04D0E8B19A3C23500CCA238 /* Dive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dive.png; sourceTree = "<group>"; };
+		E04D0E8C19A3C23500CCA238 /* Evasion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Evasion.png; sourceTree = "<group>"; };
+		E04D0E8D19A3C23500CCA238 /* Metamorphosis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Metamorphosis.png; sourceTree = "<group>"; };
+		E04D0E8E19A3C23500CCA238 /* Sweeping Strike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sweeping Strike.png"; sourceTree = "<group>"; };
+		E04D0E8F19A3C23500CCA238 /* The Hunt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Hunt.png"; sourceTree = "<group>"; };
+		E04D0E9119A3C23500CCA238 /* Assimilation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Assimilation.png; sourceTree = "<group>"; };
+		E04D0E9219A3C23500CCA238 /* Impaling Blades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Impaling Blades.png"; sourceTree = "<group>"; };
+		E04D0E9319A3C23500CCA238 /* Maelstrom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maelstrom.png; sourceTree = "<group>"; };
+		E04D0E9419A3C23500CCA238 /* Primal Grasp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Primal Grasp.png"; sourceTree = "<group>"; };
+		E04D0E9519A3C23500CCA238 /* Ravage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ravage.png; sourceTree = "<group>"; };
+		E04D0E9619A3C23500CCA238 /* Summon Ultralisk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Summon Ultralisk.png"; sourceTree = "<group>"; };
+		E04D0E9819A3C23500CCA238 /* Blinding Wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blinding Wind.png"; sourceTree = "<group>"; };
+		E04D0E9919A3C23500CCA238 /* Cloud Serpent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Serpent.png"; sourceTree = "<group>"; };
+		E04D0E9A19A3C23500CCA238 /* Fast Feet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fast Feet.png"; sourceTree = "<group>"; };
+		E04D0E9B19A3C23500CCA238 /* Healing Brew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Healing Brew.png"; sourceTree = "<group>"; };
+		E04D0E9C19A3C23500CCA238 /* Jug of 1,000 Cups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jug of 1,000 Cups.png"; sourceTree = "<group>"; };
+		E04D0E9D19A3C23500CCA238 /* Water Dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Water Dragon.png"; sourceTree = "<group>"; };
+		E04D0E9F19A3C23500CCA238 /* Entangling Roots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Entangling Roots.png"; sourceTree = "<group>"; };
+		E04D0EA019A3C23500CCA238 /* Innervate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Innervate.png; sourceTree = "<group>"; };
+		E04D0EA119A3C23500CCA238 /* Moonfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moonfire.png; sourceTree = "<group>"; };
+		E04D0EA219A3C23500CCA238 /* Regrowth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Regrowth.png; sourceTree = "<group>"; };
+		E04D0EA319A3C23500CCA238 /* Tranquility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tranquility.png; sourceTree = "<group>"; };
+		E04D0EA419A3C23500CCA238 /* Twilight Dream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twilight Dream.png"; sourceTree = "<group>"; };
+		E04D0EA619A3C23500CCA238 /* Avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Avatar.png; sourceTree = "<group>"; };
+		E04D0EA719A3C23500CCA238 /* Dwarf Toss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dwarf Toss.png"; sourceTree = "<group>"; };
+		E04D0EA819A3C23500CCA238 /* Haymaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Haymaker.png; sourceTree = "<group>"; };
+		E04D0EA919A3C23500CCA238 /* Second Wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Wind.png"; sourceTree = "<group>"; };
+		E04D0EAA19A3C23500CCA238 /* Stormbolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stormbolt.png; sourceTree = "<group>"; };
+		E04D0EAB19A3C23500CCA238 /* Thunderclap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thunderclap.png; sourceTree = "<group>"; };
+		E04D0EAD19A3C23500CCA238 /* March of the Murlocs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "March of the Murlocs.png"; sourceTree = "<group>"; };
+		E04D0EAE19A3C23500CCA238 /* Octo-Grab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Octo-Grab.png"; sourceTree = "<group>"; };
+		E04D0EAF19A3C23500CCA238 /* Pufferfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pufferfish.png; sourceTree = "<group>"; };
+		E04D0EB019A3C23500CCA238 /* Safety Bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safety Bubble.png"; sourceTree = "<group>"; };
+		E04D0EB119A3C23500CCA238 /* Slime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slime.png; sourceTree = "<group>"; };
+		E04D0EB219A3C23500CCA238 /* Spawn Egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spawn Egg.png"; sourceTree = "<group>"; };
+		E04D0EB419A3C23500CCA238 /* Corpse Spiders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corpse Spiders.png"; sourceTree = "<group>"; };
+		E04D0EB519A3C23500CCA238 /* Gargantuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gargantuan.png; sourceTree = "<group>"; };
+		E04D0EB619A3C23500CCA238 /* Plague of Toads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plague of Toads.png"; sourceTree = "<group>"; };
+		E04D0EB719A3C23500CCA238 /* Ravenous Spirit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ravenous Spirit.png"; sourceTree = "<group>"; };
+		E04D0EB819A3C23500CCA238 /* Voodoo Ritual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Voodoo Ritual.png"; sourceTree = "<group>"; };
+		E04D0EB919A3C23500CCA238 /* Zombie Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zombie Wall.png"; sourceTree = "<group>"; };
+		E04D0EBB19A3C23500CCA238 /* Holo Decoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Holo Decoy.png"; sourceTree = "<group>"; };
+		E04D0EBC19A3C23500CCA238 /* Permanent Cloak, Sniper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Permanent Cloak, Sniper.png"; sourceTree = "<group>"; };
+		E04D0EBD19A3C23500CCA238 /* Pinning Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pinning Shot.png"; sourceTree = "<group>"; };
+		E04D0EBE19A3C23500CCA238 /* Precision Strike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Precision Strike.png"; sourceTree = "<group>"; };
+		E04D0EBF19A3C23500CCA238 /* Snipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snipe.png; sourceTree = "<group>"; };
+		E04D0EC019A3C23500CCA238 /* Triple Tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Triple Tap.png"; sourceTree = "<group>"; };
+		E04D0EC219A3C23500CCA238 /* Adrenaline Rush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adrenaline Rush.png"; sourceTree = "<group>"; };
+		E04D0EC319A3C23500CCA238 /* Hyperion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hyperion.png; sourceTree = "<group>"; };
+		E04D0EC419A3C23500CCA238 /* Inspire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inspire.png; sourceTree = "<group>"; };
+		E04D0EC519A3C23500CCA238 /* Lead from the Front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lead from the Front.png"; sourceTree = "<group>"; };
+		E04D0EC619A3C23500CCA238 /* Penetrating Round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Penetrating Round.png"; sourceTree = "<group>"; };
+		E04D0EC719A3C23500CCA238 /* Raynor's Raiders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Raynor's Raiders.png"; sourceTree = "<group>"; };
+		E04D0EC919A3C23500CCA238 /* Ancestral Healing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ancestral Healing.png"; sourceTree = "<group>"; };
+		E04D0ECA19A3C23500CCA238 /* Bloodlust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bloodlust.png; sourceTree = "<group>"; };
+		E04D0ECB19A3C23500CCA238 /* Chain Heal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chain Heal.png"; sourceTree = "<group>"; };
+		E04D0ECC19A3C23500CCA238 /* Earthbind Totem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Earthbind Totem.png"; sourceTree = "<group>"; };
+		E04D0ECD19A3C23500CCA238 /* Ghost Wolf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ghost Wolf.png"; sourceTree = "<group>"; };
+		E04D0ECE19A3C23500CCA238 /* Lightning Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lightning Shield.png"; sourceTree = "<group>"; };
+		E04D0ED019A3C23500CCA238 /* Artillery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Artillery.png; sourceTree = "<group>"; };
+		E04D0ED119A3C23500CCA238 /* Blunt Force Gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blunt Force Gun.png"; sourceTree = "<group>"; };
+		E04D0ED219A3C23500CCA238 /* Concussive Blast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Concussive Blast.png"; sourceTree = "<group>"; };
+		E04D0ED319A3C23500CCA238 /* Napalm Strike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Napalm Strike.png"; sourceTree = "<group>"; };
+		E04D0ED419A3C23500CCA238 /* Siege Mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Siege Mode.png"; sourceTree = "<group>"; };
+		E04D0ED519A3C23500CCA238 /* Spider Mines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spider Mines.png"; sourceTree = "<group>"; };
+		E04D0ED719A3C23500CCA238 /* Ancient Spear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ancient Spear.png"; sourceTree = "<group>"; };
+		E04D0ED819A3C23500CCA238 /* Fury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fury.png; sourceTree = "<group>"; };
+		E04D0ED919A3C23500CCA238 /* Leap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leap.png; sourceTree = "<group>"; };
+		E04D0EDA19A3C23500CCA238 /* Seismic Slam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seismic Slam.png"; sourceTree = "<group>"; };
+		E04D0EDB19A3C23500CCA238 /* Whirlwind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whirlwind.png; sourceTree = "<group>"; };
+		E04D0EDC19A3C23500CCA238 /* Wrath of the Berserker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wrath of the Berserker.png"; sourceTree = "<group>"; };
+		E04D0EDE19A3C23500CCA238 /* Devour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Devour.png; sourceTree = "<group>"; };
+		E04D0EDF19A3C23500CCA238 /* Gorge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gorge.png; sourceTree = "<group>"; };
+		E04D0EE019A3C23500CCA238 /* Hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hook.png; sourceTree = "<group>"; };
+		E04D0EE119A3C23500CCA238 /* Putrid Bile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Putrid Bile.png"; sourceTree = "<group>"; };
+		E04D0EE219A3C23500CCA238 /* Slam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slam.png; sourceTree = "<group>"; };
+		E04D0EE319A3C23500CCA238 /* Vile Gas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vile Gas.png"; sourceTree = "<group>"; };
+		E04D0EE519A3C23500CCA238 /* Archon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Archon.png; sourceTree = "<group>"; };
+		E04D0EE619A3C23500CCA238 /* Dimensional Shift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dimensional Shift.png"; sourceTree = "<group>"; };
+		E04D0EE719A3C23500CCA238 /* Force Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Force Wall.png"; sourceTree = "<group>"; };
+		E04D0EE819A3C23500CCA238 /* Oracle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oracle.png; sourceTree = "<group>"; };
+		E04D0EE919A3C23500CCA238 /* Plasma Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plasma Shield.png"; sourceTree = "<group>"; };
+		E04D0EEA19A3C23500CCA238 /* Psionic Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Psionic Storm.png"; sourceTree = "<group>"; };
+		E04D0EEC19A3C23500CCA238 /* Commandeer Odin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Commandeer Odin.png"; sourceTree = "<group>"; };
+		E04D0EED19A3C23500CCA238 /* Drakken Laser Drill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drakken Laser Drill.png"; sourceTree = "<group>"; };
+		E04D0EEE19A3C23500CCA238 /* Frag Grenade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frag Grenade.png"; sourceTree = "<group>"; };
+		E04D0EEF19A3C23500CCA238 /* Minigun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minigun.png; sourceTree = "<group>"; };
+		E04D0EF019A3C23500CCA238 /* Overkill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overkill.png; sourceTree = "<group>"; };
+		E04D0EF119A3C23500CCA238 /* Run and Gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run and Gun.png"; sourceTree = "<group>"; };
+		E04D0EF319A3C23500CCA238 /* Archangel's Wrath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Archangel's Wrath.png"; sourceTree = "<group>"; };
+		E04D0EF419A3C23500CCA238 /* El'Druin's Might.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "El'Druin's Might.png"; sourceTree = "<group>"; };
+		E04D0EF519A3C23500CCA238 /* Judgment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Judgment.png; sourceTree = "<group>"; };
+		E04D0EF619A3C23500CCA238 /* Righteousness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Righteousness.png; sourceTree = "<group>"; };
+		E04D0EF719A3C23500CCA238 /* Sanctification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sanctification.png; sourceTree = "<group>"; };
+		E04D0EF819A3C23500CCA238 /* Smite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smite.png; sourceTree = "<group>"; };
+		E04D0EFA19A3C23500CCA238 /* Hunter's Mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hunter's Mark.png"; sourceTree = "<group>"; };
+		E04D0EFB19A3C23500CCA238 /* Light of Elune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light of Elune.png"; sourceTree = "<group>"; };
+		E04D0EFC19A3C23500CCA238 /* Lunar Flare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lunar Flare.png"; sourceTree = "<group>"; };
+		E04D0EFD19A3C23500CCA238 /* Sentinel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sentinel.png; sourceTree = "<group>"; };
+		E04D0EFE19A3C23500CCA238 /* Shadowstalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shadowstalk.png; sourceTree = "<group>"; };
+		E04D0EFF19A3C23500CCA238 /* Starfall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Starfall.png; sourceTree = "<group>"; };
+		E04D0F0119A3C23500CCA238 /* Divine Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Divine Shield.png"; sourceTree = "<group>"; };
+		E04D0F0219A3C23500CCA238 /* Divine Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Divine Storm.png"; sourceTree = "<group>"; };
+		E04D0F0319A3C23500CCA238 /* Eternal Devotion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eternal Devotion.png"; sourceTree = "<group>"; };
+		E04D0F0419A3C23500CCA238 /* Hammer of Justice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hammer of Justice.png"; sourceTree = "<group>"; };
+		E04D0F0519A3C23500CCA238 /* Holy Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Holy Light.png"; sourceTree = "<group>"; };
+		E04D0F0619A3C23500CCA238 /* Holy Radiance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Holy Radiance.png"; sourceTree = "<group>"; };
+		E04D0F0819A3C23500CCA238 /* Hatred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hatred.png; sourceTree = "<group>"; };
+		E04D0F0919A3C23500CCA238 /* Hungering Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hungering Arrow.png"; sourceTree = "<group>"; };
+		E04D0F0A19A3C23500CCA238 /* Multishot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Multishot.png; sourceTree = "<group>"; };
+		E04D0F0B19A3C23500CCA238 /* Rain of Vengeance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rain of Vengeance.png"; sourceTree = "<group>"; };
+		E04D0F0C19A3C23500CCA238 /* Strafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strafe.png; sourceTree = "<group>"; };
+		E04D0F0D19A3C23500CCA238 /* Vault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vault.png; sourceTree = "<group>"; };
+		E04D0F0F19A3C23500CCA238 /* Baneling Barrage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baneling Barrage.png"; sourceTree = "<group>"; };
+		E04D0F1019A3C23500CCA238 /* Creep Tumor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Creep Tumor.png"; sourceTree = "<group>"; };
+		E04D0F1119A3C23500CCA238 /* Devouring Maw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Devouring Maw.png"; sourceTree = "<group>"; };
+		E04D0F1219A3C23500CCA238 /* Hunter Killer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hunter Killer.png"; sourceTree = "<group>"; };
+		E04D0F1319A3C23500CCA238 /* Infested Drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Infested Drop.png"; sourceTree = "<group>"; };
+		E04D0F1419A3C23500CCA238 /* Nydus Network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nydus Network.png"; sourceTree = "<group>"; };
+		E04D0F1619A3C23500CCA238 /* Blink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blink.png; sourceTree = "<group>"; };
+		E04D0F1719A3C23500CCA238 /* Cleave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cleave.png; sourceTree = "<group>"; };
+		E04D0F1819A3C23500CCA238 /* Permanent Cloak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Permanent Cloak.png"; sourceTree = "<group>"; };
+		E04D0F1919A3C23500CCA238 /* Shadow Assault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shadow Assault.png"; sourceTree = "<group>"; };
+		E04D0F1A19A3C23500CCA238 /* Singularity Spike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Singularity Spike.png"; sourceTree = "<group>"; };
+		E04D0F1B19A3C23500CCA238 /* Void Prison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Void Prison.png"; sourceTree = "<group>"; };
+		E04D0F1D19A3C23500CCA238 /* FrizQuadrata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrizQuadrata-Regular.ttf"; sourceTree = "<group>"; };
+		E04D0F1F19A3C23500CCA238 /* arrow-closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-closed.png"; sourceTree = "<group>"; };
+		E04D0F2019A3C23500CCA238 /* arrow-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-open.png"; sourceTree = "<group>"; };
+		E04D0F2119A3C23500CCA238 /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
+		E04D0F2219A3C23500CCA238 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		E04D0F2319A3C23500CCA238 /* baseBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseBackground.png; sourceTree = "<group>"; };
+		E04D0F2419A3C23500CCA238 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		E04D0F2519A3C23500CCA238 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		E04D0F2619A3C23500CCA238 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		E04D0F2719A3C23500CCA238 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		E04D0F2919A3C23500CCA238 /* Abathur_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abathur_profile.png; sourceTree = "<group>"; };
+		E04D0F2A19A3C23500CCA238 /* Arthas_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arthas_profile.png; sourceTree = "<group>"; };
+		E04D0F2B19A3C23500CCA238 /* Brightwing_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brightwing_profile.png; sourceTree = "<group>"; };
+		E04D0F2C19A3C23500CCA238 /* Diablo_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diablo_profile.png; sourceTree = "<group>"; };
+		E04D0F2E19A3C23500CCA238 /* Falstad_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Falstad_profile.png; sourceTree = "<group>"; };
+		E04D0F2F19A3C23500CCA238 /* Gazlowe_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gazlowe_profile.png; sourceTree = "<group>"; };
+		E04D0F3019A3C23500CCA238 /* Illidan_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illidan_profile.png; sourceTree = "<group>"; };
+		E04D0F3119A3C23500CCA238 /* Kerrigan_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kerrigan_profile.png; sourceTree = "<group>"; };
+		E04D0F3219A3C23500CCA238 /* Li Li_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Li Li_profile.png"; sourceTree = "<group>"; };
+		E04D0F3319A3C23500CCA238 /* Malfurion_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malfurion_profile.png; sourceTree = "<group>"; };
+		E04D0F3419A3C23500CCA238 /* Muradin_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Muradin_profile.png; sourceTree = "<group>"; };
+		E04D0F3519A3C23500CCA238 /* Murky_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Murky_profile.png; sourceTree = "<group>"; };
+		E04D0F3619A3C23500CCA238 /* Nazeebo_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nazeebo_profile.png; sourceTree = "<group>"; };
+		E04D0F3719A3C23500CCA238 /* Nova_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nova_profile.png; sourceTree = "<group>"; };
+		E04D0F3819A3C23500CCA238 /* Raynor_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raynor_profile.png; sourceTree = "<group>"; };
+		E04D0F3919A3C23500CCA238 /* Rehgar_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rehgar_profile.png; sourceTree = "<group>"; };
+		E04D0F3A19A3C23500CCA238 /* Sergeant Hammer_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sergeant Hammer_profile.png"; sourceTree = "<group>"; };
+		E04D0F3B19A3C23500CCA238 /* Sonya_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sonya_profile.png; sourceTree = "<group>"; };
+		E04D0F3C19A3C23500CCA238 /* Stitches_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stitches_profile.png; sourceTree = "<group>"; };
+		E04D0F3D19A3C23500CCA238 /* Tassadar_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tassadar_profile.png; sourceTree = "<group>"; };
+		E04D0F3E19A3C23500CCA238 /* Tychus_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tychus_profile.png; sourceTree = "<group>"; };
+		E04D0F3F19A3C23500CCA238 /* Tyrael_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tyrael_profile.png; sourceTree = "<group>"; };
+		E04D0F4019A3C23500CCA238 /* Tyrande_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tyrande_profile.png; sourceTree = "<group>"; };
+		E04D0F4119A3C23500CCA238 /* Uther_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uther_profile.png; sourceTree = "<group>"; };
+		E04D0F4219A3C23500CCA238 /* Valla_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Valla_profile.png; sourceTree = "<group>"; };
+		E04D0F4319A3C23500CCA238 /* Zagara_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zagara_profile.png; sourceTree = "<group>"; };
+		E04D0F4419A3C23500CCA238 /* Zeratul_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zeratul_profile.png; sourceTree = "<group>"; };
+		E04D0F4619A3C23500CCA238 /* assassin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assassin.png; sourceTree = "<group>"; };
+		E04D0F4719A3C23500CCA238 /* specialist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = specialist.png; sourceTree = "<group>"; };
+		E04D0F4819A3C23500CCA238 /* support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support.png; sourceTree = "<group>"; };
+		E04D0F4919A3C23500CCA238 /* warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warrior.png; sourceTree = "<group>"; };
+		E04D0F4B19A3C23500CCA238 /* attack speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attack speed.png"; sourceTree = "<group>"; };
+		E04D0F4C19A3C23500CCA238 /* attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attack.png; sourceTree = "<group>"; };
+		E04D0F4D19A3C23500CCA238 /* DPS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DPS.png; sourceTree = "<group>"; };
+		E04D0F4E19A3C23500CCA238 /* health regen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health regen.png"; sourceTree = "<group>"; };
+		E04D0F4F19A3C23500CCA238 /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health.png; sourceTree = "<group>"; };
+		E04D0F5019A3C23500CCA238 /* mana regen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mana regen.png"; sourceTree = "<group>"; };
+		E04D0F5119A3C23500CCA238 /* mana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mana.png; sourceTree = "<group>"; };
+		E04D0F5219A3C23500CCA238 /* range.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = range.png; sourceTree = "<group>"; };
+		E04D0F5419A3C23500CCA238 /* Advanced Optics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Advanced Optics.png"; sourceTree = "<group>"; };
+		E04D0F5519A3C23500CCA238 /* Amplified Healing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amplified Healing.png"; sourceTree = "<group>"; };
+		E04D0F5619A3C23500CCA238 /* Battle Momentum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Battle Momentum.png"; sourceTree = "<group>"; };
+		E04D0F5719A3C23500CCA238 /* Berserk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Berserk.png; sourceTree = "<group>"; };
+		E04D0F5819A3C23500CCA238 /* Blessed Champion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blessed Champion.png"; sourceTree = "<group>"; };
+		E04D0F5919A3C23500CCA238 /* Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Block.png; sourceTree = "<group>"; };
+		E04D0F5A19A3C23500CCA238 /* Blood for Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood for Blood.png"; sourceTree = "<group>"; };
+		E04D0F5B19A3C23500CCA238 /* Bolt of the Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bolt of the Storm.png"; sourceTree = "<group>"; };
+		E04D0F5C19A3C23500CCA238 /* Bribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bribe.png; sourceTree = "<group>"; };
+		E04D0F5D19A3C23500CCA238 /* Burning Rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burning Rage.png"; sourceTree = "<group>"; };
+		E04D0F5E19A3C23500CCA238 /* Calldown MULE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calldown MULE.png"; sourceTree = "<group>"; };
+		E04D0F5F19A3C23500CCA238 /* Carapace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carapace.png; sourceTree = "<group>"; };
+		E04D0F6019A3C23500CCA238 /* Clairvoyance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clairvoyance.png; sourceTree = "<group>"; };
+		E04D0F6119A3C23500CCA238 /* Cleanse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cleanse.png; sourceTree = "<group>"; };
+		E04D0F6219A3C23500CCA238 /* Conjurer's Pursuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Conjurer's Pursuit.png"; sourceTree = "<group>"; };
+		E04D0F6319A3C23500CCA238 /* Demolitionist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Demolitionist.png; sourceTree = "<group>"; };
+		E04D0F6419A3C23500CCA238 /* Distortion Beam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Distortion Beam.png"; sourceTree = "<group>"; };
+		E04D0F6519A3C23500CCA238 /* Echo Pedal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Echo Pedal.png"; sourceTree = "<group>"; };
+		E04D0F6619A3C23500CCA238 /* Envenom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Envenom.png; sourceTree = "<group>"; };
+		E04D0F6719A3C23500CCA238 /* Envenomed Spines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Envenomed Spines.png"; sourceTree = "<group>"; };
+		E04D0F6819A3C23500CCA238 /* Executioner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Executioner.png; sourceTree = "<group>"; };
+		E04D0F6919A3C23500CCA238 /* Farsight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Farsight.png; sourceTree = "<group>"; };
+		E04D0F6A19A3C23500CCA238 /* First Aid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Aid.png"; sourceTree = "<group>"; };
+		E04D0F6B19A3C23500CCA238 /* Fly Away.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fly Away.png"; sourceTree = "<group>"; };
+		E04D0F6C19A3C23500CCA238 /* FN92 Sniper Rifle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FN92 Sniper Rifle.png"; sourceTree = "<group>"; };
+		E04D0F6D19A3C23500CCA238 /* Follow Through.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Follow Through.png"; sourceTree = "<group>"; };
+		E04D0F6E19A3C23500CCA238 /* Fury of the Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fury of the Storm.png"; sourceTree = "<group>"; };
+		E04D0F6F19A3C23500CCA238 /* Fury of the Swarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fury of the Swarm.png"; sourceTree = "<group>"; };
+		E04D0F7019A3C23500CCA238 /* Gathering Power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gathering Power.png"; sourceTree = "<group>"; };
+		E04D0F7119A3C23500CCA238 /* Giant Killer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Giant Killer.png"; sourceTree = "<group>"; };
+		E04D0F7219A3C23500CCA238 /* Gidbinn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gidbinn.png; sourceTree = "<group>"; };
+		E04D0F7319A3C23500CCA238 /* Hammer of the Lightbringer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hammer of the Lightbringer.png"; sourceTree = "<group>"; };
+		E04D0F7419A3C23500CCA238 /* Hardened Focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hardened Focus.png"; sourceTree = "<group>"; };
+		E04D0F7519A3C23500CCA238 /* Healing Totem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Healing Totem.png"; sourceTree = "<group>"; };
+		E04D0F7619A3C23500CCA238 /* Hyper-Cooling Engines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hyper-Cooling Engines.png"; sourceTree = "<group>"; };
+		E04D0F7719A3C23500CCA238 /* Imposing Presence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Imposing Presence.png"; sourceTree = "<group>"; };
+		E04D0F7819A3C23500CCA238 /* Magical Essence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Magical Essence.png"; sourceTree = "<group>"; };
+		E04D0F7919A3C23500CCA238 /* Manticore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Manticore.png; sourceTree = "<group>"; };
+		E04D0F7A19A3C23500CCA238 /* Medusa Blades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medusa Blades.png"; sourceTree = "<group>"; };
+		E04D0F7B19A3C23500CCA238 /* Minion Killer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minion Killer.png"; sourceTree = "<group>"; };
+		E04D0F7C19A3C23500CCA238 /* Overdrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overdrive.png; sourceTree = "<group>"; };
+		E04D0F7D19A3C23500CCA238 /* Phase Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phase Shield.png"; sourceTree = "<group>"; };
+		E04D0F7E19A3C23500CCA238 /* Promote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Promote.png; sourceTree = "<group>"; };
+		E04D0F7F19A3C23500CCA238 /* Rapid Incubation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rapid Incubation.png"; sourceTree = "<group>"; };
+		E04D0F8019A3C23500CCA238 /* Regeneration Master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Regeneration Master.png"; sourceTree = "<group>"; };
+		E04D0F8119A3C23500CCA238 /* Relentless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Relentless.png; sourceTree = "<group>"; };
+		E04D0F8219A3C23500CCA238 /* Resurgence of the Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resurgence of the Storm.png"; sourceTree = "<group>"; };
+		E04D0F8319A3C23500CCA238 /* Rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rewind.png; sourceTree = "<group>"; };
+		E04D0F8419A3C23500CCA238 /* Rune Tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rune Tap.png"; sourceTree = "<group>"; };
+		E04D0F8519A3C23500CCA238 /* Scouting Drone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scouting Drone.png"; sourceTree = "<group>"; };
+		E04D0F8619A3C23500CCA238 /* Searing Attacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Searing Attacks.png"; sourceTree = "<group>"; };
+		E04D0F8719A3C23500CCA238 /* Seasoned Marksman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seasoned Marksman.png"; sourceTree = "<group>"; };
+		E04D0F8819A3C23500CCA238 /* Shrink Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shrink Ray.png"; sourceTree = "<group>"; };
+		E04D0F8919A3C23500CCA238 /* Skullcracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skullcracker.png; sourceTree = "<group>"; };
+		E04D0F8A19A3C23500CCA238 /* Spell Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spell Shield.png"; sourceTree = "<group>"; };
+		E04D0F8B19A3C23500CCA238 /* Stoneskin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stoneskin.png; sourceTree = "<group>"; };
+		E04D0F8C19A3C23500CCA238 /* Storm Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Storm Shield.png"; sourceTree = "<group>"; };
+		E04D0F8D19A3C23500CCA238 /* Superiority.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Superiority.png; sourceTree = "<group>"; };
+		E04D0F8E19A3C23500CCA238 /* Swift Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swift Storm.png"; sourceTree = "<group>"; };
+		E04D0F8F19A3C23500CCA238 /* Tenderizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tenderizer.png; sourceTree = "<group>"; };
+		E04D0F9019A3C23500CCA238 /* Trueshot Aura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trueshot Aura.png"; sourceTree = "<group>"; };
+		E04D0F9119A3C23500CCA238 /* War Paint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "War Paint.png"; sourceTree = "<group>"; };
+		E04D0F9319A3C23500CCA238 /* Diablo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diablo.png; sourceTree = "<group>"; };
+		E04D0F9419A3C23500CCA238 /* Starcraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Starcraft.png; sourceTree = "<group>"; };
+		E04D0F9519A3C23500CCA238 /* Warcraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warcraft.png; sourceTree = "<group>"; };
+		E04D0F9719A3C23500CCA238 /* Ability List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ability List.plist"; sourceTree = "<group>"; };
+		E04D0F9819A3C23500CCA238 /* Hero List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Hero List.plist"; sourceTree = "<group>"; };
+		E04D0F9919A3C23500CCA238 /* Talents List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Talents List.plist"; sourceTree = "<group>"; };
+		E04D0F9B19A3C23500CCA238 /* DEVAbility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVAbility.h; sourceTree = "<group>"; };
+		E04D0F9C19A3C23500CCA238 /* DEVAbility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVAbility.m; sourceTree = "<group>"; };
+		E04D0F9D19A3C23500CCA238 /* DEVHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHero.h; sourceTree = "<group>"; };
+		E04D0F9E19A3C23500CCA238 /* DEVHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHero.m; sourceTree = "<group>"; };
+		E04D0F9F19A3C23500CCA238 /* DEVHeroCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHeroCollection.h; sourceTree = "<group>"; };
+		E04D0FA019A3C23500CCA238 /* DEVHeroCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHeroCollection.m; sourceTree = "<group>"; };
+		E04D0FA119A3C23500CCA238 /* DEVTalent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVTalent.h; sourceTree = "<group>"; };
+		E04D0FA219A3C23500CCA238 /* DEVTalent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVTalent.m; sourceTree = "<group>"; };
+		E04D0FA319A3C23500CCA238 /* DEVTalentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVTalentCollection.h; sourceTree = "<group>"; };
+		E04D0FA419A3C23500CCA238 /* DEVTalentCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVTalentCollection.m; sourceTree = "<group>"; };
+		E04D0FA719A3C23500CCA238 /* DEVAbilityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVAbilityView.h; sourceTree = "<group>"; };
+		E04D0FA819A3C23500CCA238 /* DEVAbilityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVAbilityView.m; sourceTree = "<group>"; };
+		E04D0FA919A3C23500CCA238 /* DEVSingleHeroAbilityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVSingleHeroAbilityCell.h; sourceTree = "<group>"; };
+		E04D0FAA19A3C23500CCA238 /* DEVSingleHeroAbilityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVSingleHeroAbilityCell.m; sourceTree = "<group>"; };
+		E04D0FAC19A3C23500CCA238 /* DEVHeroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHeroDetailViewController.h; sourceTree = "<group>"; };
+		E04D0FAD19A3C23500CCA238 /* DEVHeroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHeroDetailViewController.m; sourceTree = "<group>"; };
+		E04D0FAF19A3C23500CCA238 /* HeroSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroSelectTableViewController.h; sourceTree = "<group>"; };
+		E04D0FB019A3C23500CCA238 /* HeroSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroSelectTableViewController.m; sourceTree = "<group>"; };
+		E04D0FB119A3C23500CCA238 /* HeroSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroSelectViewController.h; sourceTree = "<group>"; };
+		E04D0FB219A3C23500CCA238 /* HeroSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroSelectViewController.m; sourceTree = "<group>"; };
+		E04D0FB419A3C23500CCA238 /* DEVLevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVLevelCell.h; sourceTree = "<group>"; };
+		E04D0FB519A3C23500CCA238 /* DEVLevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVLevelCell.m; sourceTree = "<group>"; };
+		E04D0FB619A3C23500CCA238 /* DEVLevelSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVLevelSetController.h; sourceTree = "<group>"; };
+		E04D0FB719A3C23500CCA238 /* DEVLevelSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVLevelSetController.m; sourceTree = "<group>"; };
+		E04D0FB919A3C23500CCA238 /* HeroStatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroStatsView.h; sourceTree = "<group>"; };
+		E04D0FBA19A3C23500CCA238 /* HeroStatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroStatsView.m; sourceTree = "<group>"; };
+		E04D0FBC19A3C23500CCA238 /* DEVTalentHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVTalentHeaderCell.h; sourceTree = "<group>"; };
+		E04D0FBD19A3C23500CCA238 /* DEVTalentHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVTalentHeaderCell.m; sourceTree = "<group>"; };
+		E04D0FBE19A3C23500CCA238 /* DEVTalentHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEVTalentHeaderCell.xib; sourceTree = "<group>"; };
+		E04D0FBF19A3C23500CCA238 /* DEVTalentInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVTalentInfoCell.h; sourceTree = "<group>"; };
+		E04D0FC019A3C23500CCA238 /* DEVTalentInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVTalentInfoCell.m; sourceTree = "<group>"; };
+		E04D0FC119A3C23500CCA238 /* DEVTalentInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEVTalentInfoCell.xib; sourceTree = "<group>"; };
+		E04D0FC219A3C23500CCA238 /* DEVTalentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVTalentViewController.h; sourceTree = "<group>"; };
+		E04D0FC319A3C23500CCA238 /* DEVTalentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVTalentViewController.m; sourceTree = "<group>"; };
+		E04D10F619A3C34000CCA238 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E04D10F819A3C4E600CCA238 /* E.T.C._profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E.T.C._profile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +703,10 @@
 		E04D0E1B19A3C20200CCA238 = {
 			isa = PBXGroup;
 			children = (
+				E04D0E5619A3C23500CCA238 /* Assets */,
+				E04D0F9619A3C23500CCA238 /* Data */,
+				E04D0F9A19A3C23500CCA238 /* Model */,
+				E04D0FA519A3C23500CCA238 /* View Controllers */,
 				E04D0E2D19A3C20300CCA238 /* Heroes of the Storm Companion */,
 				E04D0E4619A3C20300CCA238 /* Heroes of the Storm CompanionTests */,
 				E04D0E2619A3C20300CCA238 /* Frameworks */,
@@ -142,6 +772,691 @@
 				E04D0E4919A3C20300CCA238 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E04D0E5619A3C23500CCA238 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E5719A3C23500CCA238 /* Ability Images */,
+				E04D0F1C19A3C23500CCA238 /* Fonts */,
+				E04D0F1E19A3C23500CCA238 /* Others */,
+				E04D0F2819A3C23500CCA238 /* Profile Images */,
+				E04D0F4519A3C23500CCA238 /* Role Images */,
+				E04D0F4A19A3C23500CCA238 /* Stats Images */,
+				E04D0F5319A3C23500CCA238 /* Talent Images */,
+				E04D0F9219A3C23500CCA238 /* Universe Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E04D0E5719A3C23500CCA238 /* Ability Images */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E5819A3C23500CCA238 /* Abathur */,
+				E04D0E5F19A3C23500CCA238 /* Arthas */,
+				E04D0E6619A3C23500CCA238 /* Brightwing */,
+				E04D0E6D19A3C23500CCA238 /* Diablo */,
+				E04D0E7419A3C23500CCA238 /* E.T.C */,
+				E04D0E7B19A3C23500CCA238 /* Falstad */,
+				E04D0E8219A3C23500CCA238 /* Gazlowe */,
+				E04D0E8919A3C23500CCA238 /* Illidan */,
+				E04D0E9019A3C23500CCA238 /* Kerrigan */,
+				E04D0E9719A3C23500CCA238 /* Li Li */,
+				E04D0E9E19A3C23500CCA238 /* Malfurion */,
+				E04D0EA519A3C23500CCA238 /* Muradin */,
+				E04D0EAC19A3C23500CCA238 /* Murky */,
+				E04D0EB319A3C23500CCA238 /* Nazeebo */,
+				E04D0EBA19A3C23500CCA238 /* Nova */,
+				E04D0EC119A3C23500CCA238 /* Raynor */,
+				E04D0EC819A3C23500CCA238 /* Rehgar */,
+				E04D0ECF19A3C23500CCA238 /* Sergeant Hammer */,
+				E04D0ED619A3C23500CCA238 /* Sonya */,
+				E04D0EDD19A3C23500CCA238 /* Stitches */,
+				E04D0EE419A3C23500CCA238 /* Tassadar */,
+				E04D0EEB19A3C23500CCA238 /* Tychus */,
+				E04D0EF219A3C23500CCA238 /* Tyrael */,
+				E04D0EF919A3C23500CCA238 /* Tyrande */,
+				E04D0F0019A3C23500CCA238 /* Uther */,
+				E04D0F0719A3C23500CCA238 /* Valla */,
+				E04D0F0E19A3C23500CCA238 /* Zagara */,
+				E04D0F1519A3C23500CCA238 /* Zeratul */,
+			);
+			path = "Ability Images";
+			sourceTree = "<group>";
+		};
+		E04D0E5819A3C23500CCA238 /* Abathur */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E5919A3C23500CCA238 /* Locust Strain.png */,
+				E04D0E5A19A3C23500CCA238 /* Spike Burst.png */,
+				E04D0E5B19A3C23500CCA238 /* Stab.png */,
+				E04D0E5C19A3C23500CCA238 /* Symbiote.png */,
+				E04D0E5D19A3C23500CCA238 /* Toxic Nest.png */,
+				E04D0E5E19A3C23500CCA238 /* Ultimate Evolution.png */,
+			);
+			path = Abathur;
+			sourceTree = "<group>";
+		};
+		E04D0E5F19A3C23500CCA238 /* Arthas */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E6019A3C23500CCA238 /* Army of the Dead.png */,
+				E04D0E6119A3C23500CCA238 /* Death Coil.png */,
+				E04D0E6219A3C23500CCA238 /* Frostmourne Hungers.png */,
+				E04D0E6319A3C23500CCA238 /* Frozen Tempest.png */,
+				E04D0E6419A3C23500CCA238 /* Howling Blast.png */,
+				E04D0E6519A3C23500CCA238 /* Summon Sindragosa.png */,
+			);
+			path = Arthas;
+			sourceTree = "<group>";
+		};
+		E04D0E6619A3C23500CCA238 /* Brightwing */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E6719A3C23500CCA238 /* Arcane Flare.png */,
+				E04D0E6819A3C23500CCA238 /* Blink Heal.png */,
+				E04D0E6919A3C23500CCA238 /* Emerald Wind.png */,
+				E04D0E6A19A3C23500CCA238 /* Pixie Dust.png */,
+				E04D0E6B19A3C23500CCA238 /* Polymorph.png */,
+				E04D0E6C19A3C23500CCA238 /* Soothing Mist.png */,
+			);
+			path = Brightwing;
+			sourceTree = "<group>";
+		};
+		E04D0E6D19A3C23500CCA238 /* Diablo */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E6E19A3C23500CCA238 /* Apocalypse.png */,
+				E04D0E6F19A3C23500CCA238 /* Black Soulstone.png */,
+				E04D0E7019A3C23500CCA238 /* Fire Stomp.png */,
+				E04D0E7119A3C23500CCA238 /* Lightning Breath.png */,
+				E04D0E7219A3C23500CCA238 /* Overpower.png */,
+				E04D0E7319A3C23500CCA238 /* Shadow Charge.png */,
+			);
+			path = Diablo;
+			sourceTree = "<group>";
+		};
+		E04D0E7419A3C23500CCA238 /* E.T.C */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E7519A3C23500CCA238 /* Face Melt.png */,
+				E04D0E7619A3C23500CCA238 /* Guitar Solo.png */,
+				E04D0E7719A3C23500CCA238 /* Mosh Pit.png */,
+				E04D0E7819A3C23500CCA238 /* Powerslide.png */,
+				E04D0E7919A3C23500CCA238 /* Rockstar.png */,
+				E04D0E7A19A3C23500CCA238 /* Stage Dive.png */,
+			);
+			path = E.T.C;
+			sourceTree = "<group>";
+		};
+		E04D0E7B19A3C23500CCA238 /* Falstad */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E7C19A3C23500CCA238 /* Aerial Blitzkrieg.png */,
+				E04D0E7D19A3C23500CCA238 /* Barrel Roll.png */,
+				E04D0E7E19A3C23500CCA238 /* Hammerang.png */,
+				E04D0E7F19A3C23500CCA238 /* Shock and Awe.png */,
+				E04D0E8019A3C23500CCA238 /* Tailwind.png */,
+				E04D0E8119A3C23500CCA238 /* Thunderstorm.png */,
+			);
+			path = Falstad;
+			sourceTree = "<group>";
+		};
+		E04D0E8219A3C23500CCA238 /* Gazlowe */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E8319A3C23500CCA238 /* Deth Lazor.png */,
+				E04D0E8419A3C23500CCA238 /* Grav-O-Bomb 3000.png */,
+				E04D0E8519A3C23500CCA238 /* Robo-Goblin.png */,
+				E04D0E8619A3C23500CCA238 /* Rock-It! Turret.png */,
+				E04D0E8719A3C23500CCA238 /* Salvager.png */,
+				E04D0E8819A3C23500CCA238 /* Xplodium Charge.png */,
+			);
+			path = Gazlowe;
+			sourceTree = "<group>";
+		};
+		E04D0E8919A3C23500CCA238 /* Illidan */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E8A19A3C23500CCA238 /* Betrayer's Thirst.png */,
+				E04D0E8B19A3C23500CCA238 /* Dive.png */,
+				E04D0E8C19A3C23500CCA238 /* Evasion.png */,
+				E04D0E8D19A3C23500CCA238 /* Metamorphosis.png */,
+				E04D0E8E19A3C23500CCA238 /* Sweeping Strike.png */,
+				E04D0E8F19A3C23500CCA238 /* The Hunt.png */,
+			);
+			path = Illidan;
+			sourceTree = "<group>";
+		};
+		E04D0E9019A3C23500CCA238 /* Kerrigan */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E9119A3C23500CCA238 /* Assimilation.png */,
+				E04D0E9219A3C23500CCA238 /* Impaling Blades.png */,
+				E04D0E9319A3C23500CCA238 /* Maelstrom.png */,
+				E04D0E9419A3C23500CCA238 /* Primal Grasp.png */,
+				E04D0E9519A3C23500CCA238 /* Ravage.png */,
+				E04D0E9619A3C23500CCA238 /* Summon Ultralisk.png */,
+			);
+			path = Kerrigan;
+			sourceTree = "<group>";
+		};
+		E04D0E9719A3C23500CCA238 /* Li Li */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E9819A3C23500CCA238 /* Blinding Wind.png */,
+				E04D0E9919A3C23500CCA238 /* Cloud Serpent.png */,
+				E04D0E9A19A3C23500CCA238 /* Fast Feet.png */,
+				E04D0E9B19A3C23500CCA238 /* Healing Brew.png */,
+				E04D0E9C19A3C23500CCA238 /* Jug of 1,000 Cups.png */,
+				E04D0E9D19A3C23500CCA238 /* Water Dragon.png */,
+			);
+			path = "Li Li";
+			sourceTree = "<group>";
+		};
+		E04D0E9E19A3C23500CCA238 /* Malfurion */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0E9F19A3C23500CCA238 /* Entangling Roots.png */,
+				E04D0EA019A3C23500CCA238 /* Innervate.png */,
+				E04D0EA119A3C23500CCA238 /* Moonfire.png */,
+				E04D0EA219A3C23500CCA238 /* Regrowth.png */,
+				E04D0EA319A3C23500CCA238 /* Tranquility.png */,
+				E04D0EA419A3C23500CCA238 /* Twilight Dream.png */,
+			);
+			path = Malfurion;
+			sourceTree = "<group>";
+		};
+		E04D0EA519A3C23500CCA238 /* Muradin */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EA619A3C23500CCA238 /* Avatar.png */,
+				E04D0EA719A3C23500CCA238 /* Dwarf Toss.png */,
+				E04D0EA819A3C23500CCA238 /* Haymaker.png */,
+				E04D0EA919A3C23500CCA238 /* Second Wind.png */,
+				E04D0EAA19A3C23500CCA238 /* Stormbolt.png */,
+				E04D0EAB19A3C23500CCA238 /* Thunderclap.png */,
+			);
+			path = Muradin;
+			sourceTree = "<group>";
+		};
+		E04D0EAC19A3C23500CCA238 /* Murky */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EAD19A3C23500CCA238 /* March of the Murlocs.png */,
+				E04D0EAE19A3C23500CCA238 /* Octo-Grab.png */,
+				E04D0EAF19A3C23500CCA238 /* Pufferfish.png */,
+				E04D0EB019A3C23500CCA238 /* Safety Bubble.png */,
+				E04D0EB119A3C23500CCA238 /* Slime.png */,
+				E04D0EB219A3C23500CCA238 /* Spawn Egg.png */,
+			);
+			path = Murky;
+			sourceTree = "<group>";
+		};
+		E04D0EB319A3C23500CCA238 /* Nazeebo */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EB419A3C23500CCA238 /* Corpse Spiders.png */,
+				E04D0EB519A3C23500CCA238 /* Gargantuan.png */,
+				E04D0EB619A3C23500CCA238 /* Plague of Toads.png */,
+				E04D0EB719A3C23500CCA238 /* Ravenous Spirit.png */,
+				E04D0EB819A3C23500CCA238 /* Voodoo Ritual.png */,
+				E04D0EB919A3C23500CCA238 /* Zombie Wall.png */,
+			);
+			path = Nazeebo;
+			sourceTree = "<group>";
+		};
+		E04D0EBA19A3C23500CCA238 /* Nova */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EBB19A3C23500CCA238 /* Holo Decoy.png */,
+				E04D0EBC19A3C23500CCA238 /* Permanent Cloak, Sniper.png */,
+				E04D0EBD19A3C23500CCA238 /* Pinning Shot.png */,
+				E04D0EBE19A3C23500CCA238 /* Precision Strike.png */,
+				E04D0EBF19A3C23500CCA238 /* Snipe.png */,
+				E04D0EC019A3C23500CCA238 /* Triple Tap.png */,
+			);
+			path = Nova;
+			sourceTree = "<group>";
+		};
+		E04D0EC119A3C23500CCA238 /* Raynor */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EC219A3C23500CCA238 /* Adrenaline Rush.png */,
+				E04D0EC319A3C23500CCA238 /* Hyperion.png */,
+				E04D0EC419A3C23500CCA238 /* Inspire.png */,
+				E04D0EC519A3C23500CCA238 /* Lead from the Front.png */,
+				E04D0EC619A3C23500CCA238 /* Penetrating Round.png */,
+				E04D0EC719A3C23500CCA238 /* Raynor's Raiders.png */,
+			);
+			path = Raynor;
+			sourceTree = "<group>";
+		};
+		E04D0EC819A3C23500CCA238 /* Rehgar */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EC919A3C23500CCA238 /* Ancestral Healing.png */,
+				E04D0ECA19A3C23500CCA238 /* Bloodlust.png */,
+				E04D0ECB19A3C23500CCA238 /* Chain Heal.png */,
+				E04D0ECC19A3C23500CCA238 /* Earthbind Totem.png */,
+				E04D0ECD19A3C23500CCA238 /* Ghost Wolf.png */,
+				E04D0ECE19A3C23500CCA238 /* Lightning Shield.png */,
+			);
+			path = Rehgar;
+			sourceTree = "<group>";
+		};
+		E04D0ECF19A3C23500CCA238 /* Sergeant Hammer */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0ED019A3C23500CCA238 /* Artillery.png */,
+				E04D0ED119A3C23500CCA238 /* Blunt Force Gun.png */,
+				E04D0ED219A3C23500CCA238 /* Concussive Blast.png */,
+				E04D0ED319A3C23500CCA238 /* Napalm Strike.png */,
+				E04D0ED419A3C23500CCA238 /* Siege Mode.png */,
+				E04D0ED519A3C23500CCA238 /* Spider Mines.png */,
+			);
+			path = "Sergeant Hammer";
+			sourceTree = "<group>";
+		};
+		E04D0ED619A3C23500CCA238 /* Sonya */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0ED719A3C23500CCA238 /* Ancient Spear.png */,
+				E04D0ED819A3C23500CCA238 /* Fury.png */,
+				E04D0ED919A3C23500CCA238 /* Leap.png */,
+				E04D0EDA19A3C23500CCA238 /* Seismic Slam.png */,
+				E04D0EDB19A3C23500CCA238 /* Whirlwind.png */,
+				E04D0EDC19A3C23500CCA238 /* Wrath of the Berserker.png */,
+			);
+			path = Sonya;
+			sourceTree = "<group>";
+		};
+		E04D0EDD19A3C23500CCA238 /* Stitches */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EDE19A3C23500CCA238 /* Devour.png */,
+				E04D0EDF19A3C23500CCA238 /* Gorge.png */,
+				E04D0EE019A3C23500CCA238 /* Hook.png */,
+				E04D0EE119A3C23500CCA238 /* Putrid Bile.png */,
+				E04D0EE219A3C23500CCA238 /* Slam.png */,
+				E04D0EE319A3C23500CCA238 /* Vile Gas.png */,
+			);
+			path = Stitches;
+			sourceTree = "<group>";
+		};
+		E04D0EE419A3C23500CCA238 /* Tassadar */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EE519A3C23500CCA238 /* Archon.png */,
+				E04D0EE619A3C23500CCA238 /* Dimensional Shift.png */,
+				E04D0EE719A3C23500CCA238 /* Force Wall.png */,
+				E04D0EE819A3C23500CCA238 /* Oracle.png */,
+				E04D0EE919A3C23500CCA238 /* Plasma Shield.png */,
+				E04D0EEA19A3C23500CCA238 /* Psionic Storm.png */,
+			);
+			path = Tassadar;
+			sourceTree = "<group>";
+		};
+		E04D0EEB19A3C23500CCA238 /* Tychus */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EEC19A3C23500CCA238 /* Commandeer Odin.png */,
+				E04D0EED19A3C23500CCA238 /* Drakken Laser Drill.png */,
+				E04D0EEE19A3C23500CCA238 /* Frag Grenade.png */,
+				E04D0EEF19A3C23500CCA238 /* Minigun.png */,
+				E04D0EF019A3C23500CCA238 /* Overkill.png */,
+				E04D0EF119A3C23500CCA238 /* Run and Gun.png */,
+			);
+			path = Tychus;
+			sourceTree = "<group>";
+		};
+		E04D0EF219A3C23500CCA238 /* Tyrael */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EF319A3C23500CCA238 /* Archangel's Wrath.png */,
+				E04D0EF419A3C23500CCA238 /* El'Druin's Might.png */,
+				E04D0EF519A3C23500CCA238 /* Judgment.png */,
+				E04D0EF619A3C23500CCA238 /* Righteousness.png */,
+				E04D0EF719A3C23500CCA238 /* Sanctification.png */,
+				E04D0EF819A3C23500CCA238 /* Smite.png */,
+			);
+			path = Tyrael;
+			sourceTree = "<group>";
+		};
+		E04D0EF919A3C23500CCA238 /* Tyrande */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0EFA19A3C23500CCA238 /* Hunter's Mark.png */,
+				E04D0EFB19A3C23500CCA238 /* Light of Elune.png */,
+				E04D0EFC19A3C23500CCA238 /* Lunar Flare.png */,
+				E04D0EFD19A3C23500CCA238 /* Sentinel.png */,
+				E04D0EFE19A3C23500CCA238 /* Shadowstalk.png */,
+				E04D0EFF19A3C23500CCA238 /* Starfall.png */,
+			);
+			path = Tyrande;
+			sourceTree = "<group>";
+		};
+		E04D0F0019A3C23500CCA238 /* Uther */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F0119A3C23500CCA238 /* Divine Shield.png */,
+				E04D0F0219A3C23500CCA238 /* Divine Storm.png */,
+				E04D0F0319A3C23500CCA238 /* Eternal Devotion.png */,
+				E04D0F0419A3C23500CCA238 /* Hammer of Justice.png */,
+				E04D0F0519A3C23500CCA238 /* Holy Light.png */,
+				E04D0F0619A3C23500CCA238 /* Holy Radiance.png */,
+			);
+			path = Uther;
+			sourceTree = "<group>";
+		};
+		E04D0F0719A3C23500CCA238 /* Valla */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F0819A3C23500CCA238 /* Hatred.png */,
+				E04D0F0919A3C23500CCA238 /* Hungering Arrow.png */,
+				E04D0F0A19A3C23500CCA238 /* Multishot.png */,
+				E04D0F0B19A3C23500CCA238 /* Rain of Vengeance.png */,
+				E04D0F0C19A3C23500CCA238 /* Strafe.png */,
+				E04D0F0D19A3C23500CCA238 /* Vault.png */,
+			);
+			path = Valla;
+			sourceTree = "<group>";
+		};
+		E04D0F0E19A3C23500CCA238 /* Zagara */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F0F19A3C23500CCA238 /* Baneling Barrage.png */,
+				E04D0F1019A3C23500CCA238 /* Creep Tumor.png */,
+				E04D0F1119A3C23500CCA238 /* Devouring Maw.png */,
+				E04D0F1219A3C23500CCA238 /* Hunter Killer.png */,
+				E04D0F1319A3C23500CCA238 /* Infested Drop.png */,
+				E04D0F1419A3C23500CCA238 /* Nydus Network.png */,
+			);
+			path = Zagara;
+			sourceTree = "<group>";
+		};
+		E04D0F1519A3C23500CCA238 /* Zeratul */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F1619A3C23500CCA238 /* Blink.png */,
+				E04D0F1719A3C23500CCA238 /* Cleave.png */,
+				E04D0F1819A3C23500CCA238 /* Permanent Cloak.png */,
+				E04D0F1919A3C23500CCA238 /* Shadow Assault.png */,
+				E04D0F1A19A3C23500CCA238 /* Singularity Spike.png */,
+				E04D0F1B19A3C23500CCA238 /* Void Prison.png */,
+			);
+			path = Zeratul;
+			sourceTree = "<group>";
+		};
+		E04D0F1C19A3C23500CCA238 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F1D19A3C23500CCA238 /* FrizQuadrata-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E04D0F1E19A3C23500CCA238 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F1F19A3C23500CCA238 /* arrow-closed.png */,
+				E04D0F2019A3C23500CCA238 /* arrow-open.png */,
+				E04D0F2119A3C23500CCA238 /* background-568h@2x.png */,
+				E04D0F2219A3C23500CCA238 /* background@2x.png */,
+				E04D0F2419A3C23500CCA238 /* Icon-60.png */,
+				E04D0F2319A3C23500CCA238 /* baseBackground.png */,
+				E04D0F2519A3C23500CCA238 /* Icon-60@2x.png */,
+				E04D0F2619A3C23500CCA238 /* iTunesArtwork.png */,
+				E04D0F2719A3C23500CCA238 /* iTunesArtwork@2x.png */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E04D0F2819A3C23500CCA238 /* Profile Images */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F2919A3C23500CCA238 /* Abathur_profile.png */,
+				E04D0F2A19A3C23500CCA238 /* Arthas_profile.png */,
+				E04D0F2B19A3C23500CCA238 /* Brightwing_profile.png */,
+				E04D0F2C19A3C23500CCA238 /* Diablo_profile.png */,
+				E04D10F819A3C4E600CCA238 /* E.T.C._profile.png */,
+				E04D0F2E19A3C23500CCA238 /* Falstad_profile.png */,
+				E04D0F2F19A3C23500CCA238 /* Gazlowe_profile.png */,
+				E04D0F3019A3C23500CCA238 /* Illidan_profile.png */,
+				E04D0F3119A3C23500CCA238 /* Kerrigan_profile.png */,
+				E04D0F3219A3C23500CCA238 /* Li Li_profile.png */,
+				E04D0F3319A3C23500CCA238 /* Malfurion_profile.png */,
+				E04D0F3419A3C23500CCA238 /* Muradin_profile.png */,
+				E04D0F3519A3C23500CCA238 /* Murky_profile.png */,
+				E04D0F3619A3C23500CCA238 /* Nazeebo_profile.png */,
+				E04D0F3719A3C23500CCA238 /* Nova_profile.png */,
+				E04D0F3819A3C23500CCA238 /* Raynor_profile.png */,
+				E04D0F3919A3C23500CCA238 /* Rehgar_profile.png */,
+				E04D0F3A19A3C23500CCA238 /* Sergeant Hammer_profile.png */,
+				E04D0F3B19A3C23500CCA238 /* Sonya_profile.png */,
+				E04D0F3C19A3C23500CCA238 /* Stitches_profile.png */,
+				E04D0F3D19A3C23500CCA238 /* Tassadar_profile.png */,
+				E04D0F3E19A3C23500CCA238 /* Tychus_profile.png */,
+				E04D0F3F19A3C23500CCA238 /* Tyrael_profile.png */,
+				E04D0F4019A3C23500CCA238 /* Tyrande_profile.png */,
+				E04D0F4119A3C23500CCA238 /* Uther_profile.png */,
+				E04D0F4219A3C23500CCA238 /* Valla_profile.png */,
+				E04D0F4319A3C23500CCA238 /* Zagara_profile.png */,
+				E04D0F4419A3C23500CCA238 /* Zeratul_profile.png */,
+			);
+			path = "Profile Images";
+			sourceTree = "<group>";
+		};
+		E04D0F4519A3C23500CCA238 /* Role Images */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F4619A3C23500CCA238 /* assassin.png */,
+				E04D0F4719A3C23500CCA238 /* specialist.png */,
+				E04D0F4819A3C23500CCA238 /* support.png */,
+				E04D0F4919A3C23500CCA238 /* warrior.png */,
+			);
+			path = "Role Images";
+			sourceTree = "<group>";
+		};
+		E04D0F4A19A3C23500CCA238 /* Stats Images */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F4B19A3C23500CCA238 /* attack speed.png */,
+				E04D0F4C19A3C23500CCA238 /* attack.png */,
+				E04D0F4D19A3C23500CCA238 /* DPS.png */,
+				E04D0F4E19A3C23500CCA238 /* health regen.png */,
+				E04D0F4F19A3C23500CCA238 /* health.png */,
+				E04D0F5019A3C23500CCA238 /* mana regen.png */,
+				E04D0F5119A3C23500CCA238 /* mana.png */,
+				E04D0F5219A3C23500CCA238 /* range.png */,
+			);
+			path = "Stats Images";
+			sourceTree = "<group>";
+		};
+		E04D0F5319A3C23500CCA238 /* Talent Images */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F5419A3C23500CCA238 /* Advanced Optics.png */,
+				E04D0F5519A3C23500CCA238 /* Amplified Healing.png */,
+				E04D0F5619A3C23500CCA238 /* Battle Momentum.png */,
+				E04D0F5719A3C23500CCA238 /* Berserk.png */,
+				E04D0F5819A3C23500CCA238 /* Blessed Champion.png */,
+				E04D0F5919A3C23500CCA238 /* Block.png */,
+				E04D0F5A19A3C23500CCA238 /* Blood for Blood.png */,
+				E04D0F5B19A3C23500CCA238 /* Bolt of the Storm.png */,
+				E04D0F5C19A3C23500CCA238 /* Bribe.png */,
+				E04D0F5D19A3C23500CCA238 /* Burning Rage.png */,
+				E04D0F5E19A3C23500CCA238 /* Calldown MULE.png */,
+				E04D0F5F19A3C23500CCA238 /* Carapace.png */,
+				E04D0F6019A3C23500CCA238 /* Clairvoyance.png */,
+				E04D0F6119A3C23500CCA238 /* Cleanse.png */,
+				E04D0F6219A3C23500CCA238 /* Conjurer's Pursuit.png */,
+				E04D0F6319A3C23500CCA238 /* Demolitionist.png */,
+				E04D0F6419A3C23500CCA238 /* Distortion Beam.png */,
+				E04D0F6519A3C23500CCA238 /* Echo Pedal.png */,
+				E04D0F6619A3C23500CCA238 /* Envenom.png */,
+				E04D0F6719A3C23500CCA238 /* Envenomed Spines.png */,
+				E04D0F6819A3C23500CCA238 /* Executioner.png */,
+				E04D0F6919A3C23500CCA238 /* Farsight.png */,
+				E04D0F6A19A3C23500CCA238 /* First Aid.png */,
+				E04D0F6B19A3C23500CCA238 /* Fly Away.png */,
+				E04D0F6C19A3C23500CCA238 /* FN92 Sniper Rifle.png */,
+				E04D0F6D19A3C23500CCA238 /* Follow Through.png */,
+				E04D0F6E19A3C23500CCA238 /* Fury of the Storm.png */,
+				E04D0F6F19A3C23500CCA238 /* Fury of the Swarm.png */,
+				E04D0F7019A3C23500CCA238 /* Gathering Power.png */,
+				E04D0F7119A3C23500CCA238 /* Giant Killer.png */,
+				E04D0F7219A3C23500CCA238 /* Gidbinn.png */,
+				E04D0F7319A3C23500CCA238 /* Hammer of the Lightbringer.png */,
+				E04D0F7419A3C23500CCA238 /* Hardened Focus.png */,
+				E04D0F7519A3C23500CCA238 /* Healing Totem.png */,
+				E04D0F7619A3C23500CCA238 /* Hyper-Cooling Engines.png */,
+				E04D0F7719A3C23500CCA238 /* Imposing Presence.png */,
+				E04D0F7819A3C23500CCA238 /* Magical Essence.png */,
+				E04D0F7919A3C23500CCA238 /* Manticore.png */,
+				E04D0F7A19A3C23500CCA238 /* Medusa Blades.png */,
+				E04D0F7B19A3C23500CCA238 /* Minion Killer.png */,
+				E04D0F7C19A3C23500CCA238 /* Overdrive.png */,
+				E04D0F7D19A3C23500CCA238 /* Phase Shield.png */,
+				E04D0F7E19A3C23500CCA238 /* Promote.png */,
+				E04D0F7F19A3C23500CCA238 /* Rapid Incubation.png */,
+				E04D0F8019A3C23500CCA238 /* Regeneration Master.png */,
+				E04D0F8119A3C23500CCA238 /* Relentless.png */,
+				E04D0F8219A3C23500CCA238 /* Resurgence of the Storm.png */,
+				E04D0F8319A3C23500CCA238 /* Rewind.png */,
+				E04D0F8419A3C23500CCA238 /* Rune Tap.png */,
+				E04D0F8519A3C23500CCA238 /* Scouting Drone.png */,
+				E04D0F8619A3C23500CCA238 /* Searing Attacks.png */,
+				E04D0F8719A3C23500CCA238 /* Seasoned Marksman.png */,
+				E04D0F8819A3C23500CCA238 /* Shrink Ray.png */,
+				E04D0F8919A3C23500CCA238 /* Skullcracker.png */,
+				E04D0F8A19A3C23500CCA238 /* Spell Shield.png */,
+				E04D0F8B19A3C23500CCA238 /* Stoneskin.png */,
+				E04D0F8C19A3C23500CCA238 /* Storm Shield.png */,
+				E04D0F8D19A3C23500CCA238 /* Superiority.png */,
+				E04D0F8E19A3C23500CCA238 /* Swift Storm.png */,
+				E04D0F8F19A3C23500CCA238 /* Tenderizer.png */,
+				E04D0F9019A3C23500CCA238 /* Trueshot Aura.png */,
+				E04D0F9119A3C23500CCA238 /* War Paint.png */,
+			);
+			path = "Talent Images";
+			sourceTree = "<group>";
+		};
+		E04D0F9219A3C23500CCA238 /* Universe Images */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F9319A3C23500CCA238 /* Diablo.png */,
+				E04D0F9419A3C23500CCA238 /* Starcraft.png */,
+				E04D0F9519A3C23500CCA238 /* Warcraft.png */,
+			);
+			path = "Universe Images";
+			sourceTree = "<group>";
+		};
+		E04D0F9619A3C23500CCA238 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F9719A3C23500CCA238 /* Ability List.plist */,
+				E04D0F9819A3C23500CCA238 /* Hero List.plist */,
+				E04D0F9919A3C23500CCA238 /* Talents List.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E04D0F9A19A3C23500CCA238 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0F9B19A3C23500CCA238 /* DEVAbility.h */,
+				E04D0F9C19A3C23500CCA238 /* DEVAbility.m */,
+				E04D0F9D19A3C23500CCA238 /* DEVHero.h */,
+				E04D0F9E19A3C23500CCA238 /* DEVHero.m */,
+				E04D0F9F19A3C23500CCA238 /* DEVHeroCollection.h */,
+				E04D0FA019A3C23500CCA238 /* DEVHeroCollection.m */,
+				E04D0FA119A3C23500CCA238 /* DEVTalent.h */,
+				E04D0FA219A3C23500CCA238 /* DEVTalent.m */,
+				E04D0FA319A3C23500CCA238 /* DEVTalentCollection.h */,
+				E04D0FA419A3C23500CCA238 /* DEVTalentCollection.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E04D0FA519A3C23500CCA238 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E04D10F619A3C34000CCA238 /* Main.storyboard */,
+				E04D0FA619A3C23500CCA238 /* Ability View Controller */,
+				E04D0FAB19A3C23500CCA238 /* Hero Detail View Controller */,
+				E04D0FAE19A3C23500CCA238 /* Hero Select View Controller */,
+				E04D0FB319A3C23500CCA238 /* Level Set View Controller */,
+				E04D0FB819A3C23500CCA238 /* Stats View Controller */,
+				E04D0FBB19A3C23500CCA238 /* Talent View Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E04D0FA619A3C23500CCA238 /* Ability View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0FA719A3C23500CCA238 /* DEVAbilityView.h */,
+				E04D0FA819A3C23500CCA238 /* DEVAbilityView.m */,
+				E04D0FA919A3C23500CCA238 /* DEVSingleHeroAbilityCell.h */,
+				E04D0FAA19A3C23500CCA238 /* DEVSingleHeroAbilityCell.m */,
+			);
+			path = "Ability View Controller";
+			sourceTree = "<group>";
+		};
+		E04D0FAB19A3C23500CCA238 /* Hero Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0FAC19A3C23500CCA238 /* DEVHeroDetailViewController.h */,
+				E04D0FAD19A3C23500CCA238 /* DEVHeroDetailViewController.m */,
+			);
+			path = "Hero Detail View Controller";
+			sourceTree = "<group>";
+		};
+		E04D0FAE19A3C23500CCA238 /* Hero Select View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0FAF19A3C23500CCA238 /* HeroSelectTableViewController.h */,
+				E04D0FB019A3C23500CCA238 /* HeroSelectTableViewController.m */,
+				E04D0FB119A3C23500CCA238 /* HeroSelectViewController.h */,
+				E04D0FB219A3C23500CCA238 /* HeroSelectViewController.m */,
+			);
+			path = "Hero Select View Controller";
+			sourceTree = "<group>";
+		};
+		E04D0FB319A3C23500CCA238 /* Level Set View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0FB419A3C23500CCA238 /* DEVLevelCell.h */,
+				E04D0FB519A3C23500CCA238 /* DEVLevelCell.m */,
+				E04D0FB619A3C23500CCA238 /* DEVLevelSetController.h */,
+				E04D0FB719A3C23500CCA238 /* DEVLevelSetController.m */,
+			);
+			path = "Level Set View Controller";
+			sourceTree = "<group>";
+		};
+		E04D0FB819A3C23500CCA238 /* Stats View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0FB919A3C23500CCA238 /* HeroStatsView.h */,
+				E04D0FBA19A3C23500CCA238 /* HeroStatsView.m */,
+			);
+			path = "Stats View Controller";
+			sourceTree = "<group>";
+		};
+		E04D0FBB19A3C23500CCA238 /* Talent View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E04D0FBC19A3C23500CCA238 /* DEVTalentHeaderCell.h */,
+				E04D0FBD19A3C23500CCA238 /* DEVTalentHeaderCell.m */,
+				E04D0FBE19A3C23500CCA238 /* DEVTalentHeaderCell.xib */,
+				E04D0FBF19A3C23500CCA238 /* DEVTalentInfoCell.h */,
+				E04D0FC019A3C23500CCA238 /* DEVTalentInfoCell.m */,
+				E04D0FC119A3C23500CCA238 /* DEVTalentInfoCell.xib */,
+				E04D0FC219A3C23500CCA238 /* DEVTalentViewController.h */,
+				E04D0FC319A3C23500CCA238 /* DEVTalentViewController.m */,
+			);
+			path = "Talent View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +1535,297 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04D103E19A3C23500CCA238 /* Force Wall.png in Resources */,
+				E04D109D19A3C23500CCA238 /* range.png in Resources */,
+				E04D102319A3C23500CCA238 /* Raynor's Raiders.png in Resources */,
+				E04D0FCC19A3C23500CCA238 /* Frostmourne Hungers.png in Resources */,
+				E04D107019A3C23500CCA238 /* background@2x.png in Resources */,
+				E04D0FD919A3C23500CCA238 /* Lightning Breath.png in Resources */,
+				E04D10C819A3C23500CCA238 /* Promote.png in Resources */,
+				E04D102C19A3C23500CCA238 /* Concussive Blast.png in Resources */,
+				E04D108919A3C23500CCA238 /* Stitches_profile.png in Resources */,
+				E04D101619A3C23500CCA238 /* Voodoo Ritual.png in Resources */,
+				E04D104019A3C23500CCA238 /* Plasma Shield.png in Resources */,
+				E04D106319A3C23500CCA238 /* Hunter Killer.png in Resources */,
+				E04D106919A3C23500CCA238 /* Shadow Assault.png in Resources */,
+				E04D100019A3C23500CCA238 /* Entangling Roots.png in Resources */,
+				E04D105B19A3C23500CCA238 /* Hungering Arrow.png in Resources */,
+				E04D0FC419A3C23500CCA238 /* Locust Strain.png in Resources */,
+				E04D0FFF19A3C23500CCA238 /* Water Dragon.png in Resources */,
+				E04D106D19A3C23500CCA238 /* arrow-closed.png in Resources */,
+				E04D10DB19A3C23500CCA238 /* War Paint.png in Resources */,
+				E04D0FFD19A3C23500CCA238 /* Healing Brew.png in Resources */,
+				E04D105F19A3C23500CCA238 /* Vault.png in Resources */,
+				E04D108219A3C23500CCA238 /* Murky_profile.png in Resources */,
+				E04D10BC19A3C23500CCA238 /* Gidbinn.png in Resources */,
+				E04D0FD419A3C23500CCA238 /* Polymorph.png in Resources */,
+				E04D108019A3C23500CCA238 /* Malfurion_profile.png in Resources */,
+				E04D10AF19A3C23500CCA238 /* Echo Pedal.png in Resources */,
+				E04D104919A3C23500CCA238 /* El'Druin's Might.png in Resources */,
+				E04D0FEE19A3C23500CCA238 /* Betrayer's Thirst.png in Resources */,
+				E04D10A819A3C23500CCA238 /* Calldown MULE.png in Resources */,
+				E04D102B19A3C23500CCA238 /* Blunt Force Gun.png in Resources */,
+				E04D107C19A3C23500CCA238 /* Gazlowe_profile.png in Resources */,
+				E04D104719A3C23500CCA238 /* Run and Gun.png in Resources */,
+				E04D104619A3C23500CCA238 /* Overkill.png in Resources */,
+				E04D108C19A3C23500CCA238 /* Tyrael_profile.png in Resources */,
+				E04D10A319A3C23500CCA238 /* Block.png in Resources */,
+				E04D104119A3C23500CCA238 /* Psionic Storm.png in Resources */,
+				E04D10CC19A3C23500CCA238 /* Resurgence of the Storm.png in Resources */,
+				E04D10C119A3C23500CCA238 /* Imposing Presence.png in Resources */,
+				E04D105319A3C23500CCA238 /* Starfall.png in Resources */,
+				E04D10CF19A3C23500CCA238 /* Scouting Drone.png in Resources */,
+				E04D106A19A3C23500CCA238 /* Singularity Spike.png in Resources */,
+				E04D109519A3C23500CCA238 /* warrior.png in Resources */,
+				E04D10BB19A3C23500CCA238 /* Giant Killer.png in Resources */,
+				E04D10D419A3C23500CCA238 /* Spell Shield.png in Resources */,
+				E04D100919A3C23500CCA238 /* Second Wind.png in Resources */,
+				E04D10D019A3C23500CCA238 /* Searing Attacks.png in Resources */,
+				E04D109219A3C23500CCA238 /* assassin.png in Resources */,
+				E04D10E019A3C23500CCA238 /* Hero List.plist in Resources */,
+				E04D0FCF19A3C23500CCA238 /* Summon Sindragosa.png in Resources */,
+				E04D105219A3C23500CCA238 /* Shadowstalk.png in Resources */,
+				E04D109719A3C23500CCA238 /* attack.png in Resources */,
+				E04D102419A3C23500CCA238 /* Ancestral Healing.png in Resources */,
+				E04D100D19A3C23500CCA238 /* Octo-Grab.png in Resources */,
+				E04D107819A3C23500CCA238 /* Brightwing_profile.png in Resources */,
+				E04D10C419A3C23500CCA238 /* Medusa Blades.png in Resources */,
+				E04D107519A3C23500CCA238 /* iTunesArtwork@2x.png in Resources */,
+				E04D105A19A3C23500CCA238 /* Hatred.png in Resources */,
+				E04D0FDA19A3C23500CCA238 /* Overpower.png in Resources */,
+				E04D10CD19A3C23500CCA238 /* Rewind.png in Resources */,
+				E04D107319A3C23500CCA238 /* Icon-60@2x.png in Resources */,
+				E04D10C019A3C23500CCA238 /* Hyper-Cooling Engines.png in Resources */,
+				E04D108B19A3C23500CCA238 /* Tychus_profile.png in Resources */,
+				E04D105D19A3C23500CCA238 /* Rain of Vengeance.png in Resources */,
+				E04D103119A3C23500CCA238 /* Fury.png in Resources */,
+				E04D104519A3C23500CCA238 /* Minigun.png in Resources */,
+				E04D101B19A3C23500CCA238 /* Precision Strike.png in Resources */,
+				E04D109919A3C23500CCA238 /* health regen.png in Resources */,
+				E04D10F019A3C23500CCA238 /* DEVTalentHeaderCell.xib in Resources */,
 				E04D0E3219A3C20300CCA238 /* InfoPlist.strings in Resources */,
+				E04D0FE619A3C23500CCA238 /* Tailwind.png in Resources */,
+				E04D0FF619A3C23500CCA238 /* Maelstrom.png in Resources */,
+				E04D10DA19A3C23500CCA238 /* Trueshot Aura.png in Resources */,
+				E04D100419A3C23500CCA238 /* Tranquility.png in Resources */,
+				E04D108619A3C23500CCA238 /* Rehgar_profile.png in Resources */,
+				E04D10C519A3C23500CCA238 /* Minion Killer.png in Resources */,
+				E04D106519A3C23500CCA238 /* Nydus Network.png in Resources */,
+				E04D103019A3C23500CCA238 /* Ancient Spear.png in Resources */,
+				E04D102019A3C23500CCA238 /* Inspire.png in Resources */,
+				E04D106E19A3C23500CCA238 /* arrow-open.png in Resources */,
+				E04D0FEA19A3C23500CCA238 /* Robo-Goblin.png in Resources */,
+				E04D100B19A3C23500CCA238 /* Thunderclap.png in Resources */,
+				E04D0FDD19A3C23500CCA238 /* Guitar Solo.png in Resources */,
+				E04D107119A3C23500CCA238 /* baseBackground.png in Resources */,
+				E04D105C19A3C23500CCA238 /* Multishot.png in Resources */,
+				E04D108E19A3C23500CCA238 /* Uther_profile.png in Resources */,
+				E04D106C19A3C23500CCA238 /* FrizQuadrata-Regular.ttf in Resources */,
+				E04D0FE019A3C23500CCA238 /* Rockstar.png in Resources */,
+				E04D105019A3C23500CCA238 /* Lunar Flare.png in Resources */,
+				E04D107919A3C23500CCA238 /* Diablo_profile.png in Resources */,
+				E04D105519A3C23500CCA238 /* Divine Storm.png in Resources */,
+				E04D107719A3C23500CCA238 /* Arthas_profile.png in Resources */,
+				E04D10B419A3C23500CCA238 /* First Aid.png in Resources */,
+				E04D101A19A3C23500CCA238 /* Pinning Shot.png in Resources */,
+				E04D104B19A3C23500CCA238 /* Righteousness.png in Resources */,
+				E04D10A019A3C23500CCA238 /* Battle Momentum.png in Resources */,
+				E04D10DD19A3C23500CCA238 /* Starcraft.png in Resources */,
+				E04D0FC619A3C23500CCA238 /* Stab.png in Resources */,
+				E04D109A19A3C23500CCA238 /* health.png in Resources */,
+				E04D0FCA19A3C23500CCA238 /* Army of the Dead.png in Resources */,
+				E04D102919A3C23500CCA238 /* Lightning Shield.png in Resources */,
+				E04D102D19A3C23500CCA238 /* Napalm Strike.png in Resources */,
+				E04D105719A3C23500CCA238 /* Hammer of Justice.png in Resources */,
+				E04D0FEC19A3C23500CCA238 /* Salvager.png in Resources */,
+				E04D0FC919A3C23500CCA238 /* Ultimate Evolution.png in Resources */,
+				E04D0FF219A3C23500CCA238 /* Sweeping Strike.png in Resources */,
+				E04D101719A3C23500CCA238 /* Zombie Wall.png in Resources */,
+				E04D0FCE19A3C23500CCA238 /* Howling Blast.png in Resources */,
+				E04D10B119A3C23500CCA238 /* Envenomed Spines.png in Resources */,
+				E04D100C19A3C23500CCA238 /* March of the Murlocs.png in Resources */,
+				E04D0FF719A3C23500CCA238 /* Primal Grasp.png in Resources */,
+				E04D102619A3C23500CCA238 /* Chain Heal.png in Resources */,
+				E04D109819A3C23500CCA238 /* DPS.png in Resources */,
+				E04D105E19A3C23500CCA238 /* Strafe.png in Resources */,
+				E04D0FD219A3C23500CCA238 /* Emerald Wind.png in Resources */,
+				E04D102519A3C23500CCA238 /* Bloodlust.png in Resources */,
+				E04D10D719A3C23500CCA238 /* Superiority.png in Resources */,
+				E04D0FEB19A3C23500CCA238 /* Rock-It! Turret.png in Resources */,
+				E04D0FC519A3C23500CCA238 /* Spike Burst.png in Resources */,
+				E04D104D19A3C23500CCA238 /* Smite.png in Resources */,
+				E04D0FD819A3C23500CCA238 /* Fire Stomp.png in Resources */,
+				E04D102819A3C23500CCA238 /* Ghost Wolf.png in Resources */,
+				E04D10B519A3C23500CCA238 /* Fly Away.png in Resources */,
+				E04D10A519A3C23500CCA238 /* Bolt of the Storm.png in Resources */,
+				E04D109B19A3C23500CCA238 /* mana regen.png in Resources */,
+				E04D108819A3C23500CCA238 /* Sonya_profile.png in Resources */,
+				E04D103619A3C23500CCA238 /* Devour.png in Resources */,
+				E04D0FDC19A3C23500CCA238 /* Face Melt.png in Resources */,
+				E04D103719A3C23500CCA238 /* Gorge.png in Resources */,
+				E04D107619A3C23500CCA238 /* Abathur_profile.png in Resources */,
+				E04D10D219A3C23500CCA238 /* Shrink Ray.png in Resources */,
+				E04D10B019A3C23500CCA238 /* Envenom.png in Resources */,
+				E04D0FDE19A3C23500CCA238 /* Mosh Pit.png in Resources */,
+				E04D0FE219A3C23500CCA238 /* Aerial Blitzkrieg.png in Resources */,
+				E04D108319A3C23500CCA238 /* Nazeebo_profile.png in Resources */,
+				E04D100219A3C23500CCA238 /* Moonfire.png in Resources */,
+				E04D103919A3C23500CCA238 /* Putrid Bile.png in Resources */,
+				E04D104A19A3C23500CCA238 /* Judgment.png in Resources */,
+				E04D104E19A3C23500CCA238 /* Hunter's Mark.png in Resources */,
+				E04D100319A3C23500CCA238 /* Regrowth.png in Resources */,
+				E04D104819A3C23500CCA238 /* Archangel's Wrath.png in Resources */,
+				E04D101F19A3C23500CCA238 /* Hyperion.png in Resources */,
+				E04D103819A3C23500CCA238 /* Hook.png in Resources */,
+				E04D103519A3C23500CCA238 /* Wrath of the Berserker.png in Resources */,
+				E04D0FF019A3C23500CCA238 /* Evasion.png in Resources */,
+				E04D0FDF19A3C23500CCA238 /* Powerslide.png in Resources */,
+				E04D10CA19A3C23500CCA238 /* Regeneration Master.png in Resources */,
+				E04D108119A3C23500CCA238 /* Muradin_profile.png in Resources */,
+				E04D107419A3C23500CCA238 /* iTunesArtwork.png in Resources */,
+				E04D0FD719A3C23500CCA238 /* Black Soulstone.png in Resources */,
+				E04D103B19A3C23500CCA238 /* Vile Gas.png in Resources */,
+				E04D103C19A3C23500CCA238 /* Archon.png in Resources */,
+				E04D0FFB19A3C23500CCA238 /* Cloud Serpent.png in Resources */,
+				E04D104F19A3C23500CCA238 /* Light of Elune.png in Resources */,
+				E04D0FCD19A3C23500CCA238 /* Frozen Tempest.png in Resources */,
+				E04D109619A3C23500CCA238 /* attack speed.png in Resources */,
+				E04D0FD519A3C23500CCA238 /* Soothing Mist.png in Resources */,
+				E04D10AE19A3C23500CCA238 /* Distortion Beam.png in Resources */,
+				E04D10DF19A3C23500CCA238 /* Ability List.plist in Resources */,
+				E04D106719A3C23500CCA238 /* Cleave.png in Resources */,
+				E04D109C19A3C23500CCA238 /* mana.png in Resources */,
+				E04D10BD19A3C23500CCA238 /* Hammer of the Lightbringer.png in Resources */,
+				E04D108F19A3C23500CCA238 /* Valla_profile.png in Resources */,
+				E04D10A419A3C23500CCA238 /* Blood for Blood.png in Resources */,
+				E04D10E119A3C23500CCA238 /* Talents List.plist in Resources */,
+				E04D10A619A3C23500CCA238 /* Bribe.png in Resources */,
+				E04D106019A3C23500CCA238 /* Baneling Barrage.png in Resources */,
+				E04D0FD019A3C23500CCA238 /* Arcane Flare.png in Resources */,
+				E04D100819A3C23500CCA238 /* Haymaker.png in Resources */,
+				E04D101919A3C23500CCA238 /* Permanent Cloak, Sniper.png in Resources */,
+				E04D10D819A3C23500CCA238 /* Swift Storm.png in Resources */,
+				E04D108719A3C23500CCA238 /* Sergeant Hammer_profile.png in Resources */,
+				E04D0FEF19A3C23500CCA238 /* Dive.png in Resources */,
+				E04D10B719A3C23500CCA238 /* Follow Through.png in Resources */,
+				E04D0FF119A3C23500CCA238 /* Metamorphosis.png in Resources */,
+				E04D105419A3C23500CCA238 /* Divine Shield.png in Resources */,
+				E04D109319A3C23500CCA238 /* specialist.png in Resources */,
+				E04D10B819A3C23500CCA238 /* Fury of the Storm.png in Resources */,
+				E04D10DE19A3C23500CCA238 /* Warcraft.png in Resources */,
+				E04D10BF19A3C23500CCA238 /* Healing Totem.png in Resources */,
+				E04D103219A3C23500CCA238 /* Leap.png in Resources */,
+				E04D10D919A3C23500CCA238 /* Tenderizer.png in Resources */,
+				E04D0FD619A3C23500CCA238 /* Apocalypse.png in Resources */,
+				E04D107E19A3C23500CCA238 /* Kerrigan_profile.png in Resources */,
+				E04D109F19A3C23500CCA238 /* Amplified Healing.png in Resources */,
+				E04D10B919A3C23500CCA238 /* Fury of the Swarm.png in Resources */,
+				E04D0FFA19A3C23500CCA238 /* Blinding Wind.png in Resources */,
+				E04D0FD119A3C23500CCA238 /* Blink Heal.png in Resources */,
+				E04D0FED19A3C23500CCA238 /* Xplodium Charge.png in Resources */,
+				E04D10C919A3C23500CCA238 /* Rapid Incubation.png in Resources */,
+				E04D103D19A3C23500CCA238 /* Dimensional Shift.png in Resources */,
+				E04D109019A3C23500CCA238 /* Zagara_profile.png in Resources */,
+				E04D104219A3C23500CCA238 /* Commandeer Odin.png in Resources */,
+				E04D103F19A3C23500CCA238 /* Oracle.png in Resources */,
+				E04D100619A3C23500CCA238 /* Avatar.png in Resources */,
+				E04D100F19A3C23500CCA238 /* Safety Bubble.png in Resources */,
+				E04D10A919A3C23500CCA238 /* Carapace.png in Resources */,
+				E04D10CB19A3C23500CCA238 /* Relentless.png in Resources */,
+				E04D105619A3C23500CCA238 /* Eternal Devotion.png in Resources */,
+				E04D10A219A3C23500CCA238 /* Blessed Champion.png in Resources */,
+				E04D0FE919A3C23500CCA238 /* Grav-O-Bomb 3000.png in Resources */,
+				E04D100119A3C23500CCA238 /* Innervate.png in Resources */,
+				E04D109E19A3C23500CCA238 /* Advanced Optics.png in Resources */,
+				E04D102119A3C23500CCA238 /* Lead from the Front.png in Resources */,
+				E04D107F19A3C23500CCA238 /* Li Li_profile.png in Resources */,
+				E04D10D519A3C23500CCA238 /* Stoneskin.png in Resources */,
+				E04D103319A3C23500CCA238 /* Seismic Slam.png in Resources */,
+				E04D10F919A3C4E600CCA238 /* E.T.C._profile.png in Resources */,
+				E04D0FE419A3C23500CCA238 /* Hammerang.png in Resources */,
+				E04D106B19A3C23500CCA238 /* Void Prison.png in Resources */,
+				E04D0FF419A3C23500CCA238 /* Assimilation.png in Resources */,
+				E04D107D19A3C23500CCA238 /* Illidan_profile.png in Resources */,
+				E04D101D19A3C23500CCA238 /* Triple Tap.png in Resources */,
+				E04D0FF919A3C23500CCA238 /* Summon Ultralisk.png in Resources */,
+				E04D10F719A3C34000CCA238 /* Main.storyboard in Resources */,
+				E04D0FE719A3C23500CCA238 /* Thunderstorm.png in Resources */,
+				E04D10C319A3C23500CCA238 /* Manticore.png in Resources */,
+				E04D10AA19A3C23500CCA238 /* Clairvoyance.png in Resources */,
+				E04D10D319A3C23500CCA238 /* Skullcracker.png in Resources */,
+				E04D10F219A3C23500CCA238 /* DEVTalentInfoCell.xib in Resources */,
 				E04D0E3A19A3C20300CCA238 /* Images.xcassets in Resources */,
+				E04D101519A3C23500CCA238 /* Ravenous Spirit.png in Resources */,
+				E04D102A19A3C23500CCA238 /* Artillery.png in Resources */,
+				E04D109119A3C23500CCA238 /* Zeratul_profile.png in Resources */,
+				E04D106219A3C23500CCA238 /* Devouring Maw.png in Resources */,
+				E04D101E19A3C23500CCA238 /* Adrenaline Rush.png in Resources */,
+				E04D104319A3C23500CCA238 /* Drakken Laser Drill.png in Resources */,
+				E04D106619A3C23500CCA238 /* Blink.png in Resources */,
+				E04D108519A3C23500CCA238 /* Raynor_profile.png in Resources */,
+				E04D100A19A3C23500CCA238 /* Stormbolt.png in Resources */,
+				E04D101319A3C23500CCA238 /* Gargantuan.png in Resources */,
+				E04D100719A3C23500CCA238 /* Dwarf Toss.png in Resources */,
+				E04D10DC19A3C23500CCA238 /* Diablo.png in Resources */,
+				E04D102F19A3C23500CCA238 /* Spider Mines.png in Resources */,
+				E04D0FC819A3C23500CCA238 /* Toxic Nest.png in Resources */,
+				E04D0FE819A3C23500CCA238 /* Deth Lazor.png in Resources */,
+				E04D10CE19A3C23500CCA238 /* Rune Tap.png in Resources */,
+				E04D105819A3C23500CCA238 /* Holy Light.png in Resources */,
+				E04D10AC19A3C23500CCA238 /* Conjurer's Pursuit.png in Resources */,
+				E04D104C19A3C23500CCA238 /* Sanctification.png in Resources */,
+				E04D0FDB19A3C23500CCA238 /* Shadow Charge.png in Resources */,
+				E04D107B19A3C23500CCA238 /* Falstad_profile.png in Resources */,
+				E04D106F19A3C23500CCA238 /* background-568h@2x.png in Resources */,
+				E04D106819A3C23500CCA238 /* Permanent Cloak.png in Resources */,
+				E04D10B219A3C23500CCA238 /* Executioner.png in Resources */,
+				E04D101219A3C23500CCA238 /* Corpse Spiders.png in Resources */,
+				E04D0FF319A3C23500CCA238 /* The Hunt.png in Resources */,
+				E04D10C719A3C23500CCA238 /* Phase Shield.png in Resources */,
+				E04D108D19A3C23500CCA238 /* Tyrande_profile.png in Resources */,
+				E04D0FCB19A3C23500CCA238 /* Death Coil.png in Resources */,
+				E04D101419A3C23500CCA238 /* Plague of Toads.png in Resources */,
+				E04D106119A3C23500CCA238 /* Creep Tumor.png in Resources */,
+				E04D0FFC19A3C23500CCA238 /* Fast Feet.png in Resources */,
+				E04D10A719A3C23500CCA238 /* Burning Rage.png in Resources */,
+				E04D102719A3C23500CCA238 /* Earthbind Totem.png in Resources */,
+				E04D0FF519A3C23500CCA238 /* Impaling Blades.png in Resources */,
+				E04D101019A3C23500CCA238 /* Slime.png in Resources */,
+				E04D0FFE19A3C23500CCA238 /* Jug of 1,000 Cups.png in Resources */,
+				E04D10C619A3C23500CCA238 /* Overdrive.png in Resources */,
+				E04D100E19A3C23500CCA238 /* Pufferfish.png in Resources */,
+				E04D105919A3C23500CCA238 /* Holy Radiance.png in Resources */,
+				E04D10AD19A3C23500CCA238 /* Demolitionist.png in Resources */,
+				E04D10AB19A3C23500CCA238 /* Cleanse.png in Resources */,
+				E04D0FE119A3C23500CCA238 /* Stage Dive.png in Resources */,
+				E04D105119A3C23500CCA238 /* Sentinel.png in Resources */,
+				E04D10A119A3C23500CCA238 /* Berserk.png in Resources */,
+				E04D10BA19A3C23500CCA238 /* Gathering Power.png in Resources */,
+				E04D107219A3C23500CCA238 /* Icon-60.png in Resources */,
+				E04D100519A3C23500CCA238 /* Twilight Dream.png in Resources */,
+				E04D0FE519A3C23500CCA238 /* Shock and Awe.png in Resources */,
+				E04D0FD319A3C23500CCA238 /* Pixie Dust.png in Resources */,
+				E04D108A19A3C23500CCA238 /* Tassadar_profile.png in Resources */,
+				E04D109419A3C23500CCA238 /* support.png in Resources */,
+				E04D10D619A3C23500CCA238 /* Storm Shield.png in Resources */,
+				E04D104419A3C23500CCA238 /* Frag Grenade.png in Resources */,
+				E04D108419A3C23500CCA238 /* Nova_profile.png in Resources */,
+				E04D106419A3C23500CCA238 /* Infested Drop.png in Resources */,
+				E04D103419A3C23500CCA238 /* Whirlwind.png in Resources */,
+				E04D101119A3C23500CCA238 /* Spawn Egg.png in Resources */,
+				E04D101819A3C23500CCA238 /* Holo Decoy.png in Resources */,
+				E04D10D119A3C23500CCA238 /* Seasoned Marksman.png in Resources */,
+				E04D103A19A3C23500CCA238 /* Slam.png in Resources */,
+				E04D0FF819A3C23500CCA238 /* Ravage.png in Resources */,
+				E04D10BE19A3C23500CCA238 /* Hardened Focus.png in Resources */,
+				E04D102219A3C23500CCA238 /* Penetrating Round.png in Resources */,
+				E04D0FC719A3C23500CCA238 /* Symbiote.png in Resources */,
+				E04D101C19A3C23500CCA238 /* Snipe.png in Resources */,
+				E04D10B619A3C23500CCA238 /* FN92 Sniper Rifle.png in Resources */,
+				E04D10B319A3C23500CCA238 /* Farsight.png in Resources */,
+				E04D102E19A3C23500CCA238 /* Siege Mode.png in Resources */,
+				E04D10C219A3C23500CCA238 /* Magical Essence.png in Resources */,
+				E04D0FE319A3C23500CCA238 /* Barrel Roll.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +1844,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04D10EF19A3C23500CCA238 /* DEVTalentHeaderCell.m in Sources */,
+				E04D10E219A3C23500CCA238 /* DEVAbility.m in Sources */,
+				E04D10E519A3C23500CCA238 /* DEVTalent.m in Sources */,
+				E04D10E419A3C23500CCA238 /* DEVHeroCollection.m in Sources */,
+				E04D10F319A3C23500CCA238 /* DEVTalentViewController.m in Sources */,
+				E04D10E719A3C23500CCA238 /* DEVAbilityView.m in Sources */,
+				E04D10EC19A3C23500CCA238 /* DEVLevelCell.m in Sources */,
+				E04D10EE19A3C23500CCA238 /* HeroStatsView.m in Sources */,
+				E04D10E319A3C23500CCA238 /* DEVHero.m in Sources */,
 				E04D0E3819A3C20300CCA238 /* DEVAppDelegate.m in Sources */,
+				E04D10ED19A3C23500CCA238 /* DEVLevelSetController.m in Sources */,
+				E04D10EB19A3C23500CCA238 /* HeroSelectViewController.m in Sources */,
+				E04D10EA19A3C23500CCA238 /* HeroSelectTableViewController.m in Sources */,
+				E04D10E819A3C23500CCA238 /* DEVSingleHeroAbilityCell.m in Sources */,
+				E04D10F119A3C23500CCA238 /* DEVTalentInfoCell.m in Sources */,
 				E04D0E3419A3C20300CCA238 /* main.m in Sources */,
+				E04D10E619A3C23500CCA238 /* DEVTalentCollection.m in Sources */,
+				E04D10E919A3C23500CCA238 /* DEVHeroDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

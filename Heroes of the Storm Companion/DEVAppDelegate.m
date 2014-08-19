@@ -7,15 +7,18 @@
 //
 
 #import "DEVAppDelegate.h"
+#import "DEVHeroCollection.h"
 
 @implementation DEVAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"FrizQuadrataFont" size:15.0]];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    [DEVHeroCollection sharedCollection];
+    
+    
     return YES;
 }
 

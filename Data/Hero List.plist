@@ -1,0 +1,2408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Abathur</string>
+		<key>baseHP</key>
+		<integer>550</integer>
+		<key>baseHPRegen</key>
+		<real>1.145</real>
+		<key>baseEnergy</key>
+		<integer>0</integer>
+		<key>baseEnergyRegen</key>
+		<integer>0</integer>
+		<key>baseAttack</key>
+		<integer>31</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.7</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>50</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.105</real>
+		<key>energyPerLevel</key>
+		<integer>0</integer>
+		<key>energyRegenPerLevel</key>
+		<integer>0</integer>
+		<key>attackPerLevel</key>
+		<integer>1</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>lore</key>
+		<string>Abathur, the Evolution Master of Kerrigan&apos;s Swarm, works ceaselessly to improve the zerg from the genetic level up. His hate for chaos and imperfection almost rivals his hatred of pronouns.</string>
+		<key>title</key>
+		<string>Evolution Master</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Eradicate Minions</string>
+				<string>Combat Adaptation</string>
+				<string>Survival Instincts</string>
+				<string>Envenomed Nest</string>
+				<string>Scouting Drone</string>
+			</array>
+			<array>
+				<string>Promote</string>
+				<string>Ballistospores</string>
+				<string>Barbed Spines</string>
+				<string>Pressurized Glands</string>
+			</array>
+			<array>
+				<string>Grooved Spines (Abathur)</string>
+				<string>Vile Nest</string>
+				<string>Regenerative Microbes</string>
+				<string>Calldown: MULE</string>
+			</array>
+			<array>
+				<string>Ultimate Evolution</string>
+			</array>
+			<array>
+				<string>Assault Strain</string>
+				<string>Bombard Strain</string>
+				<string>Spatial Efficiency</string>
+				<string>Prolific Dispersal</string>
+			</array>
+			<array>
+				<string>Locust Swarm</string>
+				<string>Adrenaline Boost</string>
+				<string>Envenomed Spines (Abathur)</string>
+			</array>
+			<array>
+				<string>Bolt of the Storm</string>
+				<string>Evolution Master</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Specialist</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Arthas</string>
+		<key>baseHP</key>
+		<integer>1040</integer>
+		<key>baseHPRegen</key>
+		<real>2.168</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>59</integer>
+		<key>baseAttackSpeed</key>
+		<integer>1</integer>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>220</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.457</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>6</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>lore</key>
+		<string>Once the crown prince of Lordaeron, and the protege of Uther the Lightbringer. In a desperate bid to save his people he was corrupted by the cursed blade Frostmourne. Now he serves the Lich King as a death knight, ever bound to his terrible destiny.</string>
+		<key>title</key>
+		<string>The Lich King</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Block</string>
+				<string>Regeneration Master</string>
+				<string>Frost Presence</string>
+				<string>Frozen Wastes</string>
+			</array>
+			<array>
+				<string>Superiority</string>
+				<string>Eternal Hunger</string>
+				<string>Destruction</string>
+				<string>Envenom</string>
+			</array>
+			<array>
+				<string>Rune Tap</string>
+				<string>Death Touch</string>
+				<string>Obliterate</string>
+				<string>Frost Strike</string>
+			</array>
+			<array>
+				<string>Army of the Dead</string>
+				<string>Summon Sindragosa</string>
+			</array>
+			<array>
+				<string>Spell Shield</string>
+				<string>Relentless</string>
+				<string>Trail of Frost</string>
+				<string>Biting Cold</string>
+			</array>
+			<array>
+				<string>Immortal Coil</string>
+				<string>Embrace Death</string>
+				<string>Frostmourne Feeds</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Fury of the Storm</string>
+				<string>Legion of Northrend</string>
+				<string>Absolute Zero</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Warrior</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Brightwing</string>
+		<key>baseHP</key>
+		<integer>775</integer>
+		<key>baseHPRegen</key>
+		<real>1.613</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>47</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.9</real>
+		<key>range</key>
+		<integer>5</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>140</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.289</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>4</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>The Faerie Dragon</string>
+		<key>lore</key>
+		<string>Like many Faerie Dragons, Brightwing is happiest darting around the forests of Ashenvale, materializing out of nowhere to heal her friends, then taking a break to grab a light snack. By the way, did you know a human head only weighs ten pounds? Talk about light!</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Arcane Precision</string>
+				<string>Shield Dust</string>
+				<string>Bribe</string>
+				<string>Scouting Drone</string>
+			</array>
+			<array>
+				<string>Anti-Magic Powder</string>
+				<string>Protective Shield</string>
+				<string>Envenom</string>
+				<string>Promote</string>
+			</array>
+			<array>
+				<string>Gust of Healing</string>
+				<string>Regenerative Rains</string>
+				<string>Calldown: MULE</string>
+				<string>Cleanse</string>
+			</array>
+			<array>
+				<string>Emerald Wind</string>
+				<string>Blink Heal</string>
+			</array>
+			<array>
+				<string>Sticky Flare</string>
+				<string>Phase Shield</string>
+				<string>Sprint</string>
+				<string>Ice Block</string>
+				<string>Rewind</string>
+			</array>
+			<array>
+				<string>Hardened Focus</string>
+				<string>Critterize</string>
+				<string>Sticky Powder</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Bolt of the Storm</string>
+				<string>Storm Shield</string>
+				<string>Continuous Winds</string>
+				<string>Ysera&apos;s Blessing</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Support</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Diablo</string>
+		<key>baseHP</key>
+		<integer>1060</integer>
+		<key>baseHPRegen</key>
+		<real>2.207</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>56</integer>
+		<key>baseAttackSpeed</key>
+		<real>1.1</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>260</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.543</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>6</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Lord of Terror</string>
+		<key>lore</key>
+		<string>Known in the ancient tongue as Al&apos;Diabolos, the Prime Evil of Terror, the Demon Lord Diablo seeks to claim the world of Sanctuary for the Burning Hells. His victims are innumerable, his schemes unknowable, and his gender...malleable.</string>
+		<key>universe</key>
+		<string>Diablo</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Block</string>
+				<string>Devil&apos;s Due</string>
+				<string>Soul Feast</string>
+				<string>Soul Steal</string>
+			</array>
+			<array>
+				<string>Amplified Healing</string>
+				<string>Swallowing Flames</string>
+				<string>Molten Impact</string>
+				<string>Demonic Strength</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Endless Death</string>
+				<string>Siphon the Dead</string>
+			</array>
+			<array>
+				<string>Apocalypse</string>
+				<string>Lightning Breath</string>
+			</array>
+			<array>
+				<string>Spell Shield</string>
+				<string>Relentless</string>
+				<string>From the Shadows (Diablo)</string>
+				<string>Crippling Shadows</string>
+			</array>
+			<array>
+				<string>Imposing Presence</string>
+				<string>Fire Devil</string>
+				<string>Firestorm</string>
+				<string>Continuous Overpower</string>
+			</array>
+			<array>
+				<string>Storm Shield</string>
+				<string>Bolt of the Storm</string>
+				<string>Dying Breath</string>
+				<string>Hellstorm</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Warrior</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>E.T.C.</string>
+		<key>baseHP</key>
+		<integer>1040</integer>
+		<key>baseHPRegen</key>
+		<real>2.168</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>59</integer>
+		<key>baseAttackSpeed</key>
+		<integer>1</integer>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>240</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.5</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>8</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Rock God</string>
+		<key>lore</key>
+		<string>The Power of the Horde incarnated by brutal rhythms and blistering guitar riffs into the form of the most elite tauren chieftain to ever headbang across the surface of Azeroth. Don&apos;t bother putting on socks. He&apos;s just going to rock them off anyways.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Block</string>
+				<string>Damage Slide</string>
+				<string>Dance Your Pants Off!</string>
+				<string>Scouting Drone</string>
+			</array>
+			<array>
+				<string>Superiority</string>
+				<string>Echo Pedal</string>
+				<string>Pwn Shop Guitar</string>
+				<string>Groupies</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Monster Slide</string>
+				<string>Loud Speakers</string>
+				<string>Guitar Hero</string>
+			</array>
+			<array>
+				<string>Mosh Pit</string>
+				<string>Stage Dive</string>
+			</array>
+			<array>
+				<string>Relentless</string>
+				<string>Uber Rockstar</string>
+				<string>Rockin&apos; Out</string>
+				<string>Face Smelt</string>
+			</array>
+			<array>
+				<string>Imposing Presence</string>
+				<string>Head Crack</string>
+				<string>Guitar Instrumental</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Fury of the Storm</string>
+				<string>Death Metal</string>
+				<string>Rock God!</string>
+				<string>Bolt of the Storm</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Warrior</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Falstad</string>
+		<key>baseHP</key>
+		<integer>710</integer>
+		<key>baseHPRegen</key>
+		<real>1.48</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>61</integer>
+		<key>baseAttackSpeed</key>
+		<integer>1</integer>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>120</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.25</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>11</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Wildhammer Thane</string>
+		<key>lore</key>
+		<string>Falstad Wildhammer is the High Thane of the Wildhammer Clan and a founding member of the Council of Three Hammers that now presides over Ironforge. Despite wild speculation, Falstad has never been dead and anyone who claims such is a liar.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Seasoned Marksman</string>
+				<string>Conjurer&apos;s Pursuit</string>
+				<string>Updraft</string>
+				<string>Dog Fight</string>
+				<string>Bribe</string>
+			</array>
+			<array>
+				<string>Vampiric Assault</string>
+				<string>Stormhammer</string>
+				<string>Gathering Power</string>
+				<string>Wildhammer</string>
+				<string>Zap!</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Fly Away!</string>
+				<string>BOOMerang</string>
+				<string>First Aid</string>
+			</array>
+			<array>
+				<string>Aerial Blitzkrieg</string>
+				<string>Shock and Awe</string>
+			</array>
+			<array>
+				<string>Giant Killer</string>
+				<string>Crippling Hammer</string>
+				<string>Lightning Storm</string>
+				<string>Rewind</string>
+			</array>
+			<array>
+				<string>Gust of Wind</string>
+				<string>Afterburner</string>
+				<string>Overdrive</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Preparation</string>
+				<string>Blast of Awe</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Assassin</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gazlowe</string>
+		<key>baseHP</key>
+		<integer>770</integer>
+		<key>baseHPRegen</key>
+		<real>1.605</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>58</integer>
+		<key>baseAttackSpeed</key>
+		<integer>1</integer>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>170</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.355</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>5</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Boss of Ratchet</string>
+		<key>lore</key>
+		<string>Few would consider the diminutive Gazlowe a fighter, but what he lacks in height, he more than makes up in mechanical know-how. Besides, you don&apos;t get to be boss of a &quot;boom&quot;-town like Ratchet just because you have a charming personality, if you know what I mean.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Regeneration Master</string>
+				<string>Demolitionist</string>
+				<string>Scrap-o-Matic Smelter</string>
+				<string>Break it Down!</string>
+				<string>Extra TNT</string>
+			</array>
+			<array>
+				<string>Superiority</string>
+				<string>Minion Killer</string>
+				<string>Reduce, Reuse, Recycle</string>
+				<string>Clockwerk Steam Fists</string>
+				<string>Promote</string>
+			</array>
+			<array>
+				<string>Rock-It! Turret XL</string>
+				<string>Mercenary Lord</string>
+				<string>Engine Gunk</string>
+				<string>First Aid</string>
+				<string>Calldown: MULE</string>
+			</array>
+			<array>
+				<string>Grav-O-Bomb 3000</string>
+				<string>Robo-Goblin</string>
+			</array>
+			<array>
+				<string>Burning Rage</string>
+				<string>Kwik Release Charge</string>
+				<string>EZ-PZ Dimensional Ripper</string>
+				<string>Sprint</string>
+			</array>
+			<array>
+				<string>Long-Ranged Turrets</string>
+				<string>Turret Storage</string>
+				<string>Hyperfocus Coils</string>
+				<string>Goblin Fusion</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Swift Storm</string>
+				<string>Miniature Black Hole</string>
+				<string>Mecha-Lord</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Specialist</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Illidan</string>
+		<key>baseHP</key>
+		<integer>750</integer>
+		<key>baseHPRegen</key>
+		<real>1.73</real>
+		<key>baseEnergy</key>
+		<integer>0</integer>
+		<key>baseEnergyRegen</key>
+		<integer>0</integer>
+		<key>baseAttack</key>
+		<integer>30</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.6</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>125</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.262</real>
+		<key>energyPerLevel</key>
+		<integer>0</integer>
+		<key>energyRegenPerLevel</key>
+		<integer>0</integer>
+		<key>attackPerLevel</key>
+		<integer>7</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>The Betrayer</string>
+		<key>lore</key>
+		<string>Illidan Stormrage, the first Demon Hunter, betrayed his people by creating a new well of eternity after the demonic invasion of Azeroth. Now Illidan lords over the realm of Outland slaughtering unsuitably prepared Heroes who venture in to his domain.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Regeneration Master</string>
+				<string>Seasoned Marksman</string>
+				<string>Battered Assault</string>
+				<string>Shadow Shield</string>
+			</array>
+			<array>
+				<string>Marked for Death</string>
+				<string>Fel Reach</string>
+				<string>Immolation</string>
+				<string>Thirsting Blade</string>
+			</array>
+			<array>
+				<string>Follow Through</string>
+				<string>Rapid Chase</string>
+				<string>Reflexive Block</string>
+				<string>Thrill of Battle</string>
+				<string>First Aid</string>
+			</array>
+			<array>
+				<string>Metamorphosis</string>
+				<string>The Hunt</string>
+			</array>
+			<array>
+				<string>Giant Killer</string>
+				<string>Lunge</string>
+				<string>Friend or Foe</string>
+				<string>Unbound</string>
+				<string>Sixth Sense</string>
+			</array>
+			<array>
+				<string>Executioner</string>
+				<string>Second Sweep</string>
+				<string>Hunter&apos;s Onslaught</string>
+				<string>Blood for Blood</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Demonic Form</string>
+				<string>Nowhere to Hide</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Assassin</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kerrigan</string>
+		<key>baseHP</key>
+		<integer>830</integer>
+		<key>baseHPRegen</key>
+		<real>1.664</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>62</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>150</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.313</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>10</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Queen of Blades</string>
+		<key>lore</key>
+		<string>Once a terran ghost with formidable psionic abilities, Sarah Kerrigan was betrayed by her allies and transformed by the zerg into the Queen of Blades. Now freed of the dark one&apos;s corruption, Kerrigan faces a threat that could destroy the galaxy itself.</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Seasoned Marksman</string>
+				<string>Block</string>
+				<string>Siphoning Impact</string>
+				<string>Sharpened Blades</string>
+				<string>Sweeping Grasp</string>
+			</array>
+			<array>
+				<string>Focused Attack</string>
+				<string>Fury of the Swarm</string>
+				<string>Clean Kill</string>
+				<string>Psionic Pulse</string>
+				<string>Envenom</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Adaptation</string>
+				<string>Impaling Swarm</string>
+				<string>Searing Attacks</string>
+			</array>
+			<array>
+				<string>Maelstrom</string>
+				<string>Summon Ultralisk</string>
+			</array>
+			<array>
+				<string>Double Strike</string>
+				<string>Eviscerate</string>
+				<string>Lingering Essence</string>
+				<string>Rewind</string>
+				<string>Sprint</string>
+			</array>
+			<array>
+				<string>Executioner</string>
+				<string>Blade Torrent</string>
+				<string>Aggressive Defense</string>
+				<string>Blood for Blood</string>
+				<string>Overdrive</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Omegastorm</string>
+				<string>Torrasque</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Assassin</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Li Li</string>
+		<key>baseHP</key>
+		<integer>835</integer>
+		<key>baseHPRegen</key>
+		<real>1.738</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>30</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<integer>5</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>135</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.281</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>4</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>World Wanderer</string>
+		<key>lore</key>
+		<string>Born upon Shen-zin Su, the Wandering Isle, Li Li Stormstout led a somewhat uneventful life until she began reading the journals of her uncle Chen. Soon, nothing would sate her desire for adventure, exploration, and pestering adventurers around Halfhill.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Conjurer&apos;s Pursuit</string>
+				<string>Gale Force</string>
+				<string>Mass Vortex</string>
+				<string>Bribe</string>
+			</array>
+			<array>
+				<string>Lingering Blind</string>
+				<string>Protective Shield</string>
+				<string>Envenom</string>
+				<string>Healing Totem</string>
+			</array>
+			<array>
+				<string>The Good Stuff</string>
+				<string>Bringer of Gifts</string>
+				<string>Calldown: MULE</string>
+				<string>Clairvoyance</string>
+			</array>
+			<array>
+				<string>Jug of 1,000 Cups</string>
+				<string>Water Dragon</string>
+			</array>
+			<array>
+				<string>Lightning Serpent</string>
+				<string>Hindering Winds</string>
+				<string>Elusive Feet</string>
+				<string>Shrink Ray</string>
+				<string>Ice Block</string>
+			</array>
+			<array>
+				<string>Magical Essence</string>
+				<string>Herbal Cleanse</string>
+				<string>Two For One</string>
+				<string>Timeless Creature</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Storm Shield</string>
+				<string>Jug of 1,000,000 Cups</string>
+				<string>Double Dragon</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Support</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Malfurion</string>
+		<key>baseHP</key>
+		<integer>835</integer>
+		<key>baseHPRegen</key>
+		<real>1.738</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>52</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>150</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.313</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>3</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Archdruid</string>
+		<key>lore</key>
+		<string>Malfurion Stormrage is the greatest druid on Azeroth, and a student of the demi-god Cenarius. Communing with nature and Cenarius through the Emerald dream, Malfurion protects the wilds from both demonic influences and the savage Horde.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Conjurer&apos;s Pursuit</string>
+				<string>Moonburn</string>
+				<string>Harmony</string>
+				<string>Scouting Drone</string>
+			</array>
+			<array>
+				<string>Vengeful Roots</string>
+				<string>Shan&apos;do&apos;s Clarity</string>
+				<string>Versatile</string>
+				<string>Protective Shield</string>
+				<string>Healing Totem</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Enduring Growth</string>
+				<string>Elune&apos;s Grace</string>
+				<string>Strangling Vines</string>
+				<string>Calldown: MULE</string>
+			</array>
+			<array>
+				<string>Tranquility</string>
+				<string>Twilight Dream</string>
+			</array>
+			<array>
+				<string>Life Seed</string>
+				<string>Full Moonfire</string>
+				<string>Shrink Ray</string>
+				<string>Ice Block</string>
+				<string>Rewind</string>
+			</array>
+			<array>
+				<string>Lunar Shower</string>
+				<string>Hindering Moonfire</string>
+				<string>Tenacious Roots</string>
+				<string>Hardened Focus</string>
+			</array>
+			<array>
+				<string>Bolt of the Storm</string>
+				<string>Storm Shield</string>
+				<string>Serenity</string>
+				<string>Nightmare</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Support</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Muradin</string>
+		<key>baseHP</key>
+		<integer>1040</integer>
+		<key>baseHPRegen</key>
+		<real>2.168</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>59</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.9</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>240</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.5</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>6</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Mountain King</string>
+		<key>lore</key>
+		<string>Once a mentor to Prince Arthas, Muradin was unable to prevent him from becoming the Lich King. After recovering from a mild case of amnesia, he is now the leader of the Bronzebeard clan post the &quot;diamond-ization&quot; of his brother the King Magni.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Block</string>
+				<string>Perfect Storm</string>
+				<string>Infused Hammer</string>
+				<string>Reverberation</string>
+			</array>
+			<array>
+				<string>Sledgehammer</string>
+				<string>Crowd Control</string>
+				<string>Thunderburn</string>
+				<string>Third Wind</string>
+				<string>Skullcracker</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Follow Through</string>
+				<string>Piercing Bolt</string>
+				<string>Landing Momentum</string>
+			</array>
+			<array>
+				<string>Avatar</string>
+				<string>Haymaker</string>
+			</array>
+			<array>
+				<string>Burning Rage</string>
+				<string>Spell Shield</string>
+				<string>Healing Static</string>
+				<string>Thunderstrike</string>
+				<string>Rewind</string>
+			</array>
+			<array>
+				<string>Imposing Presence</string>
+				<string>Executioner</string>
+				<string>Dwarf Launch</string>
+				<string>Heavy Impact</string>
+				<string>Stoneform</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Fury of the Storm</string>
+				<string>Unstoppable Force</string>
+				<string>Grand Slam</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Warrior</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Murky</string>
+		<key>baseHP</key>
+		<integer>250</integer>
+		<key>baseHPRegen</key>
+		<integer>5</integer>
+		<key>baseEnergy</key>
+		<integer>0</integer>
+		<key>baseEnergyRegen</key>
+		<integer>0</integer>
+		<key>baseAttack</key>
+		<integer>28</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>60</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.125</real>
+		<key>energyPerLevel</key>
+		<integer>0</integer>
+		<key>energyRegenPerLevel</key>
+		<integer>0</integer>
+		<key>attackPerLevel</key>
+		<integer>5</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Baby Murloc</string>
+		<key>lore</key>
+		<string>Mrgglglbrlg rmrmgllg mrggggm. Mrrglglgy, mgllglgl mgggrrmgl? MRGGGLGLLM! Mrrggllgggllggll mrrglrlg mrrg mrrg mrrrg.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Block</string>
+				<string>Bigger Slime</string>
+				<string>Bubble Breeze</string>
+				<string>Bribe</string>
+			</array>
+			<array>
+				<string>Gathering Power</string>
+				<string>Assault Egg</string>
+				<string>Envenom</string>
+				<string>Promote</string>
+			</array>
+			<array>
+				<string>Slimy End</string>
+				<string>Tufferfish</string>
+				<string>Clairvoyance</string>
+			</array>
+			<array>
+				<string>March of the Murlocs</string>
+				<string>Octo-Grab</string>
+			</array>
+			<array>
+				<string>Slime Advantage</string>
+				<string>Wrath of Cod</string>
+				<string>Bubble Machine</string>
+				<string>Hidden Assault</string>
+			</array>
+			<array>
+				<string>Master of Slime</string>
+				<string>Compressed Air</string>
+				<string>Blood for Blood</string>
+			</array>
+			<array>
+				<string>Bolt of the Storm</string>
+				<string>Swift Storm</string>
+				<string>Never-Ending Murlocs</string>
+				<string>...And A Shark Too!</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Specialist</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Nazeebo</string>
+		<key>baseHP</key>
+		<integer>740</integer>
+		<key>baseHPRegen</key>
+		<real>1.539</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>57</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.9</real>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>150</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.313</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>6</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Heretic Witch Doctor</string>
+		<key>lore</key>
+		<string>With cabalistic incantations and vestments of feather and bone, the Witch Doctors call upon spirits from the Unformed Land to aid them in battle. Few outlanders have ever encountered a Witch Doctor in the flesh, without losing their own.</string>
+		<key>universe</key>
+		<string>Diablo</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Demolitionist</string>
+				<string>Blood Ritual</string>
+				<string>Death Ritual</string>
+				<string>Bribe</string>
+			</array>
+			<array>
+				<string>Gathering Power</string>
+				<string>Spider Cluster</string>
+				<string>Envenom</string>
+				<string>Promote</string>
+			</array>
+			<array>
+				<string>Mercenary Lord</string>
+				<string>Gidbinn</string>
+				<string>Fresh Corpses</string>
+				<string>Calldown: MULE</string>
+				<string>Clairvoyance</string>
+			</array>
+			<array>
+				<string>Ravenous Spirit</string>
+				<string>Gargantuan</string>
+			</array>
+			<array>
+				<string>Dead Rush</string>
+				<string>Toads of Hugeness</string>
+				<string>Sprint</string>
+				<string>Ice Block</string>
+				<string>Rewind</string>
+			</array>
+			<array>
+				<string>Leaping Spiders</string>
+				<string>Infested Toads</string>
+				<string>Specialized Toxin</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Swift Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Annihilating Spirit</string>
+				<string>Humongoid</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Specialist</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Nova</string>
+		<key>baseHP</key>
+		<integer>700</integer>
+		<key>baseHPRegen</key>
+		<real>1.457</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>60</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<real>6.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>110</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.227</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>9</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Dominion Ghost</string>
+		<key>lore</key>
+		<string>November &quot;Nova&quot; Terra is a ghost of the Terran Dominion and one of the most powerful psionic soldiers ever known. Nova is highly focused, determined, and extremely deadly. Even Jim Raynor wouldn&apos;t want to be caught within her crosshairs.</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Psi-Op Rangefinder</string>
+				<string>Conjurer&apos;s Pursuit</string>
+				<string>Ambush Snipe</string>
+				<string>Tazer Rounds</string>
+			</array>
+			<array>
+				<string>FN92 Sniper Rifle</string>
+				<string>Vampiric Assault</string>
+				<string>Focused Attack</string>
+				<string>Extended Projection</string>
+				<string>Envenom</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Digital Shrapnel</string>
+				<string>Explosive Round</string>
+				<string>Follow Through</string>
+			</array>
+			<array>
+				<string>Triple Tap</string>
+				<string>Precision Strike</string>
+			</array>
+			<array>
+				<string>Advanced Cloaking</string>
+				<string>Spell Shield</string>
+				<string>Holo Drone</string>
+				<string>Remote Access</string>
+				<string>Rewind</string>
+			</array>
+			<array>
+				<string>Crippling Shot</string>
+				<string>Railgun</string>
+				<string>Blood for Blood</string>
+				<string>Overdrive</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Fast Reload</string>
+				<string>Precision Barrage</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Assassin</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Raynor</string>
+		<key>baseHP</key>
+		<integer>725</integer>
+		<key>baseHPRegen</key>
+		<real>1.512</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>63</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>120</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.25</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>11</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Renegade Commander</string>
+		<key>lore</key>
+		<string>Ex-Confederate Marshall James Raynor has stood against whatever the universe can throw at him and survived. He stands as a bright beacon of hope among enigmatic aliens and monsters, still fighting for justice in a cold uncaring universe.</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Seasoned Marksman</string>
+				<string>Demolitionist</string>
+				<string>Give Me More!</string>
+				<string>Bribe</string>
+				<string>Scouting Drone</string>
+			</array>
+			<array>
+				<string>Advanced Optics</string>
+				<string>Focused Attack</string>
+				<string>Vampiric Assault</string>
+				<string>Quick Fingers</string>
+			</array>
+			<array>
+				<string>Heavy Ammo</string>
+				<string>Revolution Overdrive</string>
+				<string>Fight or Flight</string>
+				<string>Searing Attacks</string>
+			</array>
+			<array>
+				<string>Hyperion</string>
+				<string>Raynor&apos;s Raiders</string>
+			</array>
+			<array>
+				<string>Spell Shield</string>
+				<string>Giant Killer</string>
+				<string>The Art of War</string>
+				<string>Activated Rush</string>
+			</array>
+			<array>
+				<string>Executioner</string>
+				<string>Cluster Round</string>
+				<string>Bullseye</string>
+				<string>Berserk</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Battle Hyperion</string>
+				<string>Hell&apos;s Angels</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Assassin</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rehgar</string>
+		<key>baseHP</key>
+		<integer>880</integer>
+		<key>baseHPRegen</key>
+		<real>1.824</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>37</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>190</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.395</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>9</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>lore</key>
+		<string>Rehgar Earthfury has seen his share of combat, both as a gladiator, and a master of his own team of fighters. Now, having put that life aside, he serves as a simple shaman of the Earthen Ring, earning his redemption by healing the broken lands of Azeroth.</string>
+		<key>title</key>
+		<string>Shaman of the Earthen Ring</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Spiritwalker&apos;s Grace</string>
+				<string>Empowering Charge</string>
+				<string>Colossal Totem</string>
+				<string>Healing Totem</string>
+			</array>
+			<array>
+				<string>Focused Attack</string>
+				<string>Chain Reaction</string>
+				<string>Reactive Spark</string>
+				<string>Feral Heart</string>
+				<string>Farsight</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Earth Shield</string>
+				<string>Shadow Wolf</string>
+				<string>Searing Attacks</string>
+			</array>
+			<array>
+				<string>Bloodlust</string>
+				<string>Ancestral Healing</string>
+			</array>
+			<array>
+				<string>Spell Shield</string>
+				<string>Healing Surge</string>
+				<string>Stormcaller</string>
+				<string>Lightning Totem</string>
+				<string>Feral Lunge</string>
+			</array>
+			<array>
+				<string>Lightning Bond</string>
+				<string>Earthgrasp Totem</string>
+				<string>Blood for Blood</string>
+				<string>Berserk</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Storm Shield</string>
+				<string>Gladiator&apos;s War Shout</string>
+				<string>Farseer&apos;s Blessing</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Support</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sergeant Hammer</string>
+		<key>baseHP</key>
+		<integer>770</integer>
+		<key>baseHPRegen</key>
+		<real>1.605</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>55</integer>
+		<key>baseAttackSpeed</key>
+		<real>1.25</real>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>170</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.355</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>10</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Siege Tank Operator</string>
+		<key>lore</key>
+		<string>Sergeant Bama &quot;the Hammer&quot; Kowalski has served some of the toughest tours around the Koprulu sector. The thunderous roar of her siege tank&apos;s shock cannon strikes fear right into the heart of the toughest of warriors... including some of her allies.</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Regeneration Master</string>
+				<string>Advanced Artillery</string>
+				<string>Lethal Blast</string>
+				<string>Resistant</string>
+				<string>Ambush</string>
+			</array>
+			<array>
+				<string>Focused Attack</string>
+				<string>Vampiric Assault</string>
+				<string>Maelstrom Shells</string>
+				<string>Excessive Force</string>
+			</array>
+			<array>
+				<string>Fortify Position</string>
+				<string>Hover Siege Mode</string>
+				<string>Hyper-Cooling Engines</string>
+				<string>First Aid</string>
+			</array>
+			<array>
+				<string>Blunt Force Gun</string>
+				<string>Napalm Strike</string>
+			</array>
+			<array>
+				<string>Giant Killer</string>
+				<string>Crucio X-2 Cannon</string>
+				<string>First Strike</string>
+				<string>Barricade</string>
+				<string>Bullhead Mines</string>
+			</array>
+			<array>
+				<string>Executioner</string>
+				<string>Mine Field</string>
+				<string>Slowing Mines</string>
+				<string>Graduating Range</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Resurgence of the Storm</string>
+				<string>Orbital BFG</string>
+				<string>Advanced Lava Strike</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Specialist</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sonya</string>
+		<key>baseHP</key>
+		<integer>930</integer>
+		<key>baseHPRegen</key>
+		<real>1.938</real>
+		<key>baseEnergy</key>
+		<integer>0</integer>
+		<key>baseEnergyRegen</key>
+		<integer>0</integer>
+		<key>baseAttack</key>
+		<integer>59</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>210</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.44</real>
+		<key>energyPerLevel</key>
+		<integer>0</integer>
+		<key>energyRegenPerLevel</key>
+		<integer>0</integer>
+		<key>attackPerLevel</key>
+		<integer>6</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Wandering Barbarian</string>
+		<key>lore</key>
+		<string>From the frozen Dreadlands of the north comes the mighty Barbarian warriors. After surviving of the destruction of her home and death of her tribe, Sonya wanders Sanctuary in search of battle and a better life for her people.</string>
+		<key>universe</key>
+		<string>Diablo</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Block</string>
+				<string>Endless Fury</string>
+				<string>Shot of Fury</string>
+				<string>War Paint</string>
+			</array>
+			<array>
+				<string>Superiority</string>
+				<string>Focused Attack</string>
+				<string>Boon of the Ancients</string>
+				<string>Furious Blow</string>
+			</array>
+			<array>
+				<string>Poisoned Spear</string>
+				<string>Shattered Ground</string>
+				<string>Ferocious Healing</string>
+			</array>
+			<array>
+				<string>Leap</string>
+				<string>Wrath of the Berserker</string>
+			</array>
+			<array>
+				<string>Spell Shield</string>
+				<string>Composite Spear</string>
+				<string>Aftershock</string>
+				<string>Wind Shear</string>
+				<string>Dust Devils</string>
+			</array>
+			<array>
+				<string>Imposing Presence</string>
+				<string>Mystical Spear</string>
+				<string>Enduring Whirlwind</string>
+				<string>No Escape</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Fury of the Storm</string>
+				<string>Arreat Crater</string>
+				<string>Anger Management</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Warrior</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Stitches</string>
+		<key>baseHP</key>
+		<integer>1060</integer>
+		<key>baseHPRegen</key>
+		<real>2.207</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>55</integer>
+		<key>baseAttackSpeed</key>
+		<real>1.1</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>260</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.543</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>5</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Terror of Darkshire</string>
+		<key>lore</key>
+		<string>Take care when traversing the shadowed trails of Duskwood...Ever since Abercrombie the Embalmer unleashed his abomination upon Darkshire, Stitches has wandered the road aimlessly, hungering for the flesh of low level Alliance players.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Block</string>
+				<string>Regeneration Master</string>
+				<string>Heavy Slam</string>
+				<string>Chew Your Food</string>
+			</array>
+			<array>
+				<string>Amplified Healing</string>
+				<string>Superiority</string>
+				<string>Vile Cleaver</string>
+				<string>Putrid Ground</string>
+			</array>
+			<array>
+				<string>Tenderizer</string>
+				<string>Last Bite</string>
+				<string>Savor the Flavor</string>
+				<string>Toxic Gas</string>
+			</array>
+			<array>
+				<string>Putrid Bile</string>
+				<string>Gorge</string>
+			</array>
+			<array>
+				<string>Relentless</string>
+				<string>Mega Smash</string>
+				<string>Indigestion</string>
+				<string>Helping Hand</string>
+				<string>Sprint</string>
+			</array>
+			<array>
+				<string>Imposing Presence</string>
+				<string>Fishing Hook</string>
+				<string>Shish Kabob</string>
+				<string>Pulverize</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Regenerative Bile</string>
+				<string>Hungry Hungry Stitches</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Warrior</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tassadar</string>
+		<key>baseHP</key>
+		<integer>750</integer>
+		<key>baseHPRegen</key>
+		<real>1.813</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>54</integer>
+		<key>baseAttackSpeed</key>
+		<integer>1</integer>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>125</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.262</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>7</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Savior of the Templar</string>
+		<key>lore</key>
+		<string>An Executor without equal, Tassadar has fought tirelessly to purify the Koprulu sector of the zerg infestation. Only now, after learning to wield the shadowy powers of the void, is Tassadar finally ready to face the Overmind and its all-consuming Swarm.</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Conjurer&apos;s Pursuit</string>
+				<string>Minion Bulwark</string>
+				<string>Overload</string>
+				<string>Psi-Infusion</string>
+			</array>
+			<array>
+				<string>Leeching Plasma</string>
+				<string>Reinforce Structure</string>
+				<string>Mental Acuity</string>
+				<string>Promote</string>
+				<string>Healing Totem</string>
+			</array>
+			<array>
+				<string>Khala&apos;s Embrace</string>
+				<string>Static Charge</string>
+				<string>Deep Shift</string>
+				<string>Calldown: MULE</string>
+			</array>
+			<array>
+				<string>Archon</string>
+				<string>Force Wall</string>
+			</array>
+			<array>
+				<string>Spell Shield</string>
+				<string>Distortion Beam</string>
+				<string>Prescience</string>
+				<string>Scryer</string>
+				<string>Shrink Ray</string>
+			</array>
+			<array>
+				<string>Evasive Shielding</string>
+				<string>Second Strike</string>
+				<string>Resonation</string>
+				<string>Dimensional Warp</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Fury of the Storm</string>
+				<string>Twilight Archon</string>
+				<string>Force Barrier</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Support</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tychus</string>
+		<key>baseHP</key>
+		<integer>725</integer>
+		<key>baseHPRegen</key>
+		<real>1.512</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>24</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.3</real>
+		<key>range</key>
+		<real>4.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>140</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.289</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>6</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Notorious Outlaw</string>
+		<key>lore</key>
+		<string>Tychus Findlay is a big man with a big ego and even bigger gun. Fortunately enough, his loyalty is easily won. Buy him a whiskey or three and promise him enough credits, and there&apos;s no job in the whole universe too dangerous for this outlaw.</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Regeneration Master</string>
+				<string>Armor Piercing Rounds</string>
+				<string>Shredder Grenade</string>
+				<string>Dash</string>
+				<string>Scouting Drone</string>
+			</array>
+			<array>
+				<string>Focused Attack</string>
+				<string>Vampiric Assault</string>
+				<string>Melting Point</string>
+				<string>Spray &apos;n&apos; Pray</string>
+			</array>
+			<array>
+				<string>Rapid Fire</string>
+				<string>Quarterback</string>
+				<string>First Aid</string>
+				<string>Searing Attacks</string>
+			</array>
+			<array>
+				<string>Commandeer Odin</string>
+				<string>Drakken Laser Drill</string>
+			</array>
+			<array>
+				<string>Giant Killer</string>
+				<string>Relentless</string>
+				<string>Lead Rain</string>
+				<string>Stim Pack</string>
+			</array>
+			<array>
+				<string>Executioner</string>
+				<string>Lock and Load</string>
+				<string>Concussion Grenade</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Big Red Button</string>
+				<string>Focusing Diodes</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Assassin</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tyrael</string>
+		<key>baseHP</key>
+		<integer>1020</integer>
+		<key>baseHPRegen</key>
+		<real>2.215</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>49</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>220</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.457</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>6</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Archangel of Justice</string>
+		<key>lore</key>
+		<string>Among the angels it is the Archangel of Justice Tyrael who is humanity&apos;s greatest defender. Wielding his sword El&apos;druin against the Burning Hells, the Prime Evils would have enslaved Sanctuary and all of humanity long ago if Tyrael had not intervened.</string>
+		<key>universe</key>
+		<string>Diablo</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Regeneration Master</string>
+				<string>Horadric Reforging</string>
+				<string>Purge Evil</string>
+				<string>Protection in Death</string>
+			</array>
+			<array>
+				<string>Amplified Healing</string>
+				<string>Vampiric Assault</string>
+				<string>Angelic Absorption</string>
+				<string>Retribution</string>
+				<string>Even in Death</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Angel&apos;s Grace</string>
+				<string>Reciprocate</string>
+				<string>Zealotry</string>
+				<string>Searing Attacks</string>
+			</array>
+			<array>
+				<string>Judgment</string>
+				<string>Sanctification</string>
+			</array>
+			<array>
+				<string>Burning Rage</string>
+				<string>Imposing Will</string>
+				<string>Cast Aside</string>
+				<string>Angelic Might</string>
+			</array>
+			<array>
+				<string>Blade of Justice</string>
+				<string>Holy Ground</string>
+				<string>Salvation</string>
+				<string>Blood for Blood</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Fury of the Storm</string>
+				<string>Angel of Justice</string>
+				<string>Holy Arena</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Warrior</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tyrande</string>
+		<key>baseHP</key>
+		<integer>635</integer>
+		<key>baseHPRegen</key>
+		<real>1.324</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>50</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>150</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.313</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>5</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>High Priestess of Elune</string>
+		<key>lore</key>
+		<string>Tyrande Whisperwind strikes fear into all who wish ill of the Kaldorei. As the highest ranking Sentinel and High Priestess of Elune, she is not only the Night Elves&apos; most deadly warrior, but also their most cunning leader.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Seasoned Marksman</string>
+				<string>Celestial Attunement</string>
+				<string>Pierce</string>
+				<string>Ranger&apos;s Mark</string>
+			</array>
+			<array>
+				<string>Overflowing Light</string>
+				<string>Empower</string>
+				<string>Protective Shield</string>
+				<string>Searing Arrows</string>
+				<string>Healing Totem</string>
+			</array>
+			<array>
+				<string>Quickening Blessing</string>
+				<string>Shroud</string>
+				<string>Trueshot Aura</string>
+				<string>Battle Momentum</string>
+				<string>Calldown: MULE</string>
+			</array>
+			<array>
+				<string>Shadowstalk</string>
+				<string>Starfall</string>
+			</array>
+			<array>
+				<string>Lunar Blaze</string>
+				<string>Purging Mark</string>
+				<string>Sprint</string>
+				<string>Shrink Ray</string>
+				<string>Rewind</string>
+			</array>
+			<array>
+				<string>Shooting Star</string>
+				<string>Ranger</string>
+				<string>Mark of Mending</string>
+				<string>Huntress&apos; Fury</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Storm Shield</string>
+				<string>Hunter&apos;s Prey</string>
+				<string>Celestial Wrath</string>
+				<string>Bolt of the Storm</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Support</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Uther</string>
+		<key>baseHP</key>
+		<integer>890</integer>
+		<key>baseHPRegen</key>
+		<real>1.855</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>47</integer>
+		<key>baseAttackSpeed</key>
+		<integer>1</integer>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>190</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.395</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>5</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>The Lightbringer</string>
+		<key>lore</key>
+		<string>The first paladin and founder of the Order of the Silver Hand, Uther the Lightbringer is a faithful servant of the Light. Dispensing justice with the swing of his hammer, Uther is a bastion of truth and an unflinching symbol of the Alliance.</string>
+		<key>universe</key>
+		<string>Warcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Conjurer&apos;s Pursuit</string>
+				<string>Reach</string>
+				<string>Dense Weightstone</string>
+				<string>Blessed Champion</string>
+			</array>
+			<array>
+				<string>Hammer of the Lightbringer</string>
+				<string>Protect the Weak</string>
+				<string>Fist of Justice</string>
+				<string>Protective Shield</string>
+			</array>
+			<array>
+				<string>Wave of Light</string>
+				<string>Rebuke</string>
+				<string>Holy Devotion</string>
+				<string>Clairvoyance</string>
+				<string>Cleanse</string>
+			</array>
+			<array>
+				<string>Divine Shield</string>
+				<string>Divine Storm</string>
+			</array>
+			<array>
+				<string>Spell Shield</string>
+				<string>Burning Rage</string>
+				<string>Sprint</string>
+				<string>Rewind</string>
+				<string>Shrink Ray</string>
+			</array>
+			<array>
+				<string>Imposing Presence</string>
+				<string>Hardened Focus</string>
+				<string>Holy Shock</string>
+				<string>Gathering Radiance</string>
+			</array>
+			<array>
+				<string>Resurgence of the Storm</string>
+				<string>Storm Shield</string>
+				<string>Bulwark of Light</string>
+				<string>Divine Hurricane</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Support</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Valla</string>
+		<key>baseHP</key>
+		<integer>700</integer>
+		<key>baseHPRegen</key>
+		<real>1.461</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>28</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.6</real>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>110</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.227</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>9</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Demon Hunter</string>
+		<key>lore</key>
+		<string>Valla witnessed the ferocity of hellspawn firsthand as the demons ravaged her village and left her for dead. Now, with no people to call her own, her only allegiance is to her cause: to rid Sanctuary of the demonic filth corrupting its lands.</string>
+		<key>universe</key>
+		<string>Diablo</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Cost-Effective Materials</string>
+				<string>Siphoning Arrow</string>
+				<string>Composite Arrows</string>
+				<string>Rancor</string>
+				<string>Punishment</string>
+			</array>
+			<array>
+				<string>Vampiric Assault</string>
+				<string>Manticore</string>
+				<string>Puncturing Arrow</string>
+				<string>Arsenal</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Repeating Arrow</string>
+				<string>Caltrops</string>
+				<string>Searing Attacks</string>
+			</array>
+			<array>
+				<string>Strafe</string>
+				<string>Rain of Vengeance</string>
+			</array>
+			<array>
+				<string>Giant Killer</string>
+				<string>Spell Shield</string>
+				<string>Frost Shot</string>
+				<string>Hot Pursuit</string>
+				<string>Tempered by Discipline</string>
+			</array>
+			<array>
+				<string>Executioner</string>
+				<string>Tumble</string>
+				<string>Blood for Blood</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Vengeance</string>
+				<string>Storm of Vengeance</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Assassin</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Zagara</string>
+		<key>baseHP</key>
+		<integer>750</integer>
+		<key>baseHPRegen</key>
+		<real>1.512</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>37</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.8</real>
+		<key>range</key>
+		<real>5.5</real>
+		<key>hitPointsPerLevel</key>
+		<integer>150</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.313</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>9</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>lore</key>
+		<string>If Kerrigan is the Queen of the Zerg, then Zagara is the mother of the brood. Cunning and tenacious, she commands her vicious minions on the field of battle. Encounter her brood and beware: Mess with her children, and you answer to mama. </string>
+		<key>title</key>
+		<string>Broodmother of the Swarm</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Demolitionist</string>
+				<string>Centrifugal Hooks</string>
+				<string>Ventral Sacs</string>
+				<string>Reconstitution</string>
+			</array>
+			<array>
+				<string>Envenomed Spines (Zagara)</string>
+				<string>Medusa Blades</string>
+				<string>Tumor Clutch</string>
+				<string>Envenom</string>
+				<string>Infest</string>
+			</array>
+			<array>
+				<string>Battle Momentum</string>
+				<string>Volatile Acid</string>
+				<string>Corpse Feeders</string>
+				<string>Endless Creep</string>
+				<string>Rapid Incubation</string>
+			</array>
+			<array>
+				<string>Devouring Maw</string>
+				<string>Nydus Network</string>
+			</array>
+			<array>
+				<string>Spell Shield</string>
+				<string>Giant Killer</string>
+				<string>Mutalisk</string>
+				<string>Grooved Spines (Zagara)</string>
+				<string>Bile Drop</string>
+			</array>
+			<array>
+				<string>Baneling Massacre</string>
+				<string>Brood Expansion</string>
+				<string>Metabolic Boost</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Tyrant Maw</string>
+				<string>Broodling Nest</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Ranged</string>
+			<string>Specialist</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Zeratul</string>
+		<key>baseHP</key>
+		<integer>820</integer>
+		<key>baseHPRegen</key>
+		<real>1.707</real>
+		<key>baseEnergy</key>
+		<integer>500</integer>
+		<key>baseEnergyRegen</key>
+		<integer>3</integer>
+		<key>baseAttack</key>
+		<integer>65</integer>
+		<key>baseAttackSpeed</key>
+		<real>0.9</real>
+		<key>range</key>
+		<integer>1</integer>
+		<key>hitPointsPerLevel</key>
+		<integer>135</integer>
+		<key>hitPointRegenPerLevel</key>
+		<real>0.281</real>
+		<key>energyPerLevel</key>
+		<integer>10</integer>
+		<key>energyRegenPerLevel</key>
+		<real>0.1</real>
+		<key>attackPerLevel</key>
+		<integer>12</integer>
+		<key>attackSpeedPerLevel</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Dark Prelate</string>
+		<key>lore</key>
+		<string>The enigmatic Dark Templar Zeratul faithfully serves the Xel&apos;Naga. While he expertly wields the powers of the Void, it is his wisdom that earns him the respect of the Koprulu sector&apos;s greatest leaders - despite his penchant for dramatic entrances.</string>
+		<key>universe</key>
+		<string>Starcraft</string>
+		<key>talents</key>
+		<array>
+			<array>
+				<string>Regeneration Master</string>
+				<string>Block</string>
+				<string>Seasoned Marksman</string>
+				<string>Greater Cleave</string>
+				<string>Rapid Displacement</string>
+			</array>
+			<array>
+				<string>Focused Attack</string>
+				<string>Vampiric Assault</string>
+				<string>Gathering Power</string>
+				<string>Sustained Anomaly</string>
+				<string>Vorpal Blade</string>
+			</array>
+			<array>
+				<string>Follow Through</string>
+				<string>Rending Cleave</string>
+				<string>Shadow Spike</string>
+				<string>First Aid</string>
+				<string>Searing Attacks</string>
+			</array>
+			<array>
+				<string>Shadow Assault</string>
+				<string>Void Prison</string>
+			</array>
+			<array>
+				<string>Giant Killer</string>
+				<string>Spell Shield</string>
+				<string>Burning Rage</string>
+				<string>Wormhole</string>
+				<string>Assassin&apos;s Blade</string>
+			</array>
+			<array>
+				<string>Executioner</string>
+				<string>From the Shadows (Zeratul)</string>
+				<string>Double Bombs</string>
+				<string>Stoneskin</string>
+			</array>
+			<array>
+				<string>Fury of the Storm</string>
+				<string>Bolt of the Storm</string>
+				<string>Nerazim Fury</string>
+				<string>Protective Prison</string>
+			</array>
+		</array>
+		<key>roles</key>
+		<array>
+			<string>Melee</string>
+			<string>Assassin</string>
+		</array>
+	</dict>
+</array>
+</plist>

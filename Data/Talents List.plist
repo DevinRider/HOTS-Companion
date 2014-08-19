@@ -1,0 +1,3464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>...And A Shark Too!</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Octo-Grab.png</string>
+		<key>description</key>
+		<string>Increases the damage of Octo-Grab by ###%</string>
+		<key>firstBaseDamage</key>
+		<integer>10000</integer>
+		<key>firstDamagePerLevel</key>
+		<real>1000</real>
+	</dict>
+	<key>Shish Kabob</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hook.png</string>
+		<key>description</key>
+		<string>Hook can pull up to 2 targets</string>
+	</dict>
+	<key>Fishing Hook</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hook.png</string>
+		<key>description</key>
+		<string>Hook has an additional 50% range</string>
+	</dict>
+	<key>Blood Ritual</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Voodoo Ritual.png</string>
+		<key>description</key>
+		<string>Increases health and mana granted by Voodoo Ritual by 100%</string>
+	</dict>
+	<key>Divine Hurricane</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Divine Storm.png</string>
+		<key>description</key>
+		<string>Divine Storm&apos;s radius is increased by 100% and its cooldown is reduced by 20 seconds</string>
+	</dict>
+	<key>Bulwark of Light</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Divine Shield.png</string>
+		<key>description</key>
+		<string>Divine Shield lasts 1 second longer and heals for 40% of the target&apos;s maximum health</string>
+	</dict>
+	<key>Gathering Radiance</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holy Radiance.png</string>
+		<key>description</key>
+		<string>Increases damage and healing by 10% for each target hit, up to 50%</string>
+	</dict>
+	<key>Holy Shock</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holy Light.png</string>
+		<key>description</key>
+		<string>Holy Light can be used on an enemy to do 50% of its healing amount as damage</string>
+	</dict>
+	<key>Holy Devotion</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spirit Form.png</string>
+		<key>description</key>
+		<string>Damage and healing have 100% effectiveness while in Spirit Form</string>
+	</dict>
+	<key>Rebuke</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hammer of Justice.png</string>
+		<key>description</key>
+		<string>Hammer of Justice knocks the target back</string>
+	</dict>
+	<key>Wave of Light</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holy Radiance.png</string>
+		<key>description</key>
+		<string>Each unit healed by Holy Radiance returns 10 mana and reduces the cooldown by 1 second, up to a maximum of 50 mana and 5 seconds</string>
+	</dict>
+	<key>Fist of Justice</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hammer of Justice.png</string>
+		<key>description</key>
+		<string>Basic attacks reduce the cooldown of Hammer of Justice by 1 second</string>
+	</dict>
+	<key>Protect the Weak</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holy Light.png</string>
+		<key>description</key>
+		<string>Using Holy Light on minions and mercenaries refunds 75% of its mana cost and cooldown</string>
+	</dict>
+	<key>Hammer of the Lightbringer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Tenderizer.png</string>
+		<key>description</key>
+		<string>Basic attacks also restore 5 mana</string>
+	</dict>
+	<key>Blessed Champion</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blessed Champion.png</string>
+		<key>description</key>
+		<string>Basic attacks heal nearby allies for 25% of the damage dealt</string>
+	</dict>
+	<key>Dense Weightstone</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hammer of Justice.png</string>
+		<key>description</key>
+		<string>Hammer of Justice damage increased by 40%</string>
+	</dict>
+	<key>Reach</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holy Light.png</string>
+		<key>description</key>
+		<string>Holy Light range increased by 2</string>
+	</dict>
+	<key>Celestial Wrath</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Starfall.png</string>
+		<key>description</key>
+		<string>Starfall can now be cast globally. Damage is increased by 30%</string>
+	</dict>
+	<key>Hunter&apos;s Prey</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Shadowstalk.png</string>
+		<key>description</key>
+		<string>When using Shadowstalk, you and allied heroes gain 25% additional movement speed for 8 seconds, and your next basic attack deals 100% more damage</string>
+	</dict>
+	<key>Huntress&apos; Fury</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hunter&apos;s Mark.png</string>
+		<key>description</key>
+		<string>Gain 40% additional attack speed for 4 seconds when using Hunter&apos;s Mark</string>
+	</dict>
+	<key>Mark of Mending</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hunter&apos;s Mark.png</string>
+		<key>description</key>
+		<string>Basic attacks against marked targets heal for 2% maximum health</string>
+	</dict>
+	<key>Ranger</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Sentinel.png</string>
+		<key>description</key>
+		<string>Increases width of Sentinel by 100%. Increases damage dealt based on distance traveled, up to a maximum of +200% damage</string>
+	</dict>
+	<key>Shooting Star</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Lunar Flare.png</string>
+		<key>description</key>
+		<string>Lunar Flare deals 50% more damage and refunds all mana if you hit an enemy hero</string>
+	</dict>
+	<key>Purging Mark</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hunter&apos;s Mark.png</string>
+		<key>description</key>
+		<string>Hunter&apos;s Mark can be cast on structures. All hero basic attacks on Marked targets drain 1 ammo</string>
+	</dict>
+	<key>Lunar Blaze</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Lunar Flare.png</string>
+		<key>description</key>
+		<string>Increases the range of Lunar Flare by 50% and impact area by 33%</string>
+	</dict>
+	<key>Trueshot Aura</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Trueshot Aura.png</string>
+		<key>description</key>
+		<string>You passively grant 10% basic attack damage and attack speed to nearby allies</string>
+	</dict>
+	<key>Shroud</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Light of Elune.png</string>
+		<key>description</key>
+		<string>If cast on an ally, Light of Elune also cloaks them for 5 seconds</string>
+	</dict>
+	<key>Searing Arrows</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Searing Attacks.png</string>
+		<key>description</key>
+		<string>Activate to increase basic attack damage by 40% for 5 seconds. Each attack costs 10 mana</string>
+	</dict>
+	<key>Quickening Blessing</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Light of Elune.png</string>
+		<key>description</key>
+		<string>If cast on an ally, Light of Elune also increases their movement speed by 25%</string>
+	</dict>
+	<key>Empower</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Sentinel.png</string>
+		<key>description</key>
+		<string>When Sentinel impacts, your ability cooldowns are reduced by 4 seconds over 2 seconds</string>
+	</dict>
+	<key>Overflowing Light</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Light of Elune.png</string>
+		<key>description</key>
+		<string>When you are above 90% health, the allied heal is increased by 40%</string>
+	</dict>
+	<key>Ranger&apos;s Mark</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hunter&apos;s Mark.png</string>
+		<key>description</key>
+		<string>Lower the cooldown of Hunter&apos;s Mark by 8 seconds</string>
+	</dict>
+	<key>Pierce</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Sentinel.png</string>
+		<key>description</key>
+		<string>Sentinel no longer stops at the first hero hit, affecting all enemy heroes along the path</string>
+	</dict>
+	<key>Celestial Attunement</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Light of Elune.png</string>
+		<key>description</key>
+		<string>Reduce the cost of Light of Elune by 15 mana</string>
+	</dict>
+	<key>Force Barrier</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Force Wall.png</string>
+		<key>description</key>
+		<string>Force Wall range increased by 50% and duration by 1 second</string>
+	</dict>
+	<key>Twilight Archon</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Archon.png</string>
+		<key>description</key>
+		<string>Archon initial shield amount increased by 50%. Basic attacks deal 50% more damage and gain 3 range</string>
+	</dict>
+	<key>Dimensional Warp</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dimensional Shift.png</string>
+		<key>description</key>
+		<string>While Dimensional Shifted, gain 50% movement speed and heal for ### health</string>
+		<key>firstBaseDamage</key>
+		<integer>40</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>40</integer>
+	</dict>
+	<key>Resonation</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Psionic Storm.png</string>
+		<key>description</key>
+		<string>Psionic Storm targets are slowed by 25% for 1 second</string>
+	</dict>
+	<key>Second Strike</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Psionic Storm.png</string>
+		<key>description</key>
+		<string>After casting Psionic Storm, you may cast Psionic Storm again for free within 3 seconds. The damage does not stack</string>
+	</dict>
+	<key>Evasive Shielding</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Plasma Shield.png</string>
+		<key>description</key>
+		<string>The target of your Plasma Shield also gains 25% movement speed for 4 seconds</string>
+	</dict>
+	<key>Scryer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Oracle.png</string>
+		<key>description</key>
+		<string>Oracle duration increased by 3 seconds and grants 15% increased movement speed</string>
+	</dict>
+	<key>Prescience</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dimensional Shift.png</string>
+		<key>description</key>
+		<string>Dimensional Shift will automatically activate when you fall below 15% health. This effect has a separate 60 second cooldown</string>
+	</dict>
+	<key>Distortion Beam</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Distortion Beam.png</string>
+		<key>description</key>
+		<string>Basic attacks slow enemies by 25% for 1.5 seconds</string>
+	</dict>
+	<key>Deep Shift</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dimensional Shift.png</string>
+		<key>description</key>
+		<string>Dimensional Shift duration increased by 0.75 seconds</string>
+	</dict>
+	<key>Static Charge</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Psionic Storm.png</string>
+		<key>firstBaseDamage</key>
+		<integer>40</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>Enemies damaged by Psionic Storm are marked with Static Charge. Your basic attacks consume the Static Charge to deal ### damage</string>
+	</dict>
+	<key>Khala&apos;s Embrace</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Plasma Shield.png</string>
+		<key>description</key>
+		<string>If Plasma Shield expires, 50% of the shield remains indefinitely. This effect does not stack</string>
+	</dict>
+	<key>Mental Acuity</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Oracle.png</string>
+		<key>description</key>
+		<string>Reduces the cooldown of Oracle by 10 seconds</string>
+	</dict>
+	<key>Reinforce Structure</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Plasma Shield.png</string>
+		<key>description</key>
+		<string>Plasma Shield is 100% stronger and lasts 100% longer when cast on structures</string>
+	</dict>
+	<key>Leeching Plasma</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Plasma Shield.png</string>
+		<key>description</key>
+		<string>While Plasma Shield is active, 20% of the target&apos;s basic attack damage is returned as health</string>
+	</dict>
+	<key>Psi-Infusion</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Psionic Storm.png</string>
+		<key>description</key>
+		<string>Psionic Storm returns 5 mana for each target initially hit</string>
+	</dict>
+	<key>Overload</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Psionic Storm.png</string>
+		<key>description</key>
+		<string>Increases the damage of Psionic Storm by 20%</string>
+	</dict>
+	<key>Minion Bulwark</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Plasma Shield.png</string>
+		<key>description</key>
+		<string>Plasma Shield amount is increased 50% on minions and mercenaries and lasts forever</string>
+	</dict>
+	<key>Farseer&apos;s Blessing</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ancestral Healing.png</string>
+		<key>description</key>
+		<string>Ancestral Healing now heals for 100% of the allied hero&apos;s health. Allies near the target are healed for 25% of the initial amount</string>
+	</dict>
+	<key>Gladiator&apos;s War Shout</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Bloodlust.png</string>
+		<key>description</key>
+		<string>Bloodlust affects all allied heroes, minions, and mercenaries on the entire battleground and can be cast without breaking Ghost Wolf</string>
+	</dict>
+	<key>Earthgrasp Totem</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Earthbind Totem.png</string>
+		<key>description</key>
+		<string>Increases the cast range of Earthbind Totem by 3 and the initial slow becomes a 1 second root</string>
+	</dict>
+	<key>Lightning Bond</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Lightning Shield.png</string>
+		<key>description</key>
+		<string>Casting Lightning Shield on an ally also casts it on you, including any talent bonuses</string>
+	</dict>
+	<key>Feral Lunge</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ghost Wolf.png</string>
+		<key>description</key>
+		<string>While in Ghost Wolf, you lunge a short distance towards your attack target. The damage bonus for basic attacks in Ghost Wolf is increased from 100% to 200%</string>
+	</dict>
+	<key>Lightning Totem</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Earthbind Totem</string>
+		<key>description</key>
+		<string>Earthbind Totem automatically gains Lightning Shield when created</string>
+	</dict>
+	<key>Stormcaller</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Lightning Shield.png</string>
+		<key>description</key>
+		<string>Reduces the cooldown of Lightning Shield to 6 seconds and its mana cost by 50%</string>
+	</dict>
+	<key>Healing Surge</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Chain Heal.png</string>
+		<key>description</key>
+		<string>Increases Chain Heal&apos;s healing on the primary target by 25% and heal an additional target</string>
+	</dict>
+	<key>Shadow Wolf</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ghost Wolf.png</string>
+		<key>description</key>
+		<string>When entering Ghost Wolf, you are cloaked for 2 seconds</string>
+	</dict>
+	<key>Earth Shield</key>
+	<dict>
+		<key>firstBaseDamage</key>
+		<integer>0</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>0</integer>
+		<key>imagePath</key>
+		<string>Lightning Shield.png</string>
+		<key>description</key>
+		<string>Lightning Shield also shields the ally, absorbing ### damage over 3 seconds</string>
+	</dict>
+	<key>Farsight</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>30</integer>
+		<key>imagePath</key>
+		<string>Farsight.png</string>
+		<key>description</key>
+		<string>Activate to reveal the target area. Enemies in the area are revealed for 4 seconds</string>
+	</dict>
+	<key>Feral Heart</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ghost Wolf.png</string>
+		<key>description</key>
+		<string>Gain 100% increased health regeneration and 100% increased mana regeneration while in Ghost Wolf form</string>
+	</dict>
+	<key>Reactive Spark</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Lightning Shield.png</string>
+		<key>description</key>
+		<string>Lightning Shield&apos;s duration does not start until an enemy is nearby</string>
+	</dict>
+	<key>Chain Reaction</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Chain Heal.png</string>
+		<key>description</key>
+		<string>Chain Heals on allies with Lightning Shield active are increased by 25%</string>
+	</dict>
+	<key>Colossal Totem</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Earthbind Totem.png</string>
+		<key>description</key>
+		<string>Increases the area of Earthbind Totem by 50% and its health by 100%</string>
+	</dict>
+	<key>Empowering Charge</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Lightning Shield.png</string>
+		<key>description</key>
+		<string>Lightning Shield also increases the damage of the target&apos;s next 3 basic attacks by 25%</string>
+	</dict>
+	<key>Spiritwalker&apos;s Grace</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Chain Heal.png</string>
+		<key>description</key>
+		<string>Reduces mana cost of Chain Heal from 70 to 45</string>
+	</dict>
+	<key>Nightmare</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Twilight Dream.png</string>
+		<key>description</key>
+		<string>Twilight Dream silence duration increased to 4 seconds and also slows enemies by 50%</string>
+	</dict>
+	<key>Serenity</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Tranquility.png</string>
+		<key>description</key>
+		<string>Tranquility healing amount is incresed by 25% and restores 5 mana per second</string>
+	</dict>
+	<key>Tenacious Roots</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Entangling Roots.png</string>
+		<key>description</key>
+		<string>Entangling Roots grows 25% larger, last 25% longer, and roots enemies for 0.5 seconds longer</string>
+	</dict>
+	<key>Hindering Moonfire</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Moonfire.png</string>
+		<key>description</key>
+		<string>Moonfire slows targets by 20% for 2 seconds</string>
+	</dict>
+	<key>Lunar Shower</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Moonfire.png</string>
+		<key>description</key>
+		<string>Using Moonfire reduces the cooldown of your next Moonfire by 0.5 seconds, and increases the damage by 10%. Stacks up to 3 times</string>
+	</dict>
+	<key>Full Moonfire</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Moonfire.png</string>
+		<key>description</key>
+		<string>Moonfire radius increased by 50% and mana cost reduced to 10</string>
+	</dict>
+	<key>Life Seed</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Regrowth.png</string>
+		<key>description</key>
+		<string>Nearby damaged allied heroes will automatically gain the heal over time portion of Regrowth. This effect has a 15 second cooldown</string>
+	</dict>
+	<key>Strangling Vines</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Entangling Roots.png</string>
+		<key>description</key>
+		<string>Entangling Roots deals 100% more damage</string>
+	</dict>
+	<key>Elune&apos;s Grace</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Magical Essence.png</string>
+		<key>description</key>
+		<string>Increases the range of Regrowth, Moonfire and Entangling Roots by 2</string>
+	</dict>
+	<key>Enduring Growth</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Regrowth.png</string>
+		<key>description</key>
+		<string>Increases the duration of Regrowth by 6 seconds</string>
+	</dict>
+	<key>Versatile</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Innervate.png</string>
+		<key>description</key>
+		<string>Innervate also increases attack speed by 10% and can be cast on non-mana using heroes</string>
+	</dict>
+	<key>Shan&apos;do&apos;s Clarity</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Innervate.png</string>
+		<key>description</key>
+		<string>Innervate&apos;s cooldown is reduced by 10 seconds and grants mana twice as fast</string>
+	</dict>
+	<key>Vengeful Roots</key>
+	<dict>
+		<key>firstBaseDamage</key>
+		<integer>300</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>30</integer>
+		<key>secondBaseDamage</key>
+		<integer>20</integer>
+		<key>secondDamagePerLevel</key>
+		<integer>8</integer>
+		<key>imagePath</key>
+		<string>Entangling Roots.png</string>
+		<key>description</key>
+		<string>Entangling Roots also spawns a Treant with ### health that does @@@ damage each attack for 12 seconds</string>
+	</dict>
+	<key>Harmony</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Regrowth.png</string>
+		<key>description</key>
+		<string>Casting Regrowth on minions or mercenaries instantly returns 100% of the mana cost</string>
+	</dict>
+	<key>Moonburn</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Moonfire.png</string>
+		<key>description</key>
+		<string>Moonfire deals 30% more damage to non-heroic targets</string>
+	</dict>
+	<key>Double Dragon</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Water Dragon.png</string>
+		<key>description</key>
+		<string>After hitting a target with Water Dragon, another Dragon is summoned at the point of impact</string>
+	</dict>
+	<key>Jug of 1,000,000 Cups</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Jug of 1,000 Cups.png</string>
+		<key>description</key>
+		<string>Jug of 1,000 Cups throws out twice as many cups over the same duration</string>
+	</dict>
+	<key>Timeless Creature</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Cloud Serpent.png</string>
+		<key>description</key>
+		<string>Duration of Cloud Serpent increased by 50%</string>
+	</dict>
+	<key>Two For One</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Healing Brew.png</string>
+		<key>description</key>
+		<string>Healing Brew throws a drink to the 2 lowest allies, but increases the mana cost by 15</string>
+	</dict>
+	<key>Herbal Cleanse</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Healing Brew.png</string>
+		<key>description</key>
+		<string>Removes all disabling effects and increases the movement speed of the target by 20% for 2 seconds</string>
+	</dict>
+	<key>Magical Essence</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Magical Essence.png</string>
+		<key>description</key>
+		<string>Increases the range of Healing Brew, Cloud Serpent and Blinding Wind by 25%</string>
+	</dict>
+	<key>Shrink Ray</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>60</integer>
+		<key>imagePath</key>
+		<string>Shrink Ray.png</string>
+		<key>description</key>
+		<string>Activate to reduce an enemy hero&apos;s damage by 50% and movement speed by 50% for 4 seconds</string>
+	</dict>
+	<key>Elusive Feet</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fast Feet.png</string>
+		<key>description</key>
+		<string>Upon taking damage, gain 2 charges of Block (50% reduced basic attack damage) for 10 seconds. This effect has a 10 second cooldown</string>
+	</dict>
+	<key>Hindering Winds</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blinding Wind.png</string>
+		<key>description</key>
+		<string>Blinding Wind now also slows targets by 25% for 2 seconds</string>
+	</dict>
+	<key>Lightning Serpent</key>
+	<dict>
+		<key>firstDamagePerLevel</key>
+		<real>1.3</real>
+		<key>firstBaseDamage</key>
+		<integer>5</integer>
+		<key>imagePath</key>
+		<string>Cloud Serpent.png</string>
+		<key>description</key>
+		<string>Serpent&apos;s attacks bounce to 3 nearby enemy targets, dealing ### damage each</string>
+	</dict>
+	<key>Bringer of Gifts</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Cloud Serpent.png</string>
+		<key>description</key>
+		<string>Cloud Serpent also heals the target for ### health and 20 mana</string>
+		<key>firstDamagePerLevel</key>
+		<integer>13</integer>
+		<key>firstBaseDamage</key>
+		<integer>100</integer>
+	</dict>
+	<key>The Good Stuff</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Healing Brew.png</string>
+		<key>description</key>
+		<string>Health restored from healing brew increased by 25%</string>
+	</dict>
+	<key>Lingering Blind</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blinding Wind.png</string>
+		<key>description</key>
+		<string>Blinding Wind now causes enemies to miss their next 2 basic attacks</string>
+	</dict>
+	<key>Healing Totem</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>60</integer>
+		<key>imagePath</key>
+		<string>Healing Totem.png</string>
+		<key>description</key>
+		<string>Activate to place a Totem on the ground that heals allies in an area for 2% of their max health every second for 10 seconds</string>
+	</dict>
+	<key>Mass Vortex</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blinding Wind.png</string>
+		<key>description</key>
+		<string>Blinding Wind hits up to 5 enemies</string>
+	</dict>
+	<key>Gale Force</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blinding Wind.png</string>
+		<key>description</key>
+		<string>Damage dealt by Blinding Wind increased by 25%</string>
+	</dict>
+	<key>Hardened Focus</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hardened Focus.png</string>
+		<key>description</key>
+		<string>While above 80% life, your basic ability cooldowns regenerate 50% faster</string>
+	</dict>
+	<key>Ysera&apos;s Blessing</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blink Heal.png</string>
+		<key>description</key>
+		<string>Increase maximum charges to 3</string>
+	</dict>
+	<key>Continuous Winds</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Emerald Wind.png</string>
+		<key>description</key>
+		<string>Releases two additional novas that deal 25% damage</string>
+	</dict>
+	<key>Critterize</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Polymorph.png</string>
+		<key>description</key>
+		<string>Polymorphed targets take 25% more damage</string>
+	</dict>
+	<key>Sticky Powder</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Polymorph.png</string>
+		<key>description</key>
+		<string>Polymorph targets are slowed by 50% movement speed</string>
+	</dict>
+	<key>Phase Shield</key>
+	<dict>
+		<key>firstDamagePerLevel</key>
+		<integer>200</integer>
+		<key>firstBaseDamage</key>
+		<integer>25</integer>
+		<key>imagePath</key>
+		<string>Phase Shield.png</string>
+		<key>description</key>
+		<string>After finishing the teleport, the target of your Phase Shift gains a ### point shield for 3 seconds</string>
+	</dict>
+	<key>Sticky Flare</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Arcane Flare.png</string>
+		<key>description</key>
+		<string>Targets are slowed by 30% movement speed for 3 seconds</string>
+	</dict>
+	<key>Cleanse</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>30</integer>
+		<key>imagePath</key>
+		<string>Cleanse.png</string>
+		<key>description</key>
+		<string>Removes all stuns, roots, silences and slows from the target and prevents their reapplication for 1 second</string>
+	</dict>
+	<key>Regenerative Rains</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Soothing Mist.png</string>
+		<key>description</key>
+		<string>Soothing Mist activates each time you use a basic ability</string>
+	</dict>
+	<key>Gust of Healing</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Soothing Mist.png</string>
+		<key>description</key>
+		<string>Activate to release a Soothing Mist every second for 4 seconds</string>
+	</dict>
+	<key>Protective Shield</key>
+	<dict>
+		<key>firstBaseDamage</key>
+		<integer>300</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>30</integer>
+		<key>cooldown</key>
+		<integer>60</integer>
+		<key>imagePath</key>
+		<string>Plasma Shield.png</string>
+		<key>description</key>
+		<string>Activate to shield an allied hero from ### damage for 5 seconds</string>
+	</dict>
+	<key>Anti-Magic Powder</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Pixie Dust.png</string>
+		<key>description</key>
+		<string>Block one instance of spell damage by 50%</string>
+	</dict>
+	<key>Shield Dust</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Pixie Dust.png</string>
+		<key>description</key>
+		<string>Increase number of basic attack blocks to 3</string>
+	</dict>
+	<key>Arcane Precision</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Arcane Flare.png</string>
+		<key>description</key>
+		<string>Inner area damage of Arcane Flare increased by 33%</string>
+	</dict>
+	<key>Broodling Nest</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Exiting a Nydus Worm spawns 6 broodlings to attack up the nearest lane. This effect has a 20 second cooldown</string>
+		<key>description</key>
+		<string>Can hold up to 2 charges of Hunter Killer</string>
+	</dict>
+	<key>Tyrant Maw</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Devouring Maw.png</string>
+		<key>description</key>
+		<string>Devouring Maw deals 50% more damage and heroes killed while in the Maw reduce its cooldown by 50 seconds</string>
+	</dict>
+	<key>Metabolic Boost</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Creep Tumor.png</string>
+		<key>description</key>
+		<string>Movement speed boost on Creep increased to 30%</string>
+	</dict>
+	<key>Brood Expansion</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hunter Killer.png</string>
+		<key>description</key>
+		<string>Can hold up to 2 charges of Hunter Killer</string>
+	</dict>
+	<key>Baneling Massacre</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Baneling Barrage.png</string>
+		<key>description</key>
+		<string>Now spawns 8 Banelings</string>
+	</dict>
+	<key>Bile Drop</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Infested Drop.png</string>
+		<key>description</key>
+		<string>Enemies hit by the Drop Pod take an additional 100% of that damage over 4 seconds</string>
+	</dict>
+	<key>Grooved Spines (Zagara)</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hunter Killer.png</string>
+		<key>description</key>
+		<string>Hunter Killer has its range increased by 35% and damage increased by 20%</string>
+	</dict>
+	<key>Mutalisk</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hunter Killer.png</string>
+		<key>description</key>
+		<string>Your Hunter Killer now spawns a Mutalisk with a bounce attack and 50% increased duration</string>
+	</dict>
+	<key>Rapid Incubation</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>45</integer>
+		<key>imagePath</key>
+		<string>Rapid Incubation.png</string>
+		<key>description</key>
+		<string>Channel to regenerate up to 25% of you health and mana over 3 seconds</string>
+	</dict>
+	<key>Endless Creep</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Creep Tumors spread creep twice as fast and 25% further</string>
+		<key>description</key>
+		<string>Health regeneration bonus on creep increased to 300%</string>
+	</dict>
+	<key>Corpse Feeders</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Infested Drop.png</string>
+		<key>description</key>
+		<string>Kills earned by Roachlings increase their duration by 10 seconds</string>
+	</dict>
+	<key>Volatile Acid</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Baneling Barrage.png</string>
+		<key>description</key>
+		<string>Baneling damage against non-heroic targets increased by 50%</string>
+	</dict>
+	<key>Infest</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>45</integer>
+		<key>imagePath</key>
+		<string>Infest.png</string>
+		<key>description</key>
+		<string>Increases an allied lane minion&apos;s damage by 400%. Holds up to 2 charges</string>
+	</dict>
+	<key>Tumor Clutch</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Creep Tumor.png</string>
+		<key>description</key>
+		<string>Max Creep Tumor charge count increased to 4. Mana cost reduced to 10</string>
+	</dict>
+	<key>Medusa Blades</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Medusa Blades.png</string>
+		<key>description</key>
+		<string>Basic attacks deal 25% damage to three nearby targets</string>
+	</dict>
+	<key>Envenomed Spines (Zagara)</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Envenomed Spines.png</string>
+		<key>description</key>
+		<string>Basic attacks have their range increased by 20% (5.5 to 6.6) and deal an additional ### damage over 3 seconds</string>
+		<key>firstBaseDamage</key>
+		<integer>16</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>4</integer>
+	</dict>
+	<key>Reconstitution</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Creep Tumor.png</string>
+		<key>description</key>
+		<string>Health regeneration bonus on creep increased to 300%</string>
+	</dict>
+	<key>Ventral Sacs</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Infested Drop.png</string>
+		<key>description</key>
+		<string>Infested Drop now spawns 3 roachlings</string>
+	</dict>
+	<key>Centrifugal Hooks</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Baneling Barrage.png</string>
+		<key>description</key>
+		<string>Banelings can travel twice as far before exploding</string>
+	</dict>
+	<key>Humongoid</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Gargantuan.png</string>
+		<key>description</key>
+		<string>Gargantuan now lasts until an enemy kills the Gargantuan, and deals 100% more damage against non-heroic targets</string>
+	</dict>
+	<key>Annihilating Spirit</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ravenous Spirit.png</string>
+		<key>description</key>
+		<string>Increases the range of Ravenous Spirit by 50% and movement speed by 30%</string>
+	</dict>
+	<key>Specialized Toxin</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Voodoo Ritual.png</string>
+		<key>description</key>
+		<string>Increases the damage dealt to heroes from Voodoo Ritual by 200%</string>
+	</dict>
+	<key>Infested Toads</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Plague of Toads.png</string>
+		<key>description</key>
+		<string>Toads explode into Corpse Spiders upon death</string>
+	</dict>
+	<key>Leaping Spiders</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Corpse Spiders.png</string>
+		<key>description</key>
+		<string>Corpse Spiders leap at their targets and deal 25% more damage</string>
+	</dict>
+	<key>Ice Block</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ice Block.png</string>
+		<key>description</key>
+		<string>Activate to place yourself in stasis and gain invulnerability for 3 seconds</string>
+		<key>cooldown</key>
+		<integer>80</integer>
+	</dict>
+	<key>Toads of Hugeness</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Plague of Toads.png</string>
+		<key>description</key>
+		<string>Toad damage is increased by 10% each time they hop</string>
+	</dict>
+	<key>Dead Rush</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Zombie Wall.png</string>
+		<key>description</key>
+		<string>Upon expiring, up to 5 remaining zombies uproot and attack nearby enemies for 3 seconds</string>
+	</dict>
+	<key>Fresh Corpses</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Zombie Wall.png</string>
+		<key>description</key>
+		<string>Zombies deal 50% more damage</string>
+	</dict>
+	<key>Gidbinn</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Gidbinn.png</string>
+		<key>description</key>
+		<string>Increases the explosion area of Plague of Toads and the duration of your other non-heroic abilities, including Voodoo Ritual, by 25%</string>
+	</dict>
+	<key>Spider Cluster</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Corpse Spider.png</string>
+		<key>description</key>
+		<string>Corpse Spiders creates 3 more spiders over 3 seconds</string>
+	</dict>
+	<key>Death Ritual</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Voodoo Ritual.png</string>
+		<key>description</key>
+		<string>Permanently gain 4 health and 2 mana when a unit dies under Voodoo Ritual</string>
+	</dict>
+	<key>Advanced Lava Strike</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Napalm Strike.png</string>
+		<key>description</key>
+		<string>Napalm Strike&apos;s range is increased by 75% and its impact does 50% more damage</string>
+	</dict>
+	<key>Orbital BFG</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blunt Force Gun.png</string>
+		<key>description</key>
+		<string>Blunt Force Gun&apos;s missile orbits the planet every 5 seconds. Only the last missile fired orbits</string>
+	</dict>
+	<key>Graduating Range</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Siege Mode.png</string>
+		<key>description</key>
+		<string>While in Siege Mode your basic attack range increases by 1 every 3 seconds, up to 5</string>
+	</dict>
+	<key>Slowing Mines</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spider Mines.png</string>
+		<key>description</key>
+		<string>Increase the movement speed slow of spider mines to 50%, and the duration to 2.5 seconds</string>
+	</dict>
+	<key>Mine Field</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spider Mines.png</string>
+		<key>description</key>
+		<string>Increase the number of mines by 2</string>
+	</dict>
+	<key>Bullhead Mines</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spider Mines.png</string>
+		<key>description</key>
+		<string>Spider Mines knock targets back a short distance</string>
+	</dict>
+	<key>Barricade</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Concussive Blast.png</string>
+		<key>description</key>
+		<string>Create a wall of path blocking debris for 4 seconds</string>
+	</dict>
+	<key>First Strike</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Artillery.png</string>
+		<key>description</key>
+		<string>Basic attacks deal 25% more damage if you haven&apos;t been attacked within the last 5 seconds</string>
+	</dict>
+	<key>Crucio X-2 Cannon</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Artillery.png</string>
+		<key>description</key>
+		<string>Increase basic attack range by 2</string>
+	</dict>
+	<key>Hyper-Cooling Engines</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hyper-Cooling Engines.png</string>
+		<key>description</key>
+		<string>Reduce the cooldown of Thrusters by 10 seconds. Thrusters are always active while at the Altar</string>
+	</dict>
+	<key>Hover Siege Mode</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Siege Mode.png</string>
+		<key>description</key>
+		<string>You can move at 50% movement speed in Siege Mode</string>
+	</dict>
+	<key>Fortify Position</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Siege Mode.png</string>
+		<key>description</key>
+		<string>Enemies cannot move you while in Siege Mode. Grants 2 stacks of Block, each absorbing 50% of a basic attack</string>
+	</dict>
+	<key>Excessive Force</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Concussive Blast.png</string>
+		<key>description</key>
+		<string>Double the knock back distance of Concussive Blast</string>
+	</dict>
+	<key>Maelstrom Shells</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Artillery.png</string>
+		<key>description</key>
+		<string>Increase basic attack range by 1</string>
+	</dict>
+	<key>Ambush</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Siege Mode.png</string>
+		<key>description</key>
+		<string>Cloak when entering Siege Mode. Your next basic attack will deal 100% more damage</string>
+	</dict>
+	<key>Resistant</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Siege Mode.png</string>
+		<key>description</key>
+		<string>While in Siege Mode, the duration of silences, stuns, slows and roots are reduced by 50%</string>
+	</dict>
+	<key>Lethal Blast</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Concussive Blast.png</string>
+		<key>description</key>
+		<string>Increase the damage of Concussive Blast by 25%</string>
+	</dict>
+	<key>Advanced Artillery</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Artillery.png</string>
+		<key>description</key>
+		<string>Increases the damage bonus to long distance enemies by 10%</string>
+	</dict>
+	<key>Never-Ending Murlocs</key>
+	<dict>
+		<key>imagePath</key>
+		<string>March of the Murlocs.png</string>
+		<key>description</key>
+		<string>March of the Murlocs travel farther and cling to targets for 2 seconds longer</string>
+	</dict>
+	<key>Compressed Air</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Pufferfish.png</string>
+		<key>description</key>
+		<string>Area of effect of Pufferfish increased by 50%</string>
+	</dict>
+	<key>Master of Slime</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Slime.png</string>
+		<key>description</key>
+		<string>Slime duration increased by 2 seconds and deals ### impact damage on reapplication</string>
+		<key>firstBaseDamage</key>
+		<integer>21</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>9</integer>
+	</dict>
+	<key>Hidden Assault</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spawn Egg.png</string>
+		<key>description</key>
+		<string>When you respawn from the Egg, you are cloaked for 10 seconds. Sight range of Egg is increased by 150%</string>
+	</dict>
+	<key>Bubble Machine</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Safety Bubble.png</string>
+		<key>description</key>
+		<string>Safety Bubble cooldown reduced by 5 seconds</string>
+	</dict>
+	<key>Wrath of Cod</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Pufferfish.png</string>
+		<key>description</key>
+		<string>Pufferfish&apos;s damage is increased by 50% against heroes, minions, and mercenaries</string>
+	</dict>
+	<key>Slime Advantage</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Slime.png</string>
+		<key>description</key>
+		<string>Your basic attacks deal 50% bonus damage to Slimed targets</string>
+	</dict>
+	<key>Clairvoyance</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Clairvoyance.png</string>
+		<key>description</key>
+		<string>Activate to reveal the target area. Enemies in the area are revealed for 4 seconds</string>
+	</dict>
+	<key>Tufferfish</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Pufferfish.png</string>
+		<key>description</key>
+		<string>Pufferfishes take an additional attack before being disarmed</string>
+	</dict>
+	<key>Slimy End</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Slime.png</string>
+		<key>description</key>
+		<string>Slime is used on death</string>
+	</dict>
+	<key>Assault Egg</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spawn Egg.png</string>
+		<key>description</key>
+		<string>When you respawn from the egg, ground and mounted movement speed is increased by 20% after respawn for 5 seconds. Egg health increased by 200%</string>
+	</dict>
+	<key>Bubble Breeze</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Safety Bubble.png</string>
+		<key>description</key>
+		<string>Gain 20% movement speed while in Safety Bubble</string>
+	</dict>
+	<key>Bigger Slime</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Slime.png</string>
+		<key>description</key>
+		<string>Slime area increased by 30%</string>
+	</dict>
+	<key>Mecha-Lord</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Robo-Goblin.png</string>
+		<key>description</key>
+		<string>Basic attacks deal an additional 130% damage to heroes and increase the duration of Robo-Goblin by 0.5 seconds per hit</string>
+	</dict>
+	<key>Miniature Black Hole</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Grav-O-Bomb 3000.png</string>
+		<key>description</key>
+		<string>Grav-O-Bomb radius increased by 25% and damage increased by 50%</string>
+	</dict>
+	<key>Swift Storm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Swift Storm.png</string>
+		<key>description</key>
+		<string>Your hero is no longer dismounted from taking damage. Increases mount speed to +60% movement speed</string>
+	</dict>
+	<key>Goblin Fusion</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Deth Lazor.png</string>
+		<key>description</key>
+		<string>Deth Lazor gains an additional charge level after reaching max size, which increases the damage dealt by 50%</string>
+	</dict>
+	<key>Hyperfocus Coils</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Deth Lazor.png</string>
+		<key>description</key>
+		<string>Deth Lazor charges twice as fast</string>
+	</dict>
+	<key>Kwik Release Charge</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Xplodium Charge.png</string>
+		<key>description</key>
+		<string>Xplodium Charge can now be cast twice in rapid succession</string>
+	</dict>
+	<key>Engine Gunk</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rock-It! Turret.png</string>
+		<key>description</key>
+		<string>Turret attacks slow movement speed by 25% for 2 seconds</string>
+	</dict>
+	<key>Turret Storage</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rock-It! Turret.png</string>
+		<key>description</key>
+		<string>Max Turret charges increased to 4</string>
+	</dict>
+	<key>EZ-PZ Dimensional Ripper</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Deth Lazor.png</string>
+		<key>description</key>
+		<string>Deth Lazor slows heroes by 35% and freezes minions or structures for 3 seconds</string>
+	</dict>
+	<key>Long-Ranged Turrets</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rock-It! Turret.png</string>
+		<key>description</key>
+		<string>Turret Range increased by 25%</string>
+	</dict>
+	<key>Mercenary Lord</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Mercenary Lord.png</string>
+		<key>description</key>
+		<string>Mercenary Camps your hero captures gain the following bonuses:
+
+Siege Giants: 50% increased damage
+Knights: 50% increased health</string>
+	</dict>
+	<key>Rock-It! Turret XL</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rock-It! Turret.png</string>
+		<key>description</key>
+		<string>Turrets attack up to 2 additional targets for 50% damage</string>
+	</dict>
+	<key>Clockwerk Steam Fists</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rock-It! Turret.png</string>
+		<key>description</key>
+		<string>Basic attacks increase the duration of active Rock-It! Turrets by 1 second</string>
+	</dict>
+	<key>Reduce, Reuse, Recycle</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Salvager.png</string>
+		<key>description</key>
+		<string>Enemy minions that die near you have a 15% chance to drop scrap</string>
+	</dict>
+	<key>Minion Killer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Minion Killer.png</string>
+		<key>description</key>
+		<string>Deal 25% increased damage to minions, mercenaries and summons</string>
+	</dict>
+	<key>Extra TNT</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Xplodium Charge.png</string>
+		<key>description</key>
+		<string>Xplodium Charge damage increased by 10% per target hit, to a maximum of 100% increased damage</string>
+	</dict>
+	<key>Break it Down!</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Salvager.png</string>
+		<key>description</key>
+		<string>Increases the cooldown reduction granted by scrap to 9 over 3 seconds</string>
+	</dict>
+	<key>Scrap-o-Matic Smelter</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Salvager.png</string>
+		<key>description</key>
+		<string>Increases the amount of mana restored by scrap to 60</string>
+	</dict>
+	<key>Evolution Master</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ultimate Evolution.png</string>
+		<key>description</key>
+		<string>Lower the cooldown of Ultimate Evolution to 90 seconds, and increase the duration to 60 seconds</string>
+	</dict>
+	<key>Locust Swarm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Locust Strain.png</string>
+		<key>description</key>
+		<string>Gain the ability to spawn a nest near Abathur that hatches 3 Locusts</string>
+	</dict>
+	<key>Adrenaline Boost</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Carapace.png</string>
+		<key>description</key>
+		<string>Symbiote&apos;s Carapace increases the movement speed of the target by 40% for 3 seconds</string>
+	</dict>
+	<key>Envenomed Spines (Abathur)</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spike Burst.png</string>
+		<key>description</key>
+		<string>Your Symbiote&apos;s Spike Burst also slows enemies by 40% for 2 seconds</string>
+	</dict>
+	<key>Prolific Dispersal</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Toxic Nest.png</string>
+		<key>description</key>
+		<string>Toxic Nest gains 2 additional charges</string>
+	</dict>
+	<key>Spatial Efficiency</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stab.png</string>
+		<key>description</key>
+		<string>Symbiote&apos;s Stab gains 1 additional charge</string>
+	</dict>
+	<key>Bombard Strain</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Locust Strain.png</string>
+		<key>description</key>
+		<string>Locust basic attacks become a long-range siege attack</string>
+	</dict>
+	<key>Assault Strain</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Locust Strain.png</string>
+		<key>description</key>
+		<string>Locust basic attacks cleave, and explode on death for ### damage</string>
+		<key>firstBaseDamage</key>
+		<integer>60</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>12</integer>
+	</dict>
+	<key>Calldown: MULE</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>60</integer>
+		<key>imagePath</key>
+		<string>Calldown MULE.png</string>
+		<key>description</key>
+		<string>Activate to calldown a MULE that repairs structures, one at a time, near target point for 60 seconds, healing for 100 health every 1 second. Grants 1 ammo every 5 seconds</string>
+	</dict>
+	<key>Regenerative Microbes</key>
+	<dict>
+		<key>firstDamagePerLevel</key>
+		<integer>2</integer>
+		<key>firstBaseDamage</key>
+		<integer>7</integer>
+		<key>imagePath</key>
+		<string>Carapace.png</string>
+		<key>description</key>
+		<string>Symbiote&apos;s Carapace heals the target for ### health per second</string>
+	</dict>
+	<key>Vile Nest</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Toxic Nest.png</string>
+		<key>description</key>
+		<string>Toxic Nests slow enemies by 50% movement speed for 2 seconds</string>
+	</dict>
+	<key>Grooved Spines (Abathur)</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stab.png</string>
+		<key>description</key>
+		<string>Increases the range of your Symbiote&apos;s Stab by 33%</string>
+	</dict>
+	<key>Promote</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>60</integer>
+		<key>imagePath</key>
+		<string>Promote.png</string>
+		<key>description</key>
+		<string>Activate to give target allied lane minion +200% permanent health and +100% permanent damage. Has 2 charges</string>
+	</dict>
+	<key>Ballistospores</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Toxic Nest.png</string>
+		<key>description</key>
+		<string>Toxic Nests can be placed from unlimited range</string>
+	</dict>
+	<key>Pressurized Glands</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spike Burst.png</string>
+		<key>description</key>
+		<string>Increases the range of Symbiote&apos;s Spike Burst by 100%</string>
+	</dict>
+	<key>Barbed Spines</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stab.png</string>
+		<key>description</key>
+		<string>Increases the damage of your Symbiote&apos;s Stab by 20%</string>
+	</dict>
+	<key>Envenomed Nest</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Toxic Nest.png</string>
+		<key>description</key>
+		<string>Toxic Nests deal 30% more damage over 3 seconds</string>
+	</dict>
+	<key>Survival Instincts</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Locust Strain.png</string>
+		<key>description</key>
+		<string>Locusts gain 30% more health</string>
+	</dict>
+	<key>Combat Adaptation</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Locust Strain.png</string>
+		<key>description</key>
+		<string>Locusts gain 20% more attack speed</string>
+	</dict>
+	<key>Eradicate Minions</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spike Burst.png</string>
+		<key>description</key>
+		<string>Your Symbiote&apos;s Spike Burst deals 50% more damage to non-heroic targets</string>
+	</dict>
+	<key>Holy Arena</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Sanctification.png</string>
+		<key>description</key>
+		<string>Increases the duration of Sanctification by 1 second and increases the damage of allies by 25%</string>
+	</dict>
+	<key>Angel of Justice</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Judgment.png</string>
+		<key>description</key>
+		<string>Increases the cast range of Judgment by 50%, and reduces the cooldown by 30 seconds</string>
+	</dict>
+	<key>Salvation</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Righteousness.png</string>
+		<key>description</key>
+		<string>Shield is 25% stronger for each allied hero that gets shielded</string>
+	</dict>
+	<key>Holy Ground</key>
+	<dict>
+		<key>imagePath</key>
+		<string>El&apos;Druin&apos;s Might.png</string>
+		<key>description</key>
+		<string>Create a ring that blocks enemies from entering the area teleported to using El&apos;Druins Might</string>
+	</dict>
+	<key>Blade of Justice</key>
+	<dict>
+		<key>imagePath</key>
+		<string>El&apos;Druin&apos;s Might.png</string>
+		<key>description</key>
+		<string>After teleporting using El&apos;Druin&apos;s Might, your next 3 basic attacks within 5 seconds deal 100% more damage</string>
+	</dict>
+	<key>Angelic Might</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Smite.png</string>
+		<key>description</key>
+		<string>Gain 25% increased damage on your next basic attack for each target hit by Smite</string>
+	</dict>
+	<key>Cast Aside</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Smite.png</string>
+		<key>description</key>
+		<string>Smite pushes enemies outside the target area</string>
+	</dict>
+	<key>Imposing Will</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Righteousness.png</string>
+		<key>description</key>
+		<string>Enemies that attack you while shielded have their attack speed slowed by 50% and movement speed slowed by 50% for 2 seconds</string>
+	</dict>
+	<key>Zealotry</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Righteousness.png</string>
+		<key>description</key>
+		<string>Increases shield duration by 100%</string>
+	</dict>
+	<key>Reciprocate</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Righteousness.png</string>
+		<key>description</key>
+		<string>When the shield expires, it explodes for ### damage to nearby enemies</string>
+		<key>firstBaseDamage</key>
+		<integer>90</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>12</integer>
+	</dict>
+	<key>Angel&apos;s Grace</key>
+	<dict>
+		<key>imagePath</key>
+		<string>El&apos;Druin&apos;s Might.png</string>
+		<key>description</key>
+		<string>After teleporting using El&apos;Druin&apos;s Might, gain 25% movement speed for 3 seconds</string>
+	</dict>
+	<key>Even in Death</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Archangel&apos;s Wrath.png</string>
+		<key>description</key>
+		<string>Non-heroic abilities can be used before exploding, but deal no damage</string>
+	</dict>
+	<key>Retribution</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Smite.png</string>
+		<key>description</key>
+		<string>Cooldown is lowered by 0.5 seconds for each target hit by Smite</string>
+	</dict>
+	<key>Angelic Absorption</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Righteousness.png</string>
+		<key>firstBaseDamage</key>
+		<integer>30</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>6</integer>
+		<key>description</key>
+		<string>Enemies that attack you while shielded grant ### health over 3 seconds</string>
+	</dict>
+	<key>Protection in Death</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Archangel&apos;s Wrath.png</string>
+		<key>description</key>
+		<string>When Archangel&apos;s Wrath explodes, shield nearby allies for 50% of their maximum health for 5 seconds</string>
+	</dict>
+	<key>Purge Evil</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Smite.png</string>
+		<key>description</key>
+		<string>Smite deals 50% more damage to heroes</string>
+	</dict>
+	<key>Horadric Reforging</key>
+	<dict>
+		<key>imagePath</key>
+		<string>El&apos;Druin&apos;s Might.png</string>
+		<key>description</key>
+		<string>Increases the damage dealt by El&apos;Druin&apos;s Might by 25%</string>
+	</dict>
+	<key>Hungry Hungry Stitches</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Gorge.png</string>
+		<key>description</key>
+		<string>While active, Gorge can be repeatedly recast until the first target is expelled. Duration increased by 1 second</string>
+	</dict>
+	<key>Regenerative Bile</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Putrid Bile.png</string>
+		<key>description</key>
+		<string>Putrid Bile lasts 2 seconds longer and heals for 50% of the damage dealt</string>
+	</dict>
+	<key>Pulverize</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Slam.png</string>
+		<key>description</key>
+		<string>Slam damage increased by 50%, and stuns targets for 0.5 seconds</string>
+	</dict>
+	<key>Helping Hand</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hook.png</string>
+		<key>description</key>
+		<string>Hook can now pull allied heroes (but will not damage them)</string>
+	</dict>
+	<key>Indigestion</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Devour.png</string>
+		<key>description</key>
+		<string>Using Devour also creates a Retchling</string>
+	</dict>
+	<key>Mega Smash</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Slam.png</string>
+		<key>description</key>
+		<string>Range and arc of Slam increased by 25%</string>
+	</dict>
+	<key>Toxic Gas</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Vile Gas.png</string>
+		<key>description</key>
+		<string>Increases Vile Gas radius by 20% and the duration of the effect by 2 seconds</string>
+	</dict>
+	<key>Savor the Flavor</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Devour.png</string>
+		<key>description</key>
+		<string>Using Devour on an enemy hero grats a permanent +2 health per second</string>
+	</dict>
+	<key>Last Bite</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Devour.png</string>
+		<key>description</key>
+		<string>If Devour kills an enemy, the cooldown is reduced by 15 seconds</string>
+	</dict>
+	<key>Tenderizer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Tenderizer.png</string>
+		<key>description</key>
+		<string>Basic attacks slow enemies&apos; movement speed by 25% for 1.5 seconds</string>
+	</dict>
+	<key>Putrid Ground</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Slam.png</string>
+		<key>description</key>
+		<string>Enemies hit by Slam are infected with Vile Gas</string>
+	</dict>
+	<key>Vile Cleaver</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Vile Gas.png</string>
+		<key>description</key>
+		<string>Basic attacks create a cloud of Vile Gas on the target</string>
+	</dict>
+	<key>Chew Your Food</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Devour.png</string>
+		<key>description</key>
+		<string>Using Devour also heals you for 10% of you maximum health over 3 seconds</string>
+	</dict>
+	<key>Heavy Slam</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Slam.png</string>
+		<key>description</key>
+		<string>Slam damage increased by 50%</string>
+	</dict>
+	<key>Grand Slam</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Haymaker.png</string>
+		<key>description</key>
+		<string>Damage of Haymaker is increased by 25%, and it can store 2 charges</string>
+	</dict>
+	<key>Unstoppable Force</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Avatar.png</string>
+		<key>description</key>
+		<string>Increases the duration of Avatar by 30%, and the duration of disables are reduced by 75% while in Avatar</string>
+	</dict>
+	<key>Stoneform</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Second Wind.png</string>
+		<key>description</key>
+		<string>Activate to heal for 40% of you maximum health over 8 seconds. Second Wind is disabled during this time</string>
+	</dict>
+	<key>Heavy Impact</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dwarf Toss.png</string>
+		<key>description</key>
+		<string>Enemies hit by Dwarf Toss are stunned for 0.75 seconds</string>
+	</dict>
+	<key>Dwarf Launch</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dwarf Toss.png</string>
+		<key>description</key>
+		<string>Increases the range and impact radius of Dwarf Toss by 75%</string>
+	</dict>
+	<key>Thunderstrike</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Thunderclap.png</string>
+		<key>description</key>
+		<string>Thunderclap deals 300% damage if only one target is hit</string>
+	</dict>
+	<key>Healing Static</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Thunderclap.png</string>
+		<key>description</key>
+		<string>Heal 1.5% of your maximum health for each target hit by Thunderclap</string>
+	</dict>
+	<key>Landing Momentum</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dwarf Toss.png</string>
+		<key>description</key>
+		<string>Increases your movement speed by 20% for 2 seconds upon landing with Dwarf Toss</string>
+	</dict>
+	<key>Piercing Bolt</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stormbolt.png</string>
+		<key>description</key>
+		<string>Stormbolt penetrates through, hitting 1 additional target</string>
+	</dict>
+	<key>Skullcracker</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Skullcracker.png</string>
+		<key>description</key>
+		<string>Every 3rd basic attack against the same target will stun them for 0.25 seconds</string>
+	</dict>
+	<key>Third Wind</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Second Wind.png</string>
+		<key>description</key>
+		<string>Increases Second Wind&apos;s health regeneration rates and raises health threshold to 40% health for improved regeneration</string>
+	</dict>
+	<key>Thunderburn</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Thunderclap.png</string>
+		<key>description</key>
+		<string>Thunderclap leaves a zone on the ground that explodes after 2 seconds, dealing ### damage and applying a 25% slow for 2 seconds</string>
+		<key>firstDamagePerLevel</key>
+		<integer>4</integer>
+		<key>firstBaseDamage</key>
+		<integer>25</integer>
+	</dict>
+	<key>Crowd Control</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Thunderclap.png</string>
+		<key>description</key>
+		<string>Each enemy hit by Thunderclap reduces its cooldown by 0.75 seconds</string>
+	</dict>
+	<key>Sledgehammer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stormbolt.png</string>
+		<key>description</key>
+		<string>Stormbolt deals 400% damage to minions and structures and destroys 4 ammo from structures</string>
+	</dict>
+	<key>Reverberation</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Thunderclap.png</string>
+		<key>description</key>
+		<string>Enemies hit by Thunderclap have their attack speed reduced by 33% for 3.5 seconds</string>
+	</dict>
+	<key>Infused Hammer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stormbolt.png</string>
+		<key>description</key>
+		<string>Stormbolt refunds 45 mana for each enemy hit</string>
+	</dict>
+	<key>Perfect Storm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stormbolt.png</string>
+		<key>description</key>
+		<string>Stormbolt&apos;s damage is permanently increased by 5 for each enemy hero hit</string>
+	</dict>
+	<key>Rock God!</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stage Dive.png</string>
+		<key>description</key>
+		<string>Reduces the cast and air time of Stage Dive by 50%, and increases the damage dealt by 50%</string>
+	</dict>
+	<key>Death Metal</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Mosh Pit.png</string>
+		<key>description</key>
+		<string>Makes dancing enemies vulnerable, increasing damage taken by 25%</string>
+	</dict>
+	<key>Guitar Instrumental</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Guitar Solo.png</string>
+		<key>description</key>
+		<string>Guitar Solo&apos;s duration is increased by 100%</string>
+	</dict>
+	<key>Head Crack</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Powerslide.png</string>
+		<key>description</key>
+		<string>Increases the stun duration of Powerslide by 50%</string>
+	</dict>
+	<key>Face Smelt</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Face Melt.png</string>
+		<key>description</key>
+		<string>Enemies hit by Face Melt are also slowed by 80% for 2 seconds</string>
+	</dict>
+	<key>Rockin&apos; Out</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rockstar.png</string>
+		<key>description</key>
+		<string>Increases the duration of Rockstar by 2 seconds, and minions get the full bonus</string>
+	</dict>
+	<key>Uber Rockstar</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rockstar.png</string>
+		<key>description</key>
+		<string>The Rockstar aura also adds 20% movement speed</string>
+	</dict>
+	<key>Guitar Hero</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Guitar Solo.png</string>
+		<key>description</key>
+		<string>After using Guitar Solo, your next basic attack strikes immediately, deals double damage, and heals you for 50% of the damage dealt</string>
+	</dict>
+	<key>Loud Speakers</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Face Melt.png</string>
+		<key>description</key>
+		<string>Increases the range and knockback of Face Melt by 50%</string>
+	</dict>
+	<key>Monster Slide</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Powerslide.png</string>
+		<key>description</key>
+		<string>Increases width of Powerslide by 50%</string>
+	</dict>
+	<key>Groupies</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Guitar Solo.png</string>
+		<key>description</key>
+		<string>Guitar Solo now also heals nearby allies for ### health every second for its duration</string>
+		<key>firstDamagePerLevel</key>
+		<integer>12</integer>
+		<key>firstBaseDamage</key>
+		<integer>3</integer>
+	</dict>
+	<key>Pwn Shop Guitar</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Guitar Solo.png</string>
+		<key>description</key>
+		<string>Guitar Solo&apos;s mana cost reduced by 50%</string>
+	</dict>
+	<key>Echo Pedal</key>
+	<dict>
+		<key>firstDamagePerLevel</key>
+		<integer>10</integer>
+		<key>firstBaseDamage</key>
+		<integer>3</integer>
+		<key>imagePath</key>
+		<string>Echo Pedal.png</string>
+		<key>description</key>
+		<string>After using an ability, pulse twice for ### damage to nearby enemies</string>
+	</dict>
+	<key>Dance Your Pants Off!</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Face Melt.png</string>
+		<key>description</key>
+		<string>Enemy minions hit by Face Melt also dance for 5 seconds</string>
+	</dict>
+	<key>Damage Slide</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Powerslide.png</string>
+		<key>description</key>
+		<string>Increases the damage of Powerslide by 30%</string>
+	</dict>
+	<key>Hellstorm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Lightning Breath.png</string>
+		<key>description</key>
+		<string>Lightning Breath lasts and reaches 50% longer</string>
+	</dict>
+	<key>Dying Breath</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Apocalypse.png</string>
+		<key>description</key>
+		<string>Apocalypse casts again when you die</string>
+	</dict>
+	<key>Storm Shield</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Storm Shield.png</string>
+		<key>description</key>
+		<string>Activate to give all nearby allied heroes a shield for 20% of their maximum health for 3 seconds</string>
+	</dict>
+	<key>Continuous Overpower</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Overpower.png</string>
+		<key>description</key>
+		<string>Can hold up to 2 charges of Overpower</string>
+	</dict>
+	<key>Firestorm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fire Stomp.png</string>
+		<key>description</key>
+		<string>Fire Stomp waves return to Diablo, dealing 150% damage</string>
+	</dict>
+	<key>Fire Devil</key>
+	<dict>
+		<key>firstBaseDamage</key>
+		<integer>15</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>3</integer>
+		<key>imagePath</key>
+		<string>Fire Stomp.png</string>
+		<key>description</key>
+		<string>Casting Fire Stomp surrounds you in flames that deal ### damage every second for 10 seconds</string>
+	</dict>
+	<key>Crippling Shadows</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Shadow Charge.png</string>
+		<key>description</key>
+		<string>Shadow Charge also slows the target by 25% for 3 seconds</string>
+	</dict>
+	<key>From the Shadows (Diablo)</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Shadow Charge.png</string>
+		<key>description</key>
+		<string>Shadow Charge&apos;s range is increased by 33%</string>
+	</dict>
+	<key>Siphon the Dead</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Black Soulstone.png</string>
+		<key>description</key>
+		<string>Activate to consume 1 Soul per second to regenerate 3% of your total health per second</string>
+	</dict>
+	<key>Endless Death</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Black Soulstone.png</string>
+		<key>description</key>
+		<string>You can hold up to 200 Souls</string>
+	</dict>
+	<key>Demonic Strength</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Overpower.png</string>
+		<key>description</key>
+		<string>Overpower deals 25% more damage</string>
+	</dict>
+	<key>Molten Impact</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fire Stomp.png</string>
+		<key>description</key>
+		<string>Fire Stomp deals 50% more damage to non-heroic enemies</string>
+	</dict>
+	<key>Swallowing Flames</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fire Stomp.png</string>
+		<key>description</key>
+		<string>Fire waves extend 50% farther</string>
+	</dict>
+	<key>Amplified Healing</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Amplified Healing.png</string>
+		<key>description</key>
+		<string>Increases regeneration effects and all healing received by 30%</string>
+	</dict>
+	<key>Soul Steal</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Overpower.png</string>
+		<key>description</key>
+		<string>Using Overpower grants you 3 souls</string>
+	</dict>
+	<key>Soul Feast</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Black Soulstone.png</string>
+		<key>description</key>
+		<string>For each Soul, gain an additional 5 health and 0.1 health regeneration per second</string>
+	</dict>
+	<key>Devil&apos;s Due</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Black Soulstone.png</string>
+		<key>description</key>
+		<string>Resurrection now only costs 75 Souls</string>
+	</dict>
+	<key>Anger Management</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Wrath of the Berzerker.png</string>
+		<key>description</key>
+		<string>Wrath of the Berzerker duration increased by 1 second for every 2 Fury gained. Increases the reduction of disables to 75%</string>
+	</dict>
+	<key>Arreat Crater</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Leap.png</string>
+		<key>description</key>
+		<string>Leaves behind an impassable crater for 4 seconds.</string>
+	</dict>
+	<key>No Escape</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fury.png</string>
+		<key>description</key>
+		<string>Increase the movement speed bonus from using abilities to 20%</string>
+	</dict>
+	<key>Enduring Whirlwind</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Whirlwind.png</string>
+		<key>description</key>
+		<string>Whirlwind duration is doubled</string>
+	</dict>
+	<key>Mystical Spear</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ancient Spear.png</string>
+		<key>description</key>
+		<string>Ancient Spear pulls even if it misses a unit, but gain no Fury</string>
+	</dict>
+	<key>Imposing Presence</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Imposing Presence.png</string>
+		<key>description</key>
+		<string>Enemies that attack you have their attack speed slowed by 30%</string>
+	</dict>
+	<key>Dust Devils</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Whirlwind.png</string>
+		<key>description</key>
+		<string>Whirlwind creates tornadoes that do an additional 25% damage</string>
+	</dict>
+	<key>Wind Shear</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Whirlwind.png</string>
+		<key>description</key>
+		<string>Using Whirlwind removes all movement impairing effects and increases the amount healed to 25%</string>
+	</dict>
+	<key>Aftershock</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Seismic Slam.png</string>
+		<key>description</key>
+		<string>Using Seismic Slam temporarily reduces its Fury cost to 50%</string>
+	</dict>
+	<key>Composite Spear</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ancient Spear.png</string>
+		<key>description</key>
+		<string>Increases the range of Ancient Spear by 30%</string>
+	</dict>
+	<key>Ferocious Healing</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>10</integer>
+		<key>cost</key>
+		<string>10 Fury</string>
+		<key>imagePath</key>
+		<string>Ferocious Healing.png</string>
+		<key>description</key>
+		<string>Activate to heal 10.15% of your maximum health</string>
+	</dict>
+	<key>Shattered Ground</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Seismic Slam.png</string>
+		<key>description</key>
+		<string>Increases Seismic Slam splash damage to 100% of the primary target damage</string>
+	</dict>
+	<key>Poisoned Spear</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ancient Spear.png</string>
+		<key>description</key>
+		<string>Ancient Spear deals an additional 50% damage over 4 seconds.</string>
+	</dict>
+	<key>Furious Blow</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Seismic Slam.png</string>
+		<key>description</key>
+		<string>Seismic Slam damage increased by 50% and Fury cost reduced to 20</string>
+	</dict>
+	<key>Boon of the Ancients</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ancient Spear.png</string>
+		<key>description</key>
+		<string>Hitting an enemy reduces Ancient Spear&apos;s cooldown by 5 seconds</string>
+	</dict>
+	<key>War Paint</key>
+	<dict>
+		<key>imagePath</key>
+		<string>War Paint.png</string>
+		<key>description</key>
+		<string>Basic attacks heal you for 25% of the damage dealt</string>
+	</dict>
+	<key>Shot of Fury</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>45</integer>
+		<key>imagePath</key>
+		<string>Fury.png</string>
+		<key>description</key>
+		<string>Activate to gain 25 Fury</string>
+	</dict>
+	<key>Endless Fury</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fury.png</string>
+		<key>description</key>
+		<string>Increases maximum Fury to 150</string>
+	</dict>
+	<key>Resurgence of the Storm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Resurgence of the Storm.png</string>
+		<key>description</key>
+		<string>Upon dying, revive back at your Altar after 5 seconds. This can occur once every 120 seconds</string>
+	</dict>
+	<key>Absolute Zero</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Summon Sindragosa.png</string>
+		<key>description</key>
+		<string>Sindragosa flies twice as far. Enemy heroes are rooted for 1.5 seconds, and the slowed by 60% for 1.5 seconds</string>
+	</dict>
+	<key>Legion of Northrend</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Army of the Dead.png</string>
+		<key>description</key>
+		<string>3 additional Ghouls are created. Ghouls last 50% longer</string>
+	</dict>
+	<key>Frostmourne Feeds</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frostmourne Hungers.png</string>
+		<key>description</key>
+		<string>Frostmourne Hungers now applies to your next 2 basic attacks</string>
+	</dict>
+	<key>Embrace Death</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Death Coil.png</string>
+		<key>description</key>
+		<string>Death Coil deals 20% more damage for each 10% of life you are missing</string>
+	</dict>
+	<key>Immortal Coil</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Death Coil.png</string>
+		<key>description</key>
+		<string>Death Coil also heals when used on enemies. When used on self, the amount healed is increased by 50%</string>
+	</dict>
+	<key>Biting Cold</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frozen Tempest.png</string>
+		<key>description</key>
+		<string>Frozen Tempest damage and cost increased by 50%</string>
+	</dict>
+	<key>Trail of Frost</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Howling Blast.png</string>
+		<key>description</key>
+		<string>Howling Blast impacts enemies while travelling</string>
+	</dict>
+	<key>Frost Strike</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frostmourne Hungers.png</string>
+		<key>description</key>
+		<string>Frostmourne Hungers also slows the target by 40% for 1.5 seconds</string>
+	</dict>
+	<key>Obliterate</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frostmourne Hungers.png</string>
+		<key>description</key>
+		<string>Frostmourne Hungers also hits enemies near the target for 50% damage</string>
+	</dict>
+	<key>Death Touch</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Death Coil.png</string>
+		<key>description</key>
+		<string>Death Coil causes enemy minions to explode, killing the target instantly and dealing its normal damage to other nearby enemies</string>
+	</dict>
+	<key>Rune Tap</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rune Tap.png</string>
+		<key>description</key>
+		<string>Every 3rd basic attack heals you for 5.85% of your maximum health</string>
+	</dict>
+	<key>Destruction</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frostmourne Hungers.png</string>
+		<key>description</key>
+		<string>Damage boost of Frostmourne Hungers increased to 150% damage</string>
+	</dict>
+	<key>Eternal Hunger</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frostmourne Hungers.png</string>
+		<key>description</key>
+		<string>Mana restored by Frostmourne Hungers increased to 60</string>
+	</dict>
+	<key>Superiority</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Superiority.png</string>
+		<key>description</key>
+		<string>Reduce damage taken from non-heroic enemies by 50%</string>
+	</dict>
+	<key>Frozen Wastes</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frozen Tempest.png</string>
+		<key>description</key>
+		<string>Frozen Tempest radius increased by 33%</string>
+	</dict>
+	<key>Frost Presence</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Howling Blast.png</string>
+		<key>description</key>
+		<string>Howling Blast cooldown lowered by 2 seconds</string>
+	</dict>
+	<key>Protective Prison</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Void Prison.png</string>
+		<key>description</key>
+		<string>Allies are also no longer affected by Void Prison</string>
+	</dict>
+	<key>Nerazim Fury</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Shadow Assault.png</string>
+		<key>description</key>
+		<string>Shadow Assault grants 30% life steal, and the duration is increased by 50%</string>
+	</dict>
+	<key>Double Bombs</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Singularity Spike.png</string>
+		<key>description</key>
+		<string>After you cast Singularity Spike, you can cast a second one for free within 3 seconds</string>
+	</dict>
+	<key>From the Shadows (Zeratul)</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Cleave.png</string>
+		<key>description</key>
+		<string>Cleave deals 30% increased damage if used while cloaked</string>
+	</dict>
+	<key>Assassin&apos;s Blade</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Permanent Cloak.png</string>
+		<key>description</key>
+		<string>Gain 25% attack damage for 5 seconds when breaking cloak. 10% increased movement speed while cloaked</string>
+	</dict>
+	<key>Wormhole</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blink.png</string>
+		<key>description</key>
+		<string>For 3 seconds, you can activate Blink again to return to the point where it was cast from</string>
+	</dict>
+	<key>Burning Rage</key>
+	<dict>
+		<key>firstBaseDamage</key>
+		<integer>10</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>2</integer>
+		<key>imagePath</key>
+		<string>Burning Rage.png</string>
+		<key>description</key>
+		<string>Deals ### damage per second to nearby enemies</string>
+	</dict>
+	<key>Shadow Spike</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Singularity Spike.png</string>
+		<key>description</key>
+		<string>No longer decloak when using Singularity Spike. Range increased by 20%</string>
+	</dict>
+	<key>Rending Cleave</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Cleave.png</string>
+		<key>description</key>
+		<string>Cleave deals an additional 50% damage over 5 seconds</string>
+	</dict>
+	<key>Vorpal Blade</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>15</integer>
+		<key>imagePath</key>
+		<string>El&apos;druin&apos;s Might.png</string>
+		<key>description</key>
+		<string>Activate to teleport to the last target you attacked within 3 seconds</string>
+	</dict>
+	<key>Sustained Anomaly</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Singularity Spike.png</string>
+		<key>description</key>
+		<string>Singularity Spike now explodes for area damage and slows, regardless if it hits a target or not.</string>
+	</dict>
+	<key>Rapid Displacement</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blink.png</string>
+		<key>description</key>
+		<string>Reduces the cooldown of Blink by 1.5 seconds</string>
+	</dict>
+	<key>Greater Cleave</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Cleave.png</string>
+		<key>description</key>
+		<string>Increases the radius of Cleave by 33%</string>
+	</dict>
+	<key>Focusing Diodes</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Drakken Laser Drill.png</string>
+		<key>description</key>
+		<string>Increases the range of the Drakken Laser Drill by 50%. Deals increased damage the longer it remains on a single target, up to 100% extra damage</string>
+	</dict>
+	<key>Big Red Button</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Commandeer Odin.png</string>
+		<key>description</key>
+		<string>Odin lasts 50% longer and gains a new ability: Nuclear Blast</string>
+	</dict>
+	<key>Concussion Grenade</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frag Grenade.png</string>
+		<key>description</key>
+		<string>Increases the knockback of Frag Grenade by 100%</string>
+	</dict>
+	<key>Lock and Load</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Minigun.png</string>
+		<key>description</key>
+		<string>While the minigun is wound up, gain 15% movement speed</string>
+	</dict>
+	<key>Stim Pack</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Overkill.png</string>
+		<key>description</key>
+		<string>After using Run and Gun, gain 20% attack speed and 20% movement speed for 3 seconds</string>
+	</dict>
+	<key>Lead Rain</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Overkill.png</string>
+		<key>description</key>
+		<string>Overkill applies a stacking slow, up to 20%</string>
+	</dict>
+	<key>Relentless</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Relentless.png</string>
+		<key>description</key>
+		<string>Reduces the duration of silences, stuns, slows, and roots against your hero by 50%</string>
+	</dict>
+	<key>Quarterback</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frag Grenade.png</string>
+		<key>description</key>
+		<string>Increases the range of Frag Grenade by 50%</string>
+	</dict>
+	<key>Rapid Fire</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Minigun.png</string>
+		<key>description</key>
+		<string>After attacking for 3 seconds, gain 50% increased attack speed</string>
+	</dict>
+	<key>Spray &apos;n&apos; Pray</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Overkill.png</string>
+		<key>description</key>
+		<string>Overkill&apos;s range increased by 15%</string>
+	</dict>
+	<key>Melting Point</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frag Grenade.png</string>
+		<key>description</key>
+		<string>Frag Grenade deals an additional ### damage to minions and structures</string>
+		<key>firstBaseDamage</key>
+		<integer>120</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>50</integer>
+	</dict>
+	<key>Dash</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Run and Gun.png</string>
+		<key>description</key>
+		<string>Increases the range of Run and Gun by 25%</string>
+	</dict>
+	<key>Shredder Grenade</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Frag Grenade.png</string>
+		<key>description</key>
+		<string>Increases the explosion radius of Frag Grenade by 25%</string>
+	</dict>
+	<key>Armor Piercing Rounds</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Overkill.png</string>
+		<key>description</key>
+		<string>Overkill&apos;s damage to the primary target increased by 20%</string>
+	</dict>
+	<key>Hell&apos;s Angels</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Raynor&apos;s Raiders.png</string>
+		<key>description</key>
+		<string>Banshees remain cloaked while attacking and fire 1 more missile each volley</string>
+	</dict>
+	<key>Battle Hyperion</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hyperion.png</string>
+		<key>description</key>
+		<string>Hyperion now hits each target up to 2 times per volley. Every 4 seconds Hyperion will fire its Yamato Cannon at enemy structures</string>
+	</dict>
+	<key>Berserk</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>60</integer>
+		<key>imagePath</key>
+		<string>Berserk.png</string>
+		<key>description</key>
+		<string>Activate to increase your attack speed by 40% and movement speed by 10% for 4 seconds</string>
+	</dict>
+	<key>Bullseye</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Penetrating Round.png</string>
+		<key>description</key>
+		<string>The first enemy hit by Penetrating Round is stunned for 1 second and takes 50% more damage</string>
+	</dict>
+	<key>Cluster Round</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Penetrating Round.png</string>
+		<key>description</key>
+		<string>Penetrating Round damage is increased by 10% for each additional target hit, and the width is increased by 50%</string>
+	</dict>
+	<key>Activated Rush</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Adrenaline Rush.png</string>
+		<key>description</key>
+		<string>Adrenaline Rush can be used on command. Doing so reduces the cooldown by 15 seconds</string>
+	</dict>
+	<key>The Art of War</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Inspire.png</string>
+		<key>description</key>
+		<string>On using Inspire, nearby enemies have their attack speed and movement speed lowered by 10%</string>
+	</dict>
+	<key>Fight or Flight</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Adrenaline Rush.png</string>
+		<key>description</key>
+		<string>Adrenaline Rush cleanses all movement impairing effects, and makes you unstoppable for 2 seconds</string>
+	</dict>
+	<key>Revolution Overdrive</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Inspire.png</string>
+		<key>description</key>
+		<string>Gain 10% movement speed when using Inspire, plus 5% additional movement speed for each ally hero Inspired</string>
+	</dict>
+	<key>Heavy Ammo</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Penetrating Round.png</string>
+		<key>description</key>
+		<string>Penetrating Round has increased knock back distance, and deals 100% extra damage to structures</string>
+	</dict>
+	<key>Quick Fingers</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Lead from the Front.png</string>
+		<key>description</key>
+		<string>Doubles the cooldown reduction of Lead from the Front</string>
+	</dict>
+	<key>Advanced Optics</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Advanced Optics.png</string>
+		<key>description</key>
+		<string>Increases your basic attack range by 20% (5.5 to 6.6 range) and sight range by 10%</string>
+	</dict>
+	<key>Scouting Drone</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>60</integer>
+		<key>imagePath</key>
+		<string>Scouting Drone.png</string>
+		<key>description</key>
+		<string>Places a Scouting Drone at target location, revealing a large area and any cloaked heroes around it for 60 seconds. This Drone can be seen and killed by enemies</string>
+	</dict>
+	<key>Give Me More!</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Adrenaline Rush.png</string>
+		<key>description</key>
+		<string>Increased Adrenaline Rush healing by 50%</string>
+	</dict>
+	<key>Demolitionist</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Demolitionist.png</string>
+		<key>description</key>
+		<string>Basic attack against structures destroy 1 ammo and deal an additional 10% damage</string>
+	</dict>
+	<key>Precision Barrage</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Precision Strike.png</string>
+		<key>description</key>
+		<string>Precision Strike now holds two charges with a short cooldown</string>
+	</dict>
+	<key>Fast Reload</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Triple Tap.png</string>
+		<key>description</key>
+		<string>Triple Tap&apos;s cooldown is reset if it kills an enemy hero</string>
+	</dict>
+	<key>Railgun</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Snipe.png</string>
+		<key>description</key>
+		<string>Snipe penetrates through the first enemy hit and deals 50% damage to subsequent targets</string>
+	</dict>
+	<key>Crippling Shot</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Pinning Shot.png</string>
+		<key>description</key>
+		<string>Enemies hit by Pinning Shot become vulnerable, taking 25% increased damage for 2 seconds</string>
+	</dict>
+	<key>Remote Access</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holo Decoy.png</string>
+		<key>description</key>
+		<string>You can control the Holo Decoy. The Decoy&apos;s sight range increased by 100%</string>
+	</dict>
+	<key>Holo Drone</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holo Decoy.png</string>
+		<key>description</key>
+		<string>Holo Decoy gains AI, deals damage with attacks, and uses Snipe and Pinning Shot, at reduced damage</string>
+	</dict>
+	<key>Advanced Cloaking</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Permanent Cloak, Sniper.png</string>
+		<key>description</key>
+		<string>While cloaked, move 25% faster and regenerate an additional 1.17% health every 2 seconds</string>
+	</dict>
+	<key>Explosive Round</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Snipe.png</string>
+		<key>description</key>
+		<string>Snipe also deals 50% damage to enemies near the impact</string>
+	</dict>
+	<key>Digital Shrapnel</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holo Decoy.png</string>
+		<key>description</key>
+		<string>Holo Decoy explodes on expiration, dealing ### damage to nearby enemies</string>
+		<key>firstBaseDamage</key>
+		<integer>50</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>18</integer>
+	</dict>
+	<key>Extended Projection</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Holo Decoy.png</string>
+		<key>description</key>
+		<string>Range of Holo Decoy increased by 100%</string>
+	</dict>
+	<key>FN92 Sniper Rifle</key>
+	<dict>
+		<key>imagePath</key>
+		<string>FN92 Sniper Rifle.png</string>
+		<key>description</key>
+		<string>Increase your basic attack range from 6.5 to 7.5</string>
+	</dict>
+	<key>Tazer Rounds</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Pinning Shot.png</string>
+		<key>description</key>
+		<string>Increases the duration of Pinning Shot&apos;s slow to 3 seconds</string>
+	</dict>
+	<key>Ambush Snipe</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Snipe.png</string>
+		<key>description</key>
+		<string>Increases Snipe&apos;s damage by 20% when used while cloaked.</string>
+	</dict>
+	<key>Psi-Op Rangefinder</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Snipe.png</string>
+		<key>description</key>
+		<string>Increases Snipe&apos;s range by 20%</string>
+	</dict>
+	<key>Torrasque</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Summon Ultralisk.png</string>
+		<key>description</key>
+		<string>Ultralisk duration and health increased by 100%</string>
+	</dict>
+	<key>Omegastorm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Maelstrom.png</string>
+		<key>description</key>
+		<string>Maelstrom size increased by 25%. Amount of Assimilation Shields generated by Maelstrom is increased by 100%</string>
+	</dict>
+	<key>Aggressive Defense</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Assimilation.png</string>
+		<key>description</key>
+		<string>Assimilation Shields earned from basic abilities increased by 100%</string>
+	</dict>
+	<key>Blade Torrent</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Impaling Blades.png</string>
+		<key>description</key>
+		<string>Impaling Blades&apos; radius increased by 50%</string>
+	</dict>
+	<key>Sprint</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>60</integer>
+		<key>imagePath</key>
+		<string>Fast Feet.png</string>
+		<key>description</key>
+		<string>Activate to gain 75% movement speed for 3 seconds</string>
+	</dict>
+	<key>Lingering Essence</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Assimilation.png</string>
+		<key>description</key>
+		<string>Assimilation Shield duration increased to 12 seconds</string>
+	</dict>
+	<key>Eviscerate</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ravage.png</string>
+		<key>description</key>
+		<string>Increases the range of Ravage by 25%</string>
+	</dict>
+	<key>Double Strike</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Double Strike.png</string>
+		<key>description</key>
+		<string>When your basic abilities damage an enemy, your next basic attack hits for 50% extra damage</string>
+	</dict>
+	<key>Impaling Swarm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Impaling Blades.png</string>
+		<key>description</key>
+		<string>Impaling Blades spawns 2 zerglings at the target location</string>
+	</dict>
+	<key>Adaptation</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ravage.png</string>
+		<key>description</key>
+		<string>Ravage can be used to jump to allies for half the cooldown</string>
+	</dict>
+	<key>Envenom</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Envenom.png</string>
+		<key>description</key>
+		<string>Activate to poison an enemy hero, dealing ### damage over 6 seconds</string>
+		<key>firstBaseDamage</key>
+		<integer>210</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>35</integer>
+		<key>cooldown</key>
+		<integer>60</integer>
+	</dict>
+	<key>Psionic Pulse</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Primal Grasp.png</string>
+		<key>description</key>
+		<string>After casting Primal Grasp, deal ### damage over 5 seconds to nearby enemies</string>
+		<key>firstBaseDamage</key>
+		<integer>30</integer>
+		<key>firstDamagePerLevel</key>
+		<real>6.5</real>
+	</dict>
+	<key>Clean Kill</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ravage.png</string>
+		<key>description</key>
+		<string>If Ravage kills the target, it also restores 100% of its mana cost</string>
+	</dict>
+	<key>Fury of the Swarm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fury of the Swarm.png</string>
+		<key>description</key>
+		<string>Basic attacks splash for 50% damage around Kerrigan</string>
+	</dict>
+	<key>Focused Attack</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hunter&apos;s Mark.png</string>
+		<key>description</key>
+		<string>Every 10 seconds, your next basic attack deals 50% additional damage. Basic attacks reduce this cooldown by 1 second</string>
+	</dict>
+	<key>Sweeping Grasp</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Primal Grasp.png</string>
+		<key>description</key>
+		<string>Increases the range of Primal Grasp by 20%</string>
+	</dict>
+	<key>Sharpened Blades</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Impaling Blades.png</string>
+		<key>description</key>
+		<string>Impaling Blades deals 15% more damage</string>
+	</dict>
+	<key>Siphoning Impact</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Ravage.png</string>
+		<key>description</key>
+		<string>Ravage heals you for 5% of your maximum life</string>
+	</dict>
+	<key>Block</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Block.png</string>
+		<key>description</key>
+		<string>Periodically reduces the damage received from Hero basic attacks by 50%. Stores up to 2 charges</string>
+	</dict>
+	<key>Nowhere to Hide</key>
+	<dict>
+		<key>imagePath</key>
+		<string>The Hunt.png</string>
+		<key>description</key>
+		<string>The Hunt now has global range. Greatly increases the acceleration while Hunting a target</string>
+	</dict>
+	<key>Demonic Form</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Metamorphosis.png</string>
+		<key>description</key>
+		<string>Permanently remain in Demonic Form. Increases the Attack Speed bonus of Demonic Form to 30% and grants a 50% reduction in the duration of disabling effects. Lose the ability to mount, but gain 40% Movement Speed when out of combat for 6 seconds</string>
+	</dict>
+	<key>Hunter&apos;s Onslaught</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Betrayer&apos;s Thirst.png</string>
+		<key>description</key>
+		<string>Abilities now heal for 15% of damage dealt.</string>
+	</dict>
+	<key>Second Sweep</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Sweeping Strike.png</string>
+		<key>description</key>
+		<string>Store up to 2 charges of Sweeping Strike</string>
+	</dict>
+	<key>Sixth Sense</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Evasion.png</string>
+		<key>description</key>
+		<string>Take 50% reduced damage from abilities while Evasion is active</string>
+	</dict>
+	<key>Unbound</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Sweeping Strike.png</string>
+		<key>description</key>
+		<string>Ignore all collision while using Sweeping Strike, allowing you to go over walls and terrain</string>
+	</dict>
+	<key>Friend or Foe</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dive.png</string>
+		<key>description</key>
+		<string>Can use Dive on allies (but you will not flip). When used this way, the cooldown is reduced by 2 seconds.</string>
+	</dict>
+	<key>Lunge</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dive.png</string>
+		<key>description</key>
+		<string>Increases the range of Dive by 30%</string>
+	</dict>
+	<key>Thrill of Battle</key>
+	<dict>
+		<key>cooldown</key>
+		<integer>20</integer>
+		<key>imagePath</key>
+		<string>Betrayer&apos;s Thirst.png</string>
+		<key>description</key>
+		<string>Activate to double the cooldown reduction from basic attacks for 8 seconds</string>
+	</dict>
+	<key>Reflexive Block</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Evasion.png</string>
+		<key>description</key>
+		<string>Gain 2 charges of Block (50% reduced basic attack damage) after evasion wears off. Lasts 5 seconds</string>
+	</dict>
+	<key>Rapid Chase</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dive.png</string>
+		<key>description</key>
+		<string>Gain 20% movement speed for 2 seconds after using Dive</string>
+	</dict>
+	<key>Follow Through</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Follow Through.png</string>
+		<key>description</key>
+		<string>After using an ability, your next basic attack deals 25% additional damage</string>
+	</dict>
+	<key>Thirsting Blade</key>
+	<dict>
+		<key>description</key>
+		<string>Basic attacks now heal for 30% of damage dealt</string>
+		<key>imagePath</key>
+		<string>Betrayer&apos;s Thirst</string>
+	</dict>
+	<key>Immolation</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Evasion.png</string>
+		<key>description</key>
+		<string>After using Sweeping Strike, burn nearby enemies for ### damage per second for 3 seconds</string>
+		<key>firstBaseDamage</key>
+		<integer>17</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>3</integer>
+	</dict>
+	<key>Fel Reach</key>
+	<dict>
+		<key>description</key>
+		<string>Increases the range of Sweeping Strike by 20%</string>
+		<key>imagePath</key>
+		<string>Sweeping Strike.png</string>
+	</dict>
+	<key>Marked for Death</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Dive.png</string>
+		<key>description</key>
+		<string>Your next basic attack on the Dive target deals 100% more damage</string>
+	</dict>
+	<key>Shadow Shield</key>
+	<dict>
+		<key>firstDamagePerLevel</key>
+		<real>12.5</real>
+		<key>firstBaseDamage</key>
+		<real>62.5</real>
+		<key>imagePath</key>
+		<string>Evasion.png</string>
+		<key>description</key>
+		<string>Evasion grants a ### point shield for 5 seconds.</string>
+	</dict>
+	<key>Battered Assault</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Sweeping Strike.png</string>
+		<key>description</key>
+		<string>Increases the basic attack bonus of Sweeping Strike to 40%</string>
+	</dict>
+	<key>Regeneration Master</key>
+	<dict>
+		<key>description</key>
+		<string>Every 3 regeneration globes gathered grants an extra +4 health per second, permanently</string>
+		<key>imagePath</key>
+		<string>Regeneration Master.png</string>
+	</dict>
+	<key>Blast of Awe</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Shock and Awe.png</string>
+		<key>description</key>
+		<string>Shock and Awe has double the range and deals 25% more damage</string>
+	</dict>
+	<key>Preparation</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Aerial Blitzkrieg.png</string>
+		<key>description</key>
+		<string>Aerial Blitzkrieg casts 50% faster and grants a shield for 50% of Falstad&apos;s maximum health</string>
+	</dict>
+	<key>Overdrive</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Overdrive.png</string>
+		<key>description</key>
+		<string>Activate to increase ability power by 25% and mana costs by 40% for 5 seconds</string>
+		<key>cooldown</key>
+		<integer>25</integer>
+	</dict>
+	<key>Afterburner</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Barrel Roll.png</string>
+		<key>description</key>
+		<string>After using Barrel Roll, gain 75% movement speed that decreases over 3 seconds</string>
+	</dict>
+	<key>Gust of Wind</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Tailwind.png</string>
+		<key>description</key>
+		<string>Reduce activation time for Tailwind to 3 seconds</string>
+	</dict>
+	<key>Rewind</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rewind.png</string>
+		<key>description</key>
+		<string>Activate to reduce the cooldown of your basic abilities by 10 seconds</string>
+		<key>cooldown</key>
+		<integer>60</integer>
+	</dict>
+	<key>Lightning Storm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Thunderstorm.png</string>
+		<key>description</key>
+		<string>The Thunderstorm passive effect hits up to two targets at once</string>
+	</dict>
+	<key>Crippling Hammer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hammerang.png</string>
+		<key>description</key>
+		<string>Increases the movement speed slow of Hammerang to 50%</string>
+	</dict>
+	<key>First Aid</key>
+	<dict>
+		<key>imagePath</key>
+		<string>First Aid.png</string>
+		<key>description</key>
+		<string>Activate to heal 35% of your maximum health over 6 seconds</string>
+		<key>cooldown</key>
+		<integer>60</integer>
+	</dict>
+	<key>BOOMerang</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hammerang.png</string>
+		<key>description</key>
+		<string>Reactivate Hammerang mid-flight to deal ### damage around the hammer</string>
+		<key>firstBaseDamage</key>
+		<integer>25</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>12</integer>
+	</dict>
+	<key>Fly Away!</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fly Away.png</string>
+		<key>description</key>
+		<string>The cooldown for Flight is reduced by 15 seconds</string>
+	</dict>
+	<key>Zap!</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Thunderstorm.png</string>
+		<key>description</key>
+		<string>The cooldown for Thunderstorm&apos;s passive is reduced by 2 seconds</string>
+	</dict>
+	<key>Wildhammer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hammerang.png</string>
+		<key>description</key>
+		<string>Hammerang deals 150% damage to the first enemy hit</string>
+	</dict>
+	<key>Gathering Power</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Gathering Power.png</string>
+		<key>description</key>
+		<string>Passively grants 8% ability power. Each hero takedown grants a bonus 2% ability power, up to 12%. This bonus ability power is lost upon death</string>
+	</dict>
+	<key>Stormhammer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stormbolt.png</string>
+		<key>description</key>
+		<string>Basic attacks deal 50% damage against a nearby target</string>
+	</dict>
+	<key>Bribe</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Bribe.png</string>
+		<key>description</key>
+		<string>Kill enemy minions to gain stacks of Bribe. Use 20 stacks to bribe target mercenary, instanly defeating them. Does not work on Golems.</string>
+	</dict>
+	<key>Dog Fight</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Barrel Roll.png</string>
+		<key>description</key>
+		<string>The Barrel Roll shield lasts 3 seconds longer</string>
+	</dict>
+	<key>Updraft</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Barrel Roll.png</string>
+		<key>description</key>
+		<string>Increases the range of Barrel Roll by 20%</string>
+	</dict>
+	<key>Conjurer&apos;s Pursuit</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Conjurer&apos;s Pursuit.png</string>
+		<key>description</key>
+		<string>Every 3 regeneration globes gathered grants an extra +0.25 mana per second, permanently</string>
+	</dict>
+	<key>Seasoned Marksman</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Seasoned Marksman.png</string>
+		<key>description</key>
+		<string>Gain 1 basic attack damage for every 5 enemies killed with basic attacks</string>
+	</dict>
+	<key>Storm of Vengeance</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Rain of Vengeance.png</string>
+		<key>description</key>
+		<string>Rain of Vengeance now strikes 4 times</string>
+	</dict>
+	<key>Vengeance</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Strafe.png</string>
+		<key>description</key>
+		<string>Strafe now fires penetrating bolts in a line</string>
+	</dict>
+	<key>Fury of the Storm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Fury of the Storm.png</string>
+		<key>description</key>
+		<string>Basic attacks bounce twice to nearby enemies for 50% damage</string>
+	</dict>
+	<key>Bolt of the Storm</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Bolt of the Storm.png</string>
+		<key>description</key>
+		<string>Activate to teleport to a nearby location</string>
+		<key>cooldown</key>
+		<integer>40</integer>
+	</dict>
+	<key>Stoneskin</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Stoneskin.png</string>
+		<key>description</key>
+		<string>Activate to gain 30% of you maximum health as shields for 5 seconds</string>
+		<key>cooldown</key>
+		<integer>60</integer>
+	</dict>
+	<key>Blood for Blood</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Blood for Blood.png</string>
+		<key>description</key>
+		<string>Activate to steal 15% of target enemy&apos;s maximum health and slow its movement speed by 30% for 3 seconds</string>
+		<key>cooldown</key>
+		<integer>60</integer>
+	</dict>
+	<key>Tumble</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Vault.png</string>
+		<key>description</key>
+		<string>Vault gains an additional charge, allowing it to be cast twice in quick succession</string>
+	</dict>
+	<key>Executioner</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Executioner.png</string>
+		<key>description</key>
+		<string>Basic attacks deal 40% more damage against slowed, rooted or stunned targets</string>
+	</dict>
+	<key>Tempered by Discipline</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hatred.png</string>
+		<key>description</key>
+		<string>Gain up to 10 stacks of Discipline after Hatred stacks are maxed. Basic attacks heal for 3% of damage dealt per Discipline stack.</string>
+	</dict>
+	<key>Hot Pursuit</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Multishot.png</string>
+		<key>description</key>
+		<string>When at 10 stacks of Hatred, the movement speed bonus increases to 20% total</string>
+	</dict>
+	<key>Frost Shot</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Multishot.png</string>
+		<key>description</key>
+		<string>Multishot also slows by 40% for 2 seconds</string>
+	</dict>
+	<key>Spell Shield</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Spell Shield.png</string>
+		<key>description</key>
+		<string>Upon taking ability damage, gain a shield that reduces all ability damage taken by 50% for 2 seconds. Can only trigger once every 30 seconds.</string>
+	</dict>
+	<key>Giant Killer</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Giant Killer.png</string>
+		<key>description</key>
+		<string>Attacks against enemy heroes deal bonus damage equal to 1.5% of the hero&apos;s maximum health</string>
+	</dict>
+	<key>Searing Attacks</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Searing Attacks.png</string>
+		<key>description</key>
+		<string>Activate to increase basic attack damage by 50% for 5 seconds. Each attack costs 15 mana</string>
+		<key>cooldown</key>
+		<integer>25</integer>
+	</dict>
+	<key>Caltrops</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Vault.png</string>
+		<key>description</key>
+		<string>Drops 3 caltrops while Vaulting. Caltrops do ### damage and slow enemies by 20% for 2 seconds.</string>
+		<key>firstBaseDamage</key>
+		<integer>25</integer>
+		<key>firstDamagePerLevel</key>
+		<integer>2</integer>
+	</dict>
+	<key>Repeating Arrow</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Vault.png</string>
+		<key>description</key>
+		<string>The cooldown for Hungering Arrow is reset when Vault is used</string>
+	</dict>
+	<key>Arsenal</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Multishot.png</string>
+		<key>description</key>
+		<string>Multishot also fire 3 grenades, which deal ### damage.</string>
+		<key>firstBaseDamage</key>
+		<integer>35</integer>
+		<key>firstDamagePerLevel</key>
+		<real>7.66</real>
+	</dict>
+	<key>Battle Momentum</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Battle Momentum.png</string>
+		<key>description</key>
+		<string>Basic attacks reduce ability cooldowns by 0.5 seconds</string>
+	</dict>
+	<key>Puncturing Arrow</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hungering Arrow.png</string>
+		<key>description</key>
+		<string>Hungering Arrow range increased by 25% and the number of times it can bounce to 3</string>
+	</dict>
+	<key>Manticore</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Manticore.png</string>
+		<key>description</key>
+		<string>Every 3rd basic attack against the same target deals 50% additional damage.</string>
+	</dict>
+	<key>Vampiric Assault</key>
+	<dict>
+		<key>imagePath</key>
+		<string>The Hunt.png</string>
+		<key>description</key>
+		<string>Basic attacks heal for 15% of the damage dealt</string>
+	</dict>
+	<key>Cost-Effective Materials</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hungering Arrow.png</string>
+		<key>description</key>
+		<string>Reduces the cost of Hungering Arrow by 30 mana</string>
+	</dict>
+	<key>Punishment</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hatred.png</string>
+		<key>description</key>
+		<string>Using an ability grants 2 Hatred stacks</string>
+	</dict>
+	<key>Rancor</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hatred.png</string>
+		<key>description</key>
+		<string>Each Hatred stack increases attack speed by 2%</string>
+	</dict>
+	<key>Composite Arrows</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Multishot.png</string>
+		<key>description</key>
+		<string>Increases the range of Multishot by 20%</string>
+	</dict>
+	<key>Siphoning Arrow</key>
+	<dict>
+		<key>imagePath</key>
+		<string>Hungering Arrow.png</string>
+		<key>description</key>
+		<string>50% of the damage dealt by Hungering Arrow is returned as health to Valla</string>
+	</dict>
+</dict>
+</plist>

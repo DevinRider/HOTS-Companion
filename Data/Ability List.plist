@@ -1,0 +1,2744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Rehgar</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Ghost Wolf</string>
+			<key>description</key>
+			<string>Instead of using a mount, Rehgar transforms into a Ghost Wolf, increasing movement speed by 30%. Transformation is instant and can be used while moving. Basic Attacks in Ghost Wolf form deal 100% more damage, but cancel Ghost Wolf form. </string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Shapeshift</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chain Heal</string>
+			<key>description</key>
+			<string>Heal an ally for ### health, then heal up to two other nearby allies for $$$ health each.</string>
+			<key>cost</key>
+			<integer>70</integer>
+			<key>cooldown</key>
+			<integer>9</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>118</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>28</integer>
+			<key>secondBaseDamage</key>
+			<integer>59</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>14</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lightning Shield</string>
+			<key>description</key>
+			<string>Imbue an ally with lightning, dealing ### damage to nearby enemies and an additional $$$ damage over 5 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>11</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>3</integer>
+			<key>secondBaseDamage</key>
+			<integer>110</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>30</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Earthbind Totem</string>
+			<key>description</key>
+			<string>Create a totem that slows nearby enemies by 35%. The totem has ### health and lasts for 8 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>95</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bloodlust</string>
+			<key>description</key>
+			<string>Grant nearby heroes 40% attack speed and 30% movement speed. Lasts 10 seconds.</string>
+			<key>cost</key>
+			<integer>125</integer>
+			<key>cooldown</key>
+			<integer>120</integer>
+			<key>type</key>
+			<string>Area of Effect Buff</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ancestral Healing</string>
+			<key>description</key>
+			<string>After a short delay, heal an allied hero for ### health.</string>
+			<key>cost</key>
+			<integer>80</integer>
+			<key>cooldown</key>
+			<integer>60</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>740</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>140</integer>
+		</dict>
+	</array>
+	<key>Zagara</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Creep Tumor</string>
+			<key>description</key>
+			<string>Lay a Creep Tumor that generates creep. You and your summons move 20% faster on Creep and regenerate health 100% faster. Tumors last 240 seconds. Max 3 charges.</string>
+			<key>cost</key>
+			<integer>20</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Summon</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Baneling Barrage</string>
+			<key>description</key>
+			<string>Launch 4 Banelings that deal ### splash damage each</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hunter Killer</string>
+			<key>description</key>
+			<string>Summon a Hydralisk to attack a single target, dealing ### damage per second. Lasts 8 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>14</integer>
+			<key>type</key>
+			<string>Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>46</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Infested Drop</string>
+			<key>description</key>
+			<string>Bombard target aera with a Zerg drop pod for ### damage.
+
+The pod spawns 2 Roachlings that have $$$ Health, deal @@@ damage and last for 8 seconds. </string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>72</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>12</integer>
+			<key>secondBaseDamage</key>
+			<integer>245</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>20</integer>
+			<key>thirdBaseDamage</key>
+			<integer>15</integer>
+			<key>thirdDamagePerLevel</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Devouring Maw</string>
+			<key>description</key>
+			<string>Summon a Devouring Maw that deals ### damage and devours enemies for 4 seconds. Devoured enemies cannot fight and take $$$ damage per second.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>99</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>24</integer>
+			<key>secondBaseDamage</key>
+			<integer>40</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nydus Network</string>
+			<key>description</key>
+			<string>Summon a Nydus Worm at target location that you can enter by right-clicking. While inside, you exit by targeting a Nydus Worm with R or right-clicking near the worm. Maximum 4 Nydus Worms.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>60</integer>
+			<key>type</key>
+			<string>Summon</string>
+		</dict>
+	</array>
+	<key>Zeratul</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Permanent Cloak</string>
+			<key>description</key>
+			<string>Zeratul automatically cloaks when out of combat for 2 seconds. Taking damage, attacking or channeling reveals him.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cleave</string>
+			<key>description</key>
+			<string>Deals ### damage to nearby enemies.</string>
+			<key>cost</key>
+			<integer>40</integer>
+			<key>cooldown</key>
+			<integer>6</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>75</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>17</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Singularity Spike</string>
+			<key>description</key>
+			<string>Flings a Singularity Spike towards the target that sticks to the first enemy it contacts. Deals ### damage after 1 second and slows the enemy by 40% for 3 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blink</string>
+			<key>description</key>
+			<string>Teleports to the target location. Using this ability does not break cloak.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Teleport</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shadow Assault</string>
+			<key>description</key>
+			<string>Zeratul&apos;s basic attacks cause him to charge at enemies and he gains +20% attack speed. Lasts for 6 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Void Prison</string>
+			<key>description</key>
+			<string>Trap ALL targets for 5 seconds, making them invulnerable.
+
+Caster is immune.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+		</dict>
+	</array>
+	<key>Valla</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Hatred</string>
+			<key>description</key>
+			<string>Basic attacks grant a stack of Hatred, up to 10. Each Hatred stack increases basic attack damage by 2% and movement speed by 1%.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hungering Arrow</string>
+			<key>description</key>
+			<string>Deals ### damage to the first target it contacts, then seeks out up to 2 additional enemies dealing $$$ damage. Can hit an enemy multiple times.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>14</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>66</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>15</integer>
+			<key>secondBaseDamage</key>
+			<integer>33</integer>
+			<key>secondDamagePerLevel</key>
+			<real>7.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Multishot</string>
+			<key>description</key>
+			<string>Deals ### damage to enemies within the target area.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Cone</string>
+			<key>firstBaseDamage</key>
+			<integer>60</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vault</string>
+			<key>description</key>
+			<string>Dashes to the target area.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Line</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strafe</string>
+			<key>description</key>
+			<string>Rapidly attacks nearby visible enemies for ### damage per hit, prioritizing heroes over minions. Valla is able to move and use vault while strafing, and instantly gains 10 stacks of Hatred. Lasts for 3 seconds.</string>
+			<key>cost</key>
+			<integer>80</integer>
+			<key>cooldown</key>
+			<integer>50</integer>
+			<key>type</key>
+			<string>Activated</string>
+			<key>firstBaseDamage</key>
+			<integer>10</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rain of Vengeance</string>
+			<key>description</key>
+			<string>Launches 2 waves of Shadow Beasts that deal ### damage to enemies within the target area, stunning them for 0.5 seconds per wave.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>90</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>23</integer>
+		</dict>
+	</array>
+	<key>Uther</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Eternal Devotion</string>
+			<key>description</key>
+			<string>When killed, Uther becomes an invicible spirit for 10 seconds, and his abilities and basic attacks do 50% healing and damage.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Holy Light</string>
+			<key>description</key>
+			<string>Heals an allied target for ### health.</string>
+			<key>cost</key>
+			<integer>90</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>150</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>44</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Holy Radiance</string>
+			<key>description</key>
+			<string>Heal all enemies in a line for $$$ health, dealing $$$ damage to enemies</string>
+			<key>cost</key>
+			<integer>65</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>80</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+			<key>secondBaseDamage</key>
+			<integer>50</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hammer of Justice</string>
+			<key>description</key>
+			<string>Deals ### damage and stuns the target for 1 second.</string>
+			<key>cost</key>
+			<integer>40</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Divine Shield</string>
+			<key>description</key>
+			<string>Makes the target ally invulnerable and increases their movement speed by 20% for 3 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>90</integer>
+			<key>type</key>
+			<string>Targeted</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Divine Storm</string>
+			<key>description</key>
+			<string>Deals ### damage and stuns nearby enemies for 1.5 seconds.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>70</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>75</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>25</integer>
+		</dict>
+	</array>
+	<key>Tyrande</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Hunter&apos;s Mark</string>
+			<key>description</key>
+			<string>Marks a target enemy, increasing all damage taken by 25% and revealing them for 4 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>20</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Light of Elune</string>
+			<key>description</key>
+			<string>Heal yourself for ###. If cast on an ally, also heals them for 110 health.</string>
+			<key>cost</key>
+			<integer>45</integer>
+			<key>cooldown</key>
+			<integer>6</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>45</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+			<key>secondBaseDamage</key>
+			<integer>90</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sentinel</string>
+			<key>description</key>
+			<string>Tyrande sends an Owl that travels across the battleground, revealing its path. Deals ### damage to the first enemy hero hit and reveals them for 5 seconds.</string>
+			<key>cost</key>
+			<integer>65</integer>
+			<key>cooldown</key>
+			<integer>18</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>60</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>16</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lunar Flare</string>
+			<key>description</key>
+			<string>After a short delay, deals ### damage and stuns enemies in the target area for 1 second.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>90</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>18</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shadowstalk</string>
+			<key>description</key>
+			<string>Cloaks Tyrande and all allies, and reveals all enemy heroes for 8 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>50</integer>
+			<key>type</key>
+			<string>Global</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Starfall</string>
+			<key>description</key>
+			<string>Deals ### damage per second and slows all enemies by 20% in target area. Lasts 8 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>20</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+	</array>
+	<key>Tyrael</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Archangel&apos;s Wrath</string>
+			<key>description</key>
+			<string>When Tyrael dies, he becomes invulnerable and explodes for ### damage after 3.5 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+			<key>firstBaseDamage</key>
+			<integer>200</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>40</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>El&apos;Druin&apos;s Might</string>
+			<key>description</key>
+			<string>Deals ### damage to enemies within target area, slowing them by 25%. Reactivating will teleport you to the blade and slow nearby enemies by 25%.</string>
+			<key>cost</key>
+			<integer>55</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>60</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Righteousness</string>
+			<key>description</key>
+			<string>Shields Tyrael against ### damage and nearby allies against $$$ damage for 4 seconds.</string>
+			<key>cost</key>
+			<integer>65</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Activated</string>
+			<key>firstBaseDamage</key>
+			<integer>200</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>25</integer>
+			<key>secondBaseDamage</key>
+			<integer>80</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Smite</string>
+			<key>description</key>
+			<string>Tyrael rakes the target area for ### damage. Allies moving through the targeted area gain 25% increased movement speed for 2 seconds.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>7</integer>
+			<key>type</key>
+			<string>Cone</string>
+			<key>firstBaseDamage</key>
+			<integer>75</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>12</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Judgment</string>
+			<key>description</key>
+			<string>Charges the target, dealing ### damage and stunning them for 2 seconds. While charging, nearby enemies are knocked back and take $$$ damage.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>80</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>125</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+			<key>secondBaseDamage</key>
+			<integer>50</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sanctification</string>
+			<key>description</key>
+			<string>While channeling, Tyrael makes all nearby allied heroes invulnerable and unstoppable. Lasts 3 seconds.
+
+Does not affect Tyrael.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>50</integer>
+			<key>type</key>
+			<string>Channeled</string>
+		</dict>
+	</array>
+	<key>Tychus</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Minigun</string>
+			<key>description</key>
+			<string>Before attacking, Tychus must wind up his Minigun briefly. Once wound up, he attacks much faster than other heroes.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Overkill</string>
+			<key>description</key>
+			<string>Deal ### damage to the target and $$$ damage to nearby targets over 5 seconds. Reactivate to select a new target. Can move and use abilities while channeling.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Cone</string>
+			<key>firstBaseDamage</key>
+			<integer>280</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>80</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>40</integer>
+			<key>secondBaseDamage</key>
+			<integer>140</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Frag Grenade</string>
+			<key>description</key>
+			<string>Lob a grenade that deals ### damage, knocking enemies away.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>60</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>25</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Run and Gun</string>
+			<key>description</key>
+			<string>Charge forward and instantly wind up Tychus&apos; minigun.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Line</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Commandeer Odin</string>
+			<key>description</key>
+			<string>Tychus pilots the Odin, gaining a second health pool and reducing all crowd control effects by 50%. Basic attacks in the Odin do heavy damage and no longer require a windup. Tychus gains the ability to fire Ragnarok Missiles and Annihilate to devastate a large area. Lasts 23 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Drakken Laser Drill</string>
+			<key>description</key>
+			<string>Summons a Laser Drill that deals ### damage per second. Able to be retargeted by reactivating. Lasts 22 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>15</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>7</integer>
+		</dict>
+	</array>
+	<key>Tassadar</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Oracle</string>
+			<key>description</key>
+			<string>Greatly increases Tassadar&apos;s vision radius and allows him to detect enemy heroes. Lasts for 7 seconds.</string>
+			<key>cost</key>
+			<integer>25</integer>
+			<key>cooldown</key>
+			<integer>30</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Plasma Shield</string>
+			<key>description</key>
+			<string>Shields target ally, absorbing ### damage before breaking. Lasts for 8 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>200</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>40</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Psionic Storm</string>
+			<key>description</key>
+			<string>Deals ### damage per second to enemies in target area for 3 seconds</string>
+			<key>cost</key>
+			<integer>65</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dimensional Shift</string>
+			<key>description</key>
+			<string>Tassadar becomes invulnerable and fully invisible for 1.5 seconds.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>20</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Archon</string>
+			<key>description</key>
+			<string>Tassadar transforms into an Archon, gaining a ### point shield, causing basic attacks to deal $$$ damage and splash for an additional @@@ damage. Lasts 15 seconds.</string>
+			<key>cost</key>
+			<integer>80</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Activated</string>
+			<key>firstBaseDamage</key>
+			<integer>200</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>40</integer>
+			<key>secondBaseDamage</key>
+			<integer>64</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>12</integer>
+			<key>thirdBaseDamage</key>
+			<integer>32</integer>
+			<key>thirdDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Force Wall</string>
+			<key>description</key>
+			<string>Creates a Force Wall that blocks all units from moving through it for 2.5 seconds.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Summon Wall</string>
+		</dict>
+	</array>
+	<key>Stitches</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Vile Gas</string>
+			<key>description</key>
+			<string>When damaged, Stitches emits a gas cloud that persists for 4 seconds. Enemies who enter it are poisoned for ### damage per second for 3 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+			<key>firstBaseDamage</key>
+			<integer>14</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hook</string>
+			<key>description</key>
+			<string>Pulls the first enemy it contacts towards Stitches, dealing ### damage.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>14</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Slam</string>
+			<key>description</key>
+			<string>Deals ### damage to enemies within the target area.</string>
+			<key>cost</key>
+			<integer>55</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Cone</string>
+			<key>firstBaseDamage</key>
+			<integer>55</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Devour</string>
+			<key>description</key>
+			<string>Deals ### damage to minions or $$$ damage to heroes. Restores 20% of Stitches&apos; maximum health.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>30</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>300</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+			<key>secondBaseDamage</key>
+			<integer>50</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Putrid Bile</string>
+			<key>description</key>
+			<string>Emits bile that deals ### damage per second to enemies within, slowing them by 35%. Lasts 8 seconds.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>60</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>20</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gorge</string>
+			<key>description</key>
+			<string>Completely consume target enemy hero, trapping them in Stitches&apos; stomach for 3.5 seconds and dealing ### damage. The trapped hero cannot move or act and doesn&apos;t take damage from other sources.
+
+Cannot be used on massive Heroes.</string>
+			<key>cost</key>
+			<integer>80</integer>
+			<key>cooldown</key>
+			<integer>80</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>200</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>50</integer>
+		</dict>
+	</array>
+	<key>Sonya</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Fury</string>
+			<key>description</key>
+			<string>Sonya uses Fury instead of mana, which is gained by attacking or taking damage. Sonya also gains 10% move speed for 4 seconds after using an ability.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ancient Spear</string>
+			<key>description</key>
+			<string>Throws out a spear that pulls Sonya to the first enemy hit, dealing ### damage and briefly stunning them. If this hits, Sonya generates 20 fury.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>13</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>70</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>14</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Seismic Slam</string>
+			<key>description</key>
+			<string>Deals ### damage to target enemy, and $$$ damage to enemies behind the target.</string>
+			<key>cost</key>
+			<integer>15</integer>
+			<key>cooldown</key>
+			<integer>1</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>90</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>13</integer>
+			<key>secondBaseDamage</key>
+			<real>22.5</real>
+			<key>secondDamagePerLevel</key>
+			<real>3.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Whirlwind</string>
+			<key>description</key>
+			<string>Deals ### damage to nearby enemies over 3 seconds, and heal for 20% of damage dealt.</string>
+			<key>cost</key>
+			<integer>20</integer>
+			<key>cooldown</key>
+			<integer>1</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>140</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>28</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Leap</string>
+			<key>description</key>
+			<string>Leap into the air, dealing ### damage to nearby enemies, and stunning them for 1.5 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>50</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Wrath of the Berserker</string>
+			<key>description</key>
+			<string>Sonya gains +30% bonus damage to all basic attacks and abilities. Disables against Sonya have 50% reduced duration. Lasts 10 seconds, and extends by 1 second for every 4 fury gained while active.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>30</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+	</array>
+	<key>Sergeant Hammer</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Artillery</string>
+			<key>description</key>
+			<string>Basic attacks deal 20% more damage to enemies over 4.5 distance away.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Spider Mines</string>
+			<key>description</key>
+			<string>Create 3 mines that last for 35 seconds. Mines deal ### damage and slow enemies by 25% for 1.5 seconds.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>14</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Concussive Blast</string>
+			<key>description</key>
+			<string>Deals ### damage and pushes enemies away.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Cone</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>13</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Siege Mode</string>
+			<key>description</key>
+			<string>Increases basic attack range by 5, sight range by 3, and attack damage to minions or structures by 30%. Basic attacks deal 25% splash damage.
+Cannot move in siege mode.</string>
+			<key>cost</key>
+			<integer>40</integer>
+			<key>cooldown</key>
+			<integer>5</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blunt Force Gun</string>
+			<key>description</key>
+			<string>Deals ### damage to enemies in path. Reveals as it travels.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>80</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>220</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>29</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Napalm Strike</string>
+			<key>description</key>
+			<string>Deals ### damage on impact, and leaves an area that deals $$$ damage per second over 4 seconds.</string>
+			<key>cost</key>
+			<integer>35</integer>
+			<key>cooldown</key>
+			<integer>6</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>16</integer>
+			<key>secondBaseDamage</key>
+			<integer>30</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>4</integer>
+		</dict>
+	</array>
+	<key>Raynor</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Lead from the Front</string>
+			<key>description</key>
+			<string>Enemies killed within a short time of being damaged by Raynor reduce the cooldown of his abilities by 1 second. Enemy heroes killed reduce the cooldown by 10 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Penetrating Round</string>
+			<key>description</key>
+			<string>Fires a high-powered round that deals ### damage and knocks away all enemies.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>85</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>22</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inspire</string>
+			<key>description</key>
+			<string>Raynor gains 15% bonus attack speed and attack damage for 8 seconds. Nearby allies gain half the bonus.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Adrenaline Rush</string>
+			<key>description</key>
+			<string>Automatically activates to heal Raynor for ### when he is below 30% health.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>45</integer>
+			<key>type</key>
+			<string>Passive</string>
+			<key>firstBaseDamage</key>
+			<integer>160</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>40</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hyperion</string>
+			<key>description</key>
+			<string>Call down the Hyperion, which slowly travels across the battleground, dealing ### damage to up to 4 random enemy targets in its path. Lasts for 12 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>25</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Raynor&apos;s Raiders</string>
+			<key>description</key>
+			<string>Summons two cloaked Banshees that follow Raynor for a short time and attack what he attacks. Each Banshee attacks for 2 volleys of ### damage each.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>10</integer>
+			<key>firstDamagePerLevel</key>
+			<real>2.5</real>
+		</dict>
+	</array>
+	<key>Nova</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Permanent Cloak, Sniper</string>
+			<key>description</key>
+			<string>Nova cloaks when out of combat for 2 seconds. Taking damage, attacking or channeling reveals her.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Snipe</string>
+			<key>description</key>
+			<string>Deals ### damage to the first enemy hit.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>35</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pinning Shot</string>
+			<key>description</key>
+			<string>Deals ### damage to an enemy and slows it by 30% for 2.25 seconds.</string>
+			<key>cost</key>
+			<integer>80</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>18</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Holo Decoy</string>
+			<key>description</key>
+			<string>Spawns a cloaked decoy for 5 seconds that appears to attack enemies. This ability does not break cloak.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Summon</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Triple Tap</string>
+			<key>description</key>
+			<string>Nova locks in on the target hero, then fires 3 shots that hit the first hero or structure they come in contact with for ### damage each.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>80</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>33</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Precision Strike</string>
+			<key>description</key>
+			<string>After a short delay, deals ### damage to enemies within target area. Unlimited range.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>60</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>300</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>35</integer>
+		</dict>
+	</array>
+	<key>Nazeebo</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Voodoo Ritual</string>
+			<key>description</key>
+			<string>Ability and attack damage poisons enemies for ### additional damage over 4 seconds.
+
+If a poisoned enemy dies, the Nazeebo regenerates 2% Health and 1% Mana.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+			<key>firstBaseDamage</key>
+			<integer>20</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Corpse Spiders</string>
+			<key>description</key>
+			<string>Deals ### damage and creates 3 Corpse Spiders that deal $$$ damage. Spiders last for 4 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+			<key>secondBaseDamage</key>
+			<integer>10</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Zombie Wall</string>
+			<key>description</key>
+			<string>After a short delay, creates a ring of Zombies surrounding the target area that deal ### damage. Lasts for 3 seconds.</string>
+			<key>cost</key>
+			<integer>70</integer>
+			<key>cooldown</key>
+			<integer>14</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>18</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Plague of Toads</string>
+			<key>description</key>
+			<string>Creates 5 toads that each deal ### damage upon contact. Toads last for 3 seconds.</string>
+			<key>cost</key>
+			<integer>55</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Cone</string>
+			<key>firstBaseDamage</key>
+			<integer>30</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ravenous Spirit</string>
+			<key>description</key>
+			<string>Channel a Ravenous Spirit that deals ### damage per second. Nazeebo cannot move while channeling. Lasts for 8 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>90</integer>
+			<key>type</key>
+			<string>Channeled Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>18</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gargantuan</string>
+			<key>description</key>
+			<string>Summon a Gargantuan that deals ### damage when created. The Gargantuan can grab enemy minions, and will stomp nearby enemies, slowing their movement speed by 30%. Lasts for 20 seconds.</string>
+			<key>cost</key>
+			<integer>90</integer>
+			<key>cooldown</key>
+			<integer>60</integer>
+			<key>type</key>
+			<string>Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>30</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>15</integer>
+		</dict>
+	</array>
+	<key>Murky</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Spawn Egg</string>
+			<key>description</key>
+			<string>Places a Murloc Egg at target location, revealing the nearby area. If Murky dies, Murky will respawn at the Egg after 5 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>45</integer>
+			<key>type</key>
+			<string>Summon</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Slime</string>
+			<key>description</key>
+			<string>Releases slimy fish oil on nearby enemies, doing ### damage and applying slime, dealing $$$ damage every second, revealing and slowing enemies by 20% for 8 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>4</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>10</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>3</integer>
+			<key>secondBaseDamage</key>
+			<integer>5</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pufferfish</string>
+			<key>description</key>
+			<string>Spit out a Pufferfish at the target point. After 4 seconds, the fish will blow up for ### damage. Enemies can attack the fish to prevent it from exploding.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>25</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Safety Bubble</string>
+			<key>description</key>
+			<string>Murky becomes unstoppable and invulnerable for 2 seconds. While active, Murky cannot attack or use abilities.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>14</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>March of the Murlocs</string>
+			<key>description</key>
+			<string>Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy hero or structure they find. Each Murloc deals ### damage and slows its target by 15% for 5 seconds. Does half damage to structures.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>65</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Octo-Grab</string>
+			<key>description</key>
+			<string>Summon an octopus to stun target enemy for 3 seconds while you hit them for 1 damage per second.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>40</integer>
+			<key>type</key>
+			<string>Targeted</string>
+		</dict>
+	</array>
+	<key>Muradin</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Second Wind</string>
+			<key>description</key>
+			<string>Muradin regenerates ### health per second when he has not taken damage for 4 seconds. When below 30% health, increased to $$$ health per second.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+			<key>firstBaseDamage</key>
+			<integer>8</integer>
+			<key>firstDamagePerLevel</key>
+			<real>2.4</real>
+			<key>secondBaseDamage</key>
+			<integer>24</integer>
+			<key>secondDamagePerLevel</key>
+			<real>7.2</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stormbolt</string>
+			<key>description</key>
+			<string>Deals ### damage to the first enemy it contacts, stunning it for 1.5 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Thunderclap</string>
+			<key>description</key>
+			<string>Deals ### damage and slows enemies by 25% for 2.5 seconds.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dwarf Toss</string>
+			<key>description</key>
+			<string>Leaps to a location, dealing ### damage to enemies within the target area.</string>
+			<key>cost</key>
+			<integer>70</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>30</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Avatar</string>
+			<key>description</key>
+			<string>Muradin transforms for 20 seconds, gaining ### health and causing basic attacks to stun enemies.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Activated</string>
+			<key>firstBaseDamage</key>
+			<integer>500</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>75</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Haymaker</string>
+			<key>description</key>
+			<string>Deals ### damage and knocks the target back, hitting enemies in the way for $$$ damage and knocking them aside.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>50</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>300</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+			<key>secondBaseDamage</key>
+			<integer>75</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>5</integer>
+		</dict>
+	</array>
+	<key>Malfurion</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Innervate</string>
+			<key>description</key>
+			<string>Grants target allied hero 100 mana over 10 seconds</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>30</integer>
+			<key>type</key>
+			<string>Targetted</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regrowth</string>
+			<key>description</key>
+			<string>Heals the targeted ally for ### health instantly and an additional $$$ health over the next 10 seconds.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>7</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>14</integer>
+			<key>secondBaseDamage</key>
+			<integer>100</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>35</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Moonfire</string>
+			<key>description</key>
+			<string>Deals ### damage to enemies within target area and reveals them for 2 seconds.</string>
+			<key>cost</key>
+			<integer>20</integer>
+			<key>cooldown</key>
+			<integer>3</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>30</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entangling Roots</string>
+			<key>description</key>
+			<string>Roots enemies within the target area for 1.5 seconds, and deals ### damage per second. Area affected grows larger over 3 seconds.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>15</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>12</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tranquility</string>
+			<key>description</key>
+			<string>Heals ### health per second to nearby allies over 10 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twilight Dream</string>
+			<key>description</key>
+			<string>After a short delay, deals ### damage in a large area surrounding Malfurion. Enemies hit are silenced for 3 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>90</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>36</integer>
+		</dict>
+	</array>
+	<key>Li Li</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Fast Feet</string>
+			<key>description</key>
+			<string>Upon taking damage, Li Li gains 15% movement speed for 1 second.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Healing Brew</string>
+			<key>description</key>
+			<string>Toss a refreshing cup of brew to the lowest health ally within range, prioritizing heroes over minions. It restores ### health and $$$ mana.
+
+Can target Li Li, but restores no mana.</string>
+			<key>cost</key>
+			<integer>30</integer>
+			<key>cooldown</key>
+			<integer>3</integer>
+			<key>type</key>
+			<string>Auto-Target (Ally)</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>13</integer>
+			<key>secondBaseDamage</key>
+			<integer>20</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cloud Serpent</string>
+			<key>description</key>
+			<string>Summon a Cloud Serpent to assist an ally, mirroring the attacks of the hero, doing ### damage. Lasts for 10 seconds.</string>
+			<key>cost</key>
+			<integer>40</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>15</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blinding Wind</string>
+			<key>description</key>
+			<string>Throw a cloud of blinding wind at the 3 nearest enemies (prioritizing heroes), dealing ### damage. Targets miss their next basic attack in the next 4 seconds.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Auto-Target (Enemy)</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>12</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jug of 1,000 Cups</string>
+			<key>description</key>
+			<string>Rapidly tosses brew to the most injured nearby allies, prioritizing heroes over minions. It restores a total of ### health and $$$ mana over 6 seconds.
+Can target Li Li, but restores no mana.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>70</integer>
+			<key>type</key>
+			<string>Auto-Target (Ally)</string>
+			<key>firstBaseDamage</key>
+			<integer>600</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>72</integer>
+			<key>secondBaseDamage</key>
+			<integer>120</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Water Dragon</string>
+			<key>description</key>
+			<string>Li Li summons a Water Dragon that charges an attack for 3 seconds, then does ### damage to the nearest enemy hero. Enemies near the target take half damage, and all hit units are slowed by 60% for 3 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>45</integer>
+			<key>type</key>
+			<string>Auto-Target (Enemy)</string>
+			<key>firstBaseDamage</key>
+			<integer>260</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>25</integer>
+		</dict>
+	</array>
+	<key>Kerrigan</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Assimilation</string>
+			<key>description</key>
+			<string>Gain 10% of damage dealt as shields for 6 seconds. Shield amount gained doubled against heroes. Current maximum: ###.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+			<key>firstBaseDamage</key>
+			<integer>200</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>100</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ravage</string>
+			<key>description</key>
+			<string>Leaps to a target, dealing ### damage. If this kills the target, its cooldown is instantly reset.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Impaling Blades</string>
+			<key>description</key>
+			<string>Deals ### damage to enemies within a target area, stunning them for 1 second.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>125</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Primal Grasp</string>
+			<key>description</key>
+			<string>Pulls enemies within the target area towards Kerrigan, dealing ### damage.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Cone</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>13</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Maelstrom</string>
+			<key>description</key>
+			<string>Deals ### damage per second to enemies nearby. Lasts for 9 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>120</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Summon Ultralisk</string>
+			<key>description</key>
+			<string>Summons an Ultralisk that deals ### damage. Attacks splash to nearby enemies for $$$ damage. Lasts for 20 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>80</integer>
+			<key>type</key>
+			<string>Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+			<key>secondBaseDamage</key>
+			<integer>20</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>4</integer>
+		</dict>
+	</array>
+	<key>Illidan</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Betrayer&apos;s Thirst</string>
+			<key>description</key>
+			<string>Illidan&apos;s Basic Attacks heal him for 20% of damage dealt and reduce his ability cooldowns by 1 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dive</string>
+			<key>description</key>
+			<string>Dive at the target, dealing ### damage and flipping to the other side of the target.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>6</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>45</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sweeping Strike</string>
+			<key>description</key>
+			<string>Dashes towards target point, dealing ### damage to enemies along the way. If Illidan hits an enemy, basic attacks do 25% more damage for 4 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>60</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Evasion</string>
+			<key>description</key>
+			<string>Cause incoming basic attacks to miss for 2 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Metamorphosis</string>
+			<key>description</key>
+			<string>Transforms into demon form at the target location. Deal ### damage in the area. Illidan gains $$$ temporary max health for each hero hit, and gains 20% increased attack speed. Lasts for 18 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>120</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>200</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+			<key>secondBaseDamage</key>
+			<integer>100</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>The Hunt</string>
+			<key>description</key>
+			<string>Charges to a target unit, dealing ### damage on impact and stunning the target for 1 second.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>60</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>150</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+		</dict>
+	</array>
+	<key>Gazlowe</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Salvager</string>
+			<key>description</key>
+			<string>Passive: Destroyed enemy Structures and your own Rock-It! Turrets drop scrap. Collecting scrap restores 30 Mana and reduces the cooldown of abilities by 6 seconds over 3 seconds.
+
+Active: Dismantle a target Rock-It! Turret into scrap.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rock-It! Turret</string>
+			<key>description</key>
+			<string>Creates a turret that deals ### damage. Lasts for 30 seconds.</string>
+			<key>cost</key>
+			<integer>70</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>30</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deth Lazor</string>
+			<key>description</key>
+			<string>Charged attack that deals ### to $$$ damage to enemies in path. Damage and range increase the longer the ability is charged up.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>60</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>14</integer>
+			<key>secondBaseDamage</key>
+			<integer>120</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>28</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Xplodium Charge</string>
+			<key>description</key>
+			<string>Places a bomb that deals ### damage to enemies within target area after 2.5 seconds, stunning them for 2 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>65</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grav-O-Bomb 3000</string>
+			<key>description</key>
+			<string>After a short delay, pulls enemies towards the center of the target area and deals ### damage.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>110</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>150</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>26</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Robo-Goblin</string>
+			<key>description</key>
+			<string>Transforms in to a Robo-Goblin. Basic Attacks deal an additional 250% damage to minions, mercenaries, and structures. The duration of disabling effects are reduced by 50%. Lasts for 16 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>80</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+	</array>
+	<key>Falstad</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Tailwind</string>
+			<key>description</key>
+			<string>After not taking damage for 6 seconds, Falstad gains 20% increased movement speed.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hammerang</string>
+			<key>description</key>
+			<string>Deals ### damage to enemies in a line, slowing them by 25% for 2 seconds. Returns after thrown.</string>
+			<key>cost</key>
+			<integer>70</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>12</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Thunderstorm</string>
+			<key>description</key>
+			<string>Passive: Deals ### damage to a random nearby enemy every 8 seconds.
+
+Activate: Deals ### damage to up to 4 nearby enemies. Hitting the same enemy multiple times causes the damage to be reduced by 25% each hit.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Barrel Roll</string>
+			<key>description</key>
+			<string>Dashes to an area. Grants ### shield for 2 seconds.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>16</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>75</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Aerial Blitzkrieg</string>
+			<key>description</key>
+			<string>After a 1.5 second delay, deal ### damage to all enemies near Falstad, stunning them for 1.5 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>150</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>27</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shock and Awe</string>
+			<key>description</key>
+			<string>After a short delay, deal ### damage to enemies within a long line.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>90</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>280</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>31</integer>
+		</dict>
+	</array>
+	<key>Brightwing</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Soothing Mist</string>
+			<key>description</key>
+			<string>Brightwing heals nearby allied heroes for ### every 4 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>4</integer>
+			<key>type</key>
+			<string>Passive</string>
+			<key>firstBaseDamage</key>
+			<integer>32</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Arcane Flare</string>
+			<key>description</key>
+			<string>Deals ### damage in a small area and $$$ damage in a larger area.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>90</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>20</integer>
+			<key>secondBaseDamage</key>
+			<integer>45</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Polymorph</string>
+			<key>description</key>
+			<string>Deals ### damage. Target enemy cannot attack or use abilities for 2 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>15</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>25</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pixie Dust</string>
+			<key>description</key>
+			<string>Target ally to increase their move speed by 25% and block up to 2 hero basic attacks, reducing their damage by 50%. Lasts for 4 seconds.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Targeted</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Emerald Wind</string>
+			<key>description</key>
+			<string>Creates and expanding nova of wind, dealing ### damage to enemies and pushing them away from the center.</string>
+			<key>cost</key>
+			<integer>90</integer>
+			<key>cooldown</key>
+			<integer>60</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>30</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blink Heal</string>
+			<key>description</key>
+			<string>Teleport to a nearby ally, healing them for ###. Holds 2 charges.</string>
+			<key>cost</key>
+			<integer>40</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>15</integer>
+		</dict>
+	</array>
+	<key>Arthas</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Frostmourne Hungers</string>
+			<key>description</key>
+			<string>Activate to cause Arthas&apos; next basic attack to do 100% increased damage and restore 30 mana.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Activated</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Death Coil</string>
+			<key>description</key>
+			<string>Throws a Death Coil at a target enemy, dealing ### damage. Death Coil can be cast on Arthas to heal himself for $$$ health.</string>
+			<key>cost</key>
+			<integer>55</integer>
+			<key>cooldown</key>
+			<integer>9</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>80</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>14</integer>
+			<key>secondBaseDamage</key>
+			<integer>80</integer>
+			<key>secondDamagePerLevel</key>
+			<integer>22</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Howling Blast</string>
+			<key>description</key>
+			<string>Roots enemies within the target area in place for 1.5 seconds and deals ### damage.</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>30</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Frozen Tempest</string>
+			<key>description</key>
+			<string>Deals ### damage per second to nearby enemies. Slows enemies&apos; move speed by 6%, stacking up to 30%. Drains 10 mana per second.</string>
+			<key>cost</key>
+			<integer>10</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>20</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Summon Sindragosa</string>
+			<key>description</key>
+			<string>Deals ### damage and slows enemy heroes or freezes minions for 10 seconds and structures for 20 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>90</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>150</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Army of the Dead</string>
+			<key>description</key>
+			<string>Summons Ghouls for 15 seconds. Sacrifice ghouls to heal for ### health.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>90</integer>
+			<key>type</key>
+			<string>Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>150</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>30</integer>
+		</dict>
+	</array>
+	<key>Diablo</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Black Soulstone</string>
+			<key>description</key>
+			<string>Gains 10 souls per hero killed, or 1 per minion. For each soul, Diablo gains 5 maximum health. At 100 souls, Diablo&apos;s death timer decreases to 5 seconds and Diablo loses 100 soulstones upon death. Maximum 100 stacks.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shadow Charge</string>
+			<key>description</key>
+			<string>Charges and enemy, dealing ### damage and stunning them for 0.5 seconds. If the enemy is knocked into an unpathable location, they are instead stunned for 1 second.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>10</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>46</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Fire Stomp</string>
+			<key>description</key>
+			<string>Unleashes fire waves in all directions that deal ### damage each.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>6</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>30</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Overpower</string>
+			<key>description</key>
+			<string>Grabs the target and slams in behind Diablo, dealing ### damage and stunning for 0.25 seconds.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Targeted</string>
+			<key>firstBaseDamage</key>
+			<integer>40</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Apocalypse</string>
+			<key>description</key>
+			<string>Creates a demonic rune under enemy heroes no matter where they are on the battleground. After a short period the rune explodes dealing ### damage and stunning for 2 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>120</integer>
+			<key>type</key>
+			<string>Global</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lightning Breath</string>
+			<key>description</key>
+			<string>Diablo becomes unmovable and channels a cone of lightning that deals ### damage over 5 seconds. The area affected by this spell changes based on your mouse cursor&apos;s position.</string>
+			<key>cost</key>
+			<integer>80</integer>
+			<key>cooldown</key>
+			<integer>60</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>440</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>88</integer>
+		</dict>
+	</array>
+	<key>E.T.C.</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Rockstar</string>
+			<key>description</key>
+			<string>When E.T.C. casts a spell, he and nearby allies gain 20% attack speed for 3 seconds. Allied minions gain half the bonus.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Powerslide</string>
+			<key>description</key>
+			<string>Slides to a location dealing ### damage to enemies in his path and stunning them for 1 second.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Line</string>
+			<key>firstBaseDamage</key>
+			<integer>60</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Face Melt</string>
+			<key>description</key>
+			<string>Deals ### damage to nearby enemies, knocking them back.</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>50</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Guitar Solo</string>
+			<key>description</key>
+			<string>E.T.C. regenerates ### health per second for 4 seconds.</string>
+			<key>cost</key>
+			<integer>60</integer>
+			<key>cooldown</key>
+			<integer>8</integer>
+			<key>type</key>
+			<string>Activated</string>
+			<key>firstBaseDamage</key>
+			<integer>25</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mosh Pit</string>
+			<key>description</key>
+			<string>Stuns surrounding enemies for 4 seconds. Forces enemies to dance.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>120</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>0</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stage Dive</string>
+			<key>description</key>
+			<string>Leaps to any location. Deals ### damage to enemies in the target area, slowing them for 3 seconds.</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>cooldown</key>
+			<integer>100</integer>
+			<key>type</key>
+			<string>Area of Effect</string>
+			<key>firstBaseDamage</key>
+			<integer>100</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>12</integer>
+		</dict>
+	</array>
+	<key>Abathur</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Locust Strain</string>
+			<key>description</key>
+			<string>Abathur spawns a Locust to attack down the nearest lane every 20 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Passive</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Symbiote</string>
+			<key>description</key>
+			<string>Assists the target allied unit or structure allowing Abathur to shield them and use new abilities from the host. Lasts for 45 seconds.
+
+Cannot be used on self, Grave Golems, or summoned units.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>4</integer>
+			<key>type</key>
+			<string>Targeted</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Toxic Nest</string>
+			<key>description</key>
+			<string>Spawns a mine that becomes active after a short time. Deals ### damage and reveals the enemy for 4 seconds. Last for 90 seconds. Holds up to 3 charges.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Summon</string>
+			<key>firstBaseDamage</key>
+			<integer>35</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ultimate Evolution</string>
+			<key>description</key>
+			<string>Abathur creates a copy of the target alled hero and takes control of it. The Evolution&apos;s attributes are based on Abathur&apos;s current level and talents. Lasts for 45 seconds.
+
+Cannot be used on self.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>120</integer>
+			<key>type</key>
+			<string>Targeted (Summon)</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stab</string>
+			<key>description</key>
+			<string>Shoots a spike towards target area that deals ### damage to the first enemy it contacts. Holds 2 charges.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>3</integer>
+			<key>type</key>
+			<string>Skillshot</string>
+			<key>firstBaseDamage</key>
+			<integer>44</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>13</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Spike Burst</string>
+			<key>description</key>
+			<string>Deals ### damage to enemies near the ally Abathur is assisting.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>6</integer>
+			<key>type</key>
+			<string>Area of Effect (Self)</string>
+			<key>firstBaseDamage</key>
+			<integer>32</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Carapace</string>
+			<key>description</key>
+			<string>Shields the assisted ally for ###. Lasts for 8 seconds.</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>cooldown</key>
+			<integer>12</integer>
+			<key>type</key>
+			<string>Activated</string>
+			<key>firstBaseDamage</key>
+			<integer>140</integer>
+			<key>firstDamagePerLevel</key>
+			<integer>16</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
